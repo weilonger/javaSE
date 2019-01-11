@@ -12,7 +12,7 @@ public class LambdaDemo {
                 "Juan Martin Del Potro"};
         List<String> players =  Arrays.asList(atp);
 //        forTest2(players);
-        sortTest(players);
+//        sortTest(players);
 //        sortTest1(atp, players);
 //        sortTest2(atp, players);
 //        sortTest3(players);
@@ -24,7 +24,7 @@ public class LambdaDemo {
         list.add(string2);
         list.add(string1);
         list.add(string3);
-        sortTest(list);
+//        sortTest(list);
     }
 
     // 以前的循环方式
