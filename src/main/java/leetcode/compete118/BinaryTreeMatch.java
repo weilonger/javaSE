@@ -1,7 +1,9 @@
 package main.java.leetcode.compete118;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /*题目描述
     971. 翻转二叉树以匹配先序遍历
@@ -29,31 +31,73 @@ import java.util.List;
  */
 public class BinaryTreeMatch {
     public static List<Integer> flipMatchVoyage(TreeNode root, int[] voyage) {
-        List<Integer> list = new ArrayList<>();
-//        List<Integer> treelist = revert(root, list);
-        List<Boolean> state = new ArrayList<>();
-        List<Integer> result = new ArrayList<>();
+        Map<Integer, Integer> result;
+        List<Integer> success = new ArrayList<>();
+        List<Integer> error = new ArrayList<>();
         TreeNode temp = root;
         int[] array = voyage;
         int s = 0;
-        transfer(temp, array, s);
+        result  = transfer(temp, array, s);
+        if (result.size() > 0) {
+            if (result.containsKey(-1)){
+                error.add(-1);
+                return error;
+            } else {
+                for (int i = 0; i < array.length; i++){
+                    if (result.containsKey(i)){
+                        success.add(i);
+                    }
+                }
+                return success;
+            }
+        } else {
+            return error;
+        }
+    }
+
+    private static Map<Integer, Integer> transfer(TreeNode temp, int[] array, int s){
+        Map<Integer, Integer> result = new HashMap<>();
+        Map<Integer, Integer> error = new HashMap<>();
+        if (temp != null){
+            int parent = temp.val;
+            TreeNode leftChild = temp.left;
+            TreeNode rightChild = temp.right;
+            if (s == 0 && parent == array[s]) {
+                try {
+                    if (leftChild != null && rightChild != null && s * 2 + 2 <= array.length) {
+                        Integer status = compare(leftChild, rightChild, array, s);
+                        if (status == 1) {
+                            result.put(s + 1, 1);
+                            Map<Integer, Integer> left = transfer(leftChild, array, 2 * (s + 1));
+                            Map<Integer, Integer> right = transfer(rightChild, array, 2 * s + 1);
+                            result.putAll(left);
+                            result.putAll(right);
+                        } else if (status == 2) {
+                            Map<Integer, Integer> left = transfer(leftChild, array, 2 * s + 1);
+                            Map<Integer, Integer> right = transfer(rightChild, array, 2 * (s + 1));
+                            result.putAll(left);
+                            result.putAll(right);
+                        } else {
+                            result.put(-1, -1);
+                            return result;
+                        }
+                    }
+                } catch (NullPointerException e) {
+                    e.getStackTrace();
+                }
+            }
+        }
         return result;
     }
 
-    private static List<Integer> transfer(TreeNode temp, int[] array, int s){
-        while (temp != null){
-
-            int parent = temp.val;
-            if (parent == array[s]){
-
-            }
-            TreeNode leftChild = temp.left;
-            TreeNode rightChild = temp.right;
-            transfer(leftChild, array, s);
-            transfer(rightChild, array, s);
-
+    private static Integer compare(TreeNode leftChild, TreeNode rightChild, int[] array, int s){
+        if (leftChild.val == array[2 * s + 1] && rightChild.val == array[2 * (s + 1)]){
+            return 2;
+        } else if (leftChild.val == array[2 * (s + 1)] && rightChild.val == array[2 * s + 1]) {
+            return 1;
+        } else {
+            return 0;
         }
-        return null;
     }
 
     private static List<Integer> revert(TreeNode node, List<Integer> list) {
