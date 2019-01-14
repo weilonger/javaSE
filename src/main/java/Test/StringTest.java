@@ -1,10 +1,14 @@
 package main.java.Test;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import java.util.regex.PatternSyntaxException;
+
 public class StringTest {
 
     public static void main(String[] args) {
         StringTest test = new StringTest();
-        String tag="北京欢迎你们，的是mysql、MySQL";//正确的
+        String tag="北京欢迎你们，的是mysql、MySQL,画家";//正确的
         String test1="mysql";
         String test2="你们长得真帅";
         String test3="北京欢迎mysql";
@@ -24,8 +28,23 @@ public class StringTest {
     //字符串相似度算法
     private int compare(String str, String target){
         int d[][]; // 矩阵
-        int n = str.length();
-        int m = target.length();
+        try {
+            Pattern regex = Pattern.compile("(?<word>\\w+)", Pattern.COMMENTS);
+            Matcher regexMatcher = regex.matcher(str);
+            if (regexMatcher.find()) {
+                String string = regexMatcher.group("word");
+                System.out.println(this.getClass() + "+" + string);
+            }
+
+        } catch (PatternSyntaxException ex) {
+            // Syntax error in the regular expression
+        }
+        String str1 = str.replaceAll("\\w+", "?");
+        String target1 = target.replaceAll("\\w+", "?");
+        System.out.println(str1);
+        System.out.println(target1);
+        int n = str1.length();
+        int m = target1.length();
         int i; // 遍历str的
         int j; // 遍历target的
         char ch1; // str的
