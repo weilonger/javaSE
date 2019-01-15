@@ -14,6 +14,9 @@ public class RegexTest {
         String string3 = "复仇者联盟3(无限战争)";
         String regex3 = "[\\(|\\[|<|（]{1}.*?[\\)|\\]|>|）]";
         replace(string3, regex3);
+        String string4 = "ZLM60HiS2_0.99999";
+        String regex4 = "^[0-9A-Za-z]+_\\d\\.\\d*$";
+        match(string4, regex4);
     }
 
     private static void match(String string,String regex){

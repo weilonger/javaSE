@@ -39,15 +39,15 @@ public class BigInteger {
     public static List<Integer> powerfulIntegers(int x, int y, int bound) {
         List<Integer> list = new ArrayList<>();
         //排除不符合的输入
-        if (x < 1 || x > 100 || y < 1 || y > 100 || bound < 2 || bound > 1000000 || x > bound || y > bound){
+        if (x < 1 || x > 100 || y < 1 || y > 100 || bound < 2 || bound > 1000000 || x > bound || y > bound) {
             return list;
         }
         int xi = getIndex(x, bound);
         int yj = getIndex(y, bound);
-        for (int i = 0; i <= xi; i++){
-            for (int j = 0; j <= yj; j++){
-                int big = (int) Math.floor (Math.pow(x , i) + Math.pow(y, j));
-                if (big <= bound && !list.contains(big)){
+        for (int i = 0; i <= xi; i++) {
+            for (int j = 0; j <= yj; j++) {
+                int big = (int) Math.floor(Math.pow(x, i) + Math.pow(y, j));
+                if (big <= bound && !list.contains(big)) {
                     list.add(big);
                 }
             }
@@ -60,8 +60,8 @@ public class BigInteger {
         if (bound == 2 || x == 1) {
             return 0;
         } else {
-            for (int i = 0; i < 1+ bound / x; i++){
-                if ((Math.pow(x, i) <= bound && Math.pow(x, i+1) > bound)){
+            for (int i = 0; i < 1 + bound / x; i++) {
+                if ((Math.pow(x, i) <= bound && Math.pow(x, i + 1) > bound)) {
                     return i;
                 }
             }

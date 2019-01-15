@@ -1,9 +1,6 @@
 package main.java.leetcode.compete118;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /*题目描述
     971. 翻转二叉树以匹配先序遍历
@@ -30,35 +27,30 @@ import java.util.Map;
     1 <= N <= 100
  */
 public class BinaryTreeMatch {
-    public static List<Integer> flipMatchVoyage(TreeNode root, int[] voyage) {
-        Map<Integer, Integer> result;
-        List<Integer> success = new ArrayList<>();
-        List<Integer> error = new ArrayList<>();
-        TreeNode temp = root;
-        int[] array = voyage;
-        int s = 0;
-        result  = transfer(temp, array, s);
-        if (result.size() > 0) {
-            if (result.containsKey(-1)){
-                error.add(-1);
-                return error;
-            } else {
-                for (int i = 0; i < array.length; i++){
-                    if (result.containsKey(i)){
-                        success.add(i);
-                    }
-                }
-                return success;
-            }
-        } else {
-            return error;
-        }
+    private List<Integer> res = new ArrayList<>();
+    private int i = 0;
+    public List<Integer> flipMatchVoyage(TreeNode root, int[] voyage) {
+
+        return dfs(root, voyage) ? res : Arrays.asList(-1);
     }
 
-    private static Map<Integer, Integer> transfer(TreeNode temp, int[] array, int s){
+    private Boolean dfs(TreeNode node, int[] v) {
+        if (node == null) {
+            return true;
+        }
+        if (node.val != v[i++]) {
+            return false;
+        }
+        if (node.left != null && node.left.val !=v[i]) {
+            res.add(node.val);
+            return dfs(node.right, v) && dfs(node.left, v);
+        }
+        return dfs(node.left, v) && dfs(node.right, v);
+    }
+
+    private static Map<Integer, Integer> transfer(TreeNode temp, int[] array, int s) {
         Map<Integer, Integer> result = new HashMap<>();
-        Map<Integer, Integer> error = new HashMap<>();
-        if (temp != null){
+        if (temp != null) {
             int parent = temp.val;
             TreeNode leftChild = temp.left;
             TreeNode rightChild = temp.right;
@@ -90,8 +82,8 @@ public class BinaryTreeMatch {
         return result;
     }
 
-    private static Integer compare(TreeNode leftChild, TreeNode rightChild, int[] array, int s){
-        if (leftChild.val == array[2 * s + 1] && rightChild.val == array[2 * (s + 1)]){
+    private static Integer compare(TreeNode leftChild, TreeNode rightChild, int[] array, int s) {
+        if (leftChild.val == array[2 * s + 1] && rightChild.val == array[2 * (s + 1)]) {
             return 2;
         } else if (leftChild.val == array[2 * (s + 1)] && rightChild.val == array[2 * s + 1]) {
             return 1;
@@ -101,12 +93,12 @@ public class BinaryTreeMatch {
     }
 
     private static List<Integer> revert(TreeNode node, List<Integer> list) {
-        if (node != null){
+        if (node != null) {
             list.add(node.val);
-            if (node.left != null){
+            if (node.left != null) {
                 revert(node.left, list);
             }
-            if (node.right != null){
+            if (node.right != null) {
                 revert(node.right, list);
             }
         }
@@ -117,14 +109,19 @@ public class BinaryTreeMatch {
         int val;
         TreeNode left;
         TreeNode right;
-        TreeNode(int x) { val = x; }
+
+        TreeNode(int x) {
+            val = x;
+        }
     }
 
     public static void main(String[] args) {
+        BinaryTreeMatch b = new BinaryTreeMatch();
         TreeNode node = new TreeNode(1);
         node.left = new TreeNode(2);
         node.right = new TreeNode(3);
-        int[] a = new int[]{1,2,3};
-        flipMatchVoyage(node, a);
+        int[] a = new int[] {1,3,2};
+        List<Integer> s = b.flipMatchVoyage(node, a);
+        s.forEach(System.out::println);
     }
 }

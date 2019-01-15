@@ -36,7 +36,7 @@ public class PancakeSort {
     public static List<Integer> pancakeSort(int[] A) {
         List<Integer> list = new ArrayList<>();
         List<Integer> temp = new ArrayList<>();
-        for (int i = 0; i < A.length; i++){
+        for (int i = 0; i < A.length; i++) {
             temp.add(A[i]);
         }
         list = trans(temp, list);
@@ -44,7 +44,7 @@ public class PancakeSort {
         return list;
     }
 
-    private static List<Integer> trans(List<Integer> temp, List<Integer> list){
+    private static List<Integer> trans(List<Integer> temp, List<Integer> list) {
         int length = temp.size();
         if (length > 1) {
             int max = Collections.max(temp);
@@ -63,8 +63,8 @@ public class PancakeSort {
         return list;
     }
 
-    private static List<Integer> reverse(int index, List<Integer> list){
-        for (int i = 0; i < index; i++, index--){
+    private static List<Integer> reverse(int index, List<Integer> list) {
+        for (int i = 0; i < index; i++, index--) {
             Integer temp = list.get(i);
             list.set(i, list.get(index));
             list.set(index, temp);
@@ -73,7 +73,7 @@ public class PancakeSort {
     }
 
     public static void main(String[] args) {
-        int[] A = new int[]{3,2,4,1};
+        int[] A = new int[] {3, 2, 4, 1};
         pancakeSort(A);
     }
 }
