@@ -34,6 +34,7 @@ public class BinaryTreeMatch {
         return dfs(root, voyage) ? res : Arrays.asList(-1);
     }
 
+    //递归
     private Boolean dfs(TreeNode node, int[] v) {
         if (node == null) {
             return true;
