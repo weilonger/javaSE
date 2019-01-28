@@ -15,7 +15,7 @@ public class LambdaDemo {
 //        sortTest(players);
 //        sortTest1(atp, players);
 //        sortTest2(atp, players);
-//        sortTest3(players);
+        sortTest3(players);
 
         String string1 = "1995.04.17";
         String string3 = "1997.01.29";

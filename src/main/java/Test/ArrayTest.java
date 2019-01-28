@@ -12,8 +12,8 @@ public class ArrayTest {
         List<String> list1 = new ArrayList<>();
         list1.add("libai");
         list1.add("dufu");
-        List<String> list2 = new ArrayList<>(list1);
-        list2.forEach(System.out::println);
+//        List<String> list2 = new ArrayList<>(list1);
+//        list2.forEach(System.out::println);
     }
 
 }
