@@ -19,7 +19,7 @@ package main.java.leetcode.compete8;
     假设我们的环境只能存储 32 位有符号整数，其数值范围是 [−2^31,  2^31 − 1]。本题中，如果除法结果溢出，则返回 2^31 − 1。
 */
 public class DivideTowIntegers {
-    //7017ms
+    //7017ms 加减法实现
     public int divide(int dividend, int divisor) {
         int i = 0;
         if (dividend == Integer.MIN_VALUE && divisor == -1) {

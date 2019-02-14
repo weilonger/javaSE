@@ -15,14 +15,19 @@ import java.util.List;
 */
 public class StrongPasswordChecker {
     // 大写字母 小写字母 连续字符 密码位数
+    //16ms 击败0%
     public int strongPasswordChecker(String s) {
         int i = 0;
         int num = 3;
         List<Integer> rep = new ArrayList<>();
         int del = 0;
+        int add = 0;
         int len = s.length();
         if (len <= 3) {
             return 6 - len;
+        }
+        if (len > 3 && len < 6) {
+            add = 6 - len;
         }
         if (len > 20) {
             del = len - 20;
@@ -46,6 +51,7 @@ public class StrongPasswordChecker {
                 num--;
             }
         }
+        i += add;
         i += del;
         int temp = 2;
         for (int l = 2; l < len; l++) {
@@ -62,22 +68,21 @@ public class StrongPasswordChecker {
         int replace = 0;
         rep.sort((r1, r2) -> r1 -r2);
         for (int m = 0; m < rep.size(); m++) {
-            del = del - rep.get(m) + 2;
-            if (del >= 0) {
-                rep.remove(m);
+            if (del >= rep.get(m) - 2) {
+                del = del - rep.get(m) + 2;
             } else {
-                replace += rep.get(m) / 3;
+                replace += (rep.get(m) - del) / 3;
             }
         }
-        i += (replace - num) > 0 ? replace - num : 0;
+        i += (replace - num) >= 0 ? replace : num - add;
         return i;
     }
 
     public static void main(String[] args) {
         StrongPasswordChecker s = new StrongPasswordChecker();
 //        Hwl218298111111112222222333333444445555
-        String string = "Hwl2182981111111122334455";
-        System.out.println(string.length());
+        String string = "..................!!!";
+//        System.out.println(string.length());
         System.out.println(s.strongPasswordChecker(string));
     }
 }
