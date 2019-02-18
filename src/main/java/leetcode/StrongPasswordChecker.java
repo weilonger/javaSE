@@ -15,7 +15,7 @@ import java.util.List;
 */
 public class StrongPasswordChecker {
     // 大写字母 小写字母 连续字符 密码位数
-    //16ms 击败0%
+    //6ms 击败0%
     public int strongPasswordChecker(String s) {
         int i = 0;
         int num = 3;
@@ -31,22 +31,18 @@ public class StrongPasswordChecker {
         }
         if (len > 20) {
             del = len - 20;
-        }
+    }
         Boolean state1 = false;
         Boolean state2 = false;
         Boolean state3 = false;
-        List<String> list = new ArrayList<>();
-        for (int j = 0; j < len; j++) {
-            list.add(s.substring(j, j + 1));
-        }
         for (int k = 0; k < len; k++) {
-            if (state1 == false && list.get(k).matches("[A-Z]")) {
+            if (state1 == false && Character.isLowerCase(s.charAt(k))) {
                 state1 = true;
                 num--;
-            } else if (state2 == false && list.get(k).matches("\\d")) {
+            } else if (state2 == false && Character.isDigit(s.charAt(k))) {
                 state2 = true;
                 num--;
-            } else if (state3 == false && list.get(k).matches("[a-z]")) {
+            } else if (state3 == false && Character.isUpperCase(s.charAt(k))) {
                 state3 = true;
                 num--;
             }
@@ -55,7 +51,7 @@ public class StrongPasswordChecker {
         i += del;
         int temp = 2;
         for (int l = 2; l < len; l++) {
-            if (list.get(l).equals(list.get(l -1)) && list.get(l).equals(list.get(l - 2))){
+            if (s.charAt(l) == s.charAt(l -1) && s.charAt(l) == s.charAt(l - 2)){
                 temp++;
             } else if (temp > 2){
                 rep.add(temp);
