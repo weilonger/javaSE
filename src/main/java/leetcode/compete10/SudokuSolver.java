@@ -1,7 +1,7 @@
 package main.java.leetcode.compete10;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
 /*题目描述
     37. 解数独
@@ -22,39 +22,140 @@ import java.util.Set;
  */
 public class SudokuSolver {
     public void solveSudoku(char[][] board) {
-        Set<Integer> sum = new HashSet<>();
-        boolean status = true;
-        for (int i = 1; i < 10; i++) {
-            sum.add(i);
-        }
-        int j = 0;
-        int k = 0;
-        for (; j < 9; j++) {
-            for (; k < 9; k++) {
-                if (board[j][k] == '.') {
-                    status = false;
-                    break;
+        int min = 17;
+        boolean[][] row = new boolean[9][10];
+        boolean[][] col = new boolean[9][10];
+        boolean[][] box = new boolean[9][10];
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                if (board[i][j] != '.') {
+                    int num = board[i][j] - '0';
+                    if (row[i][num] || col[j][num] || box[i / 3 * 3 + j / 3][num]) {
+                        return;
+                    }
+                    row[i][num] = true;
+                    col[j][num] = true;
+                    box[i / 3 * 3 + j / 3][num] = true;
                 }
             }
         }
+        solve(board, row, col, box);
+        solveMulti(board, row, col, box, 0);
+    }
 
-        if (!status) {
-            solveSudoku(board);
+    private boolean solveMulti(char[][] board, boolean[][] row, boolean[][] col, boolean[][] box, int index) {
+        boolean[][] rowCopy = row;
+        boolean[][] colCopy = col;
+        boolean[][] boxCopy = box;
+//        List<List<Integer>> lists = new ArrayList<>();
+//        List<Integer> list = new ArrayList<>();
+//        int pois = 0;
+//        for (int i = 0; i < 9; i++) {
+//            for (int j = 0; j < 9; j++) {
+//                if (board[i][j] == '.') {
+//                    pois++;
+//                    for (int k = 1; k < 10; k++) {
+//                        if (!row[i][k] && !col[j][k] && !box[i / 3 * 3 + j / 3][k]) {
+//                            list.add(k);
+//                        }
+//                    }
+//                    if (list.size() > 0) {
+//                        lists.add(list);
+//                    }
+//                    list = new ArrayList<>();
+//                }
+//            }
+//        }
+//        if (pois == 0) {
+//            return true;
+//        }
+//        if (pois > 0 && lists.size() == 0) {
+//            return false;
+//        }
+//        int min = 17;
+//        int num = 0;
+//        for (List l : lists) {
+//            if (l.size() < min) {
+//                min = l.size();
+//            }
+//        }
+//        for (int i = 0; i < 9; i++) {
+//            for (int j = 0; j < 9; j++) {
+//                if (board[i][j] == '.') {
+//                    int len = lists.get(num).size();
+//                    if (len == min) {
+//                        for (int k = 0; k < len; k++) {
+//                            if (!(row[i][lists.get(num).get(k)] && col[j][lists.get(num).get(k)] && box[i / 3 * 3 + j / 3][lists.get(num).get(k)])) {
+//                                board[i][j] = (char) ('0' + lists.get(num).get(k));
+//                                System.out.println(i + ", " + j + " is " + lists.get(num).get(k));
+//                                row[i][lists.get(num).get(k)] = true;
+//                                col[j][lists.get(num).get(k)] = true;
+//                                box[i / 3 * 3 + j / 3][lists.get(num).get(k)] = true;
+//                                if (solveMulti(board, row, col, box, i * 9 + j)) {
+//                                    return true;
+//                                } else {
+//                                    System.out.println(i + ", " + j + " is false " + lists.get(num).get(k));
+//                                    row[i][lists.get(num).get(k)] = false;
+//                                    col[j][lists.get(num).get(k)] = false;
+//                                    box[i / 3 * 3 + j / 3][lists.get(num).get(k)] = false;
+//                                    board[i][j] = '.';
+//                                }
+//                            }
+//                        }
+//                    }
+//                    if (num + 1 < lists.size()) {
+//                        num++;
+//                    }
+//                }
+//            }
+//        }
+        return false;
+    }
+
+    private void solve(char[][] board, boolean[][] row, boolean[][] col, boolean[][] box) {
+        List<Integer> list = new ArrayList<>();
+        // 找出i，j点的剩余数字个数，然后由小到大添加
+        int pois = 0;
+        int min = 17;
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                if (board[i][j] == '.') {
+                    pois++;
+                    for (int k = 1; k < 10; k++) {
+                        if (!row[i][k] && !col[j][k] && !box[i / 3 * 3 + j / 3][k]) {
+                            list.add(k);
+                        }
+                    }
+                    min = Math.min(min, list.size());
+                    if (list.size() == 1) {
+                        board[i][j] = (char) (list.get(0) + 48);
+                        row[i][list.get(0)] = true;
+                        col[j][list.get(0)] = true;
+                        box[i / 3 * 3 + j / 3][list.get(0)] = true;
+                    }
+                    list = new ArrayList<>();
+                }
+            }
+        }
+        if (min == 1) {
+            solve(board, row, col, box);
         }
     }
+
+
 
     public static void main(String[] args) {
         SudokuSolver s = new SudokuSolver();
         char[][] board = new char[][]{
-            {'5', '3', '.', '.', '7', '.', '.', '.', '.'},
-            {'6', '.', '.', '1', '9', '5', '.', '.', '.'},
-            {'.', '9', '8', '.', '.', '.', '.', '6', '.'},
-            {'8', '.', '.', '.', '6', '.', '.', '.', '3'},
-            {'4', '.', '.', '8', '.', '3', '.', '.', '1'},
-            {'7', '.', '.', '.', '2', '.', '.', '.', '6'},
-            {'.', '6', '.', '.', '.', '.', '2', '8', '.'},
-            {'.', '.', '.', '4', '1', '9', '.', '.', '5'},
-            {'.', '.', '.', '.', '8', '.', '.', '7', '9'}
+            {'.','.','9','7','4','8','.','.','.'},
+            {'7','.','.','.','.','.','.','.','.'},
+            {'.','2','.','1','.','9','.','.','.'},
+            {'.','.','7','.','.','.','2','4','.'},
+            {'.','6','4','.','1','.','5','9','.'},
+            {'.','9','8','.','.','.','3','.','.'},
+            {'.','.','.','8','.','3','.','2','.'},
+            {'.','.','.','.','.','.','.','.','6'},
+            {'.','.','.','2','7','5','9','.','.'}
         };
         s.solveSudoku(board);
         for (int i = 0; i < 9; i++) {

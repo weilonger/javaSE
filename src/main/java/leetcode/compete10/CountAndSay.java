@@ -47,9 +47,29 @@ public class CountAndSay {
                     result = result.concat(String.valueOf(len - cur)).concat(temp.substring(j, j + 1));
                 }
             }
-            map.put(i, result);
         }
         return map.get(n);
+    }
+
+    public String countAndSay1(int n) {
+        if (n == 1) {
+            return "1";
+        }
+        String s = "1";
+        int t = 1;
+        for (int i = 2; i <= n; i++) {
+            StringBuilder sb = new StringBuilder();
+            for (int j = 0; j < s.length(); j=t) {
+                t = j + 1;
+                //查找有几个相同的值
+                while (t < s.length() && s.charAt(t) == s.charAt(j)) {
+                    t++;
+                }
+                sb.append(t-j).append(s.charAt(j));
+            }
+            s = sb.toString();
+        }
+        return s;
     }
 
     public static void main(String[] args) {
