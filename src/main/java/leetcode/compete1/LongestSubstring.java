@@ -51,7 +51,7 @@ public class LongestSubstring {
     public static void main(String[] args) {
 
         LongestSubstring l = new LongestSubstring();
-        System.out.println(l.lengthOfLongestSubstring3("abcabcbb"));
+        System.out.println(l.lengthOfLongestSubstring5("abcbedfbcbb"));
     }
 
     /*
@@ -76,9 +76,13 @@ public class LongestSubstring {
     public int lengthOfLongestSubstring1(String s) {
         int n = s.length();
         int ans = 0;
-        for (int i = 0; i < n; i++)
-            for (int j = i + 1; j <= n; j++)
-                if (allUnique(s, i, j)) ans = Math.max(ans, j - i);
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j <= n; j++) {
+                if (allUnique(s, i, j)) {
+                    ans = Math.max(ans, j - i);
+                }
+            }
+        }
         return ans;
     }
 
@@ -86,7 +90,9 @@ public class LongestSubstring {
         Set<Character> set = new HashSet<>();
         for (int i = start; i < end; i++) {
             Character ch = s.charAt(i);
-            if (set.contains(ch)) return false;
+            if (set.contains(ch)) {
+                return false;
+            }
             set.add(ch);
         }
         return true;
@@ -97,7 +103,7 @@ public class LongestSubstring {
         思路
             过使用 HashSet 作为滑动窗口，我们可以用 O(1) 的时间来完成对字符是否在当前的子字符串中的检查。
             滑动窗口是数组/字符串问题中常用的抽象概念。 窗口通常是在数组/字符串中由开始和结束索引定义的一系列元素的集合，
-            即 [i, j)[i,j)（左闭，右开）。而滑动窗口是可以将两个边界向某一方向“滑动”的窗口。
+            即 [i, j)（左闭，右开）。而滑动窗口是可以将两个边界向某一方向“滑动”的窗口。
         复杂度分析
             时间复杂度：O(2n) = O(n)，在最糟糕的情况下，每个字符将被 i 和 j 访问两次。
             空间复杂度：O(min(m, n))，与之前的方法相同。滑动窗口法需要 O(k) 的空间，其中 k 表示 Set 的大小。
@@ -108,11 +114,10 @@ public class LongestSubstring {
         Set<Character> set = new HashSet<>();
         int ans = 0, i = 0, j = 0;
         while (i < n && j < n) {
-            if (!set.contains(s.charAt(j))){
+            if (!set.contains(s.charAt(j))) {
                 set.add(s.charAt(j++));
                 ans = Math.max(ans, j - i);
-            }
-            else {
+            } else {
                 set.remove(s.charAt(i++));
             }
         }
@@ -141,6 +146,7 @@ public class LongestSubstring {
         }
         return ans;
     }
+
     /*
         Java（假设字符集为 ASCII 128）
         以前的我们都没有对字符串 s 所使用的字符集进行假设。
@@ -160,5 +166,23 @@ public class LongestSubstring {
             index[s.charAt(j)] = j + 1;
         }
         return ans;
+    }
+
+    public int lengthOfLongestSubstring5(String s) {
+        int len = s.length();
+        Set<Character> set = new HashSet();
+        int i = 0;
+        int j = 0;
+        int max = 0;
+        while (i < len && j < len) {
+            if (!set.contains(s.charAt(j))) {
+                set.add(s.charAt(j++));
+                max = Math.max(max, j - i);
+            } else {
+                set.remove(s.charAt(i++));
+            }
+        }
+
+        return max;
     }
 }

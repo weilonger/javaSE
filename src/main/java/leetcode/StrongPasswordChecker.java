@@ -31,7 +31,7 @@ public class StrongPasswordChecker {
         }
         if (len > 20) {
             del = len - 20;
-    }
+        }
         Boolean state1 = false;
         Boolean state2 = false;
         Boolean state3 = false;
@@ -51,9 +51,9 @@ public class StrongPasswordChecker {
         i += del;
         int temp = 2;
         for (int l = 2; l < len; l++) {
-            if (s.charAt(l) == s.charAt(l -1) && s.charAt(l) == s.charAt(l - 2)){
+            if (s.charAt(l) == s.charAt(l - 1) && s.charAt(l) == s.charAt(l - 2)) {
                 temp++;
-            } else if (temp > 2){
+            } else if (temp > 2) {
                 rep.add(temp);
                 temp = 2;
             }
@@ -62,7 +62,7 @@ public class StrongPasswordChecker {
             }
         }
         int replace = 0;
-        rep.sort((r1, r2) -> r1 -r2);
+        rep.sort((r1, r2) -> r1 - r2);
         for (int m = 0; m < rep.size(); m++) {
             if (del >= rep.get(m) - 2) {
                 del = del - rep.get(m) + 2;

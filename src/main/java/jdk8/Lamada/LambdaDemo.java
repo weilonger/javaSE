@@ -6,11 +6,11 @@ public class LambdaDemo {
 
     public static void main(String[] args) {
         String[] atp = {"Rafael Nadal", "Novak Djokovic",
-                "Stanislas Wawrinka",
-                "David Ferrer","Roger Federer",
-                "Andy Murray","Tomas Berdych",
-                "Juan Martin Del Potro"};
-        List<String> players =  Arrays.asList(atp);
+            "Stanislas Wawrinka",
+            "David Ferrer", "Roger Federer",
+            "Andy Murray", "Tomas Berdych",
+            "Juan Martin Del Potro"};
+        List<String> players = Arrays.asList(atp);
 //        forTest2(players);
 //        sortTest(players);
 //        sortTest1(atp, players);
@@ -28,7 +28,7 @@ public class LambdaDemo {
     }
 
     // 以前的循环方式
-    private static  void forTest1(List<String> players){
+    private static void forTest1(List<String> players) {
         System.out.println("=================method1 普通foreach");
         for (String player : players) {
             System.out.println(player + "; ");
@@ -36,19 +36,19 @@ public class LambdaDemo {
     }
 
     //使用 lambda 表达式以及函数操作(functional operation)
-    private static  void forTest2(List<String> players){
+    private static void forTest2(List<String> players) {
         System.out.println("=================method2 lambda expression排序");
         players.forEach((player) -> System.out.println(player + "; "));
     }
 
     // 在 Java 8 中使用双冒号操作符(double colon operator)
-    private static  void forTest3(List<String> players){
+    private static void forTest3(List<String> players) {
         System.out.println("=================method3 method reference");
         players.forEach(System.out::println);
     }
 
     //匿名内部类
-    private static void sortTest(List<String> players){
+    private static void sortTest(List<String> players) {
         System.out.println("=================匿名内部类首字母排序");
         //style1
         Collections.sort(players, new Comparator<String>() {
@@ -80,17 +80,17 @@ public class LambdaDemo {
     }
 
     // 1.2 方式2：使用 lambda expression 排序,根据 surname
-    private static void sortTest2(String[] atp, List<String> players){
+    private static void sortTest2(String[] atp, List<String> players) {
         System.out.println("=================匿名内部类最后一个字母lambda expression排序");
         Comparator<String> sortByLastLetter =
-                (s1, s2) ->
-                        (s1.charAt(s1.length() - 1) - s2.charAt(s2.length() - 1));
+            (s1, s2) ->
+                (s1.charAt(s1.length() - 1) - s2.charAt(s2.length() - 1));
         Arrays.sort(atp, sortByLastLetter);
         players.forEach(System.out::println);
     }
 
     // 1.3 方式3  lamada排序
-    private static void sortTest3(List<String> players){
+    private static void sortTest3(List<String> players) {
         System.out.println("=================匿名内部类长度排序");
         Collections.sort(players, (s1, s2) -> (s1.length() - s2.length()));
         players.forEach(System.out::println);

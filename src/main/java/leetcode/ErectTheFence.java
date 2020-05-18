@@ -102,7 +102,7 @@ public class ErectTheFence {
         Point p4 = new Point(2, 4);
         Point p5 = new Point(3, 3);
         Point p6 = new Point(4, 2);
-        Point[] p = new Point[]{p1, p2, p3, p4, p5, p6};
+        Point[] p = new Point[] {p1, p2, p3, p4, p5, p6};
         List<Point> list = e.outerTrees(p);
         for (Point point : list) {
             System.out.println("(x, y) : " + "(" + point.x + ", " + point.y + ")");
@@ -112,10 +112,12 @@ public class ErectTheFence {
     private static class Point {
         int x;
         int y;
+
         Point() {
             x = 0;
             y = 0;
         }
+
         Point(int a, int b) {
             x = a;
             y = b;

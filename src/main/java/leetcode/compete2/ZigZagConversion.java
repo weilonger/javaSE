@@ -42,7 +42,7 @@ public class ZigZagConversion {
         }
         for (int i = 0; i < numRows; i++) {
             for (int j = 0; j < numCols; j++) {
-                if (character[i][j] != null){
+                if (character[i][j] != null) {
                     newString = newString.append(character[i][j]);
                 }
             }
@@ -54,7 +54,7 @@ public class ZigZagConversion {
         ZigZagConversion z = new ZigZagConversion();
         String s = "ABNJHKDANKUNJKI";
         int numRows = 5;
-        System.out.println(z.convert1(s, numRows));
+        System.out.println(z.convert(s, numRows));
     }
 
     //按行访问
@@ -103,15 +103,20 @@ public class ZigZagConversion {
         空间复杂度：O(n)
      */
     public String convert2(String s, int numRows) {
-        if (numRows == 1) return s;
+        if (numRows == 1) {
+            return s;
+        }
         List<StringBuilder> rows = new ArrayList<>();
-        for (int i = 0; i < Math.min(numRows, s.length()); i++)
+        for (int i = 0; i < Math.min(numRows, s.length()); i++) {
             rows.add(new StringBuilder());
+        }
         int curRow = 0;
         boolean goingDown = false;
         for (char c : s.toCharArray()) {
             rows.get(curRow).append(c);
-            if (curRow == 0 || curRow == numRows - 1) goingDown = !goingDown;
+            if (curRow == 0 || curRow == numRows - 1) {
+                goingDown = !goingDown;
+            }
             curRow += goingDown ? 1 : -1;
         }
         StringBuilder ret = new StringBuilder();

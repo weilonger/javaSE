@@ -1,71 +1,67 @@
 package main.java.Test;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import java.util.regex.PatternSyntaxException;
+import java.util.Arrays;
+import java.util.List;
 
 public class StringTest {
 
     public static void main(String[] args) {
-        StringTest test = new StringTest();
-        String tag="北京欢迎你们，的是mysql、MySQL,画家";//正确的
-        String test1="mysql";
-        String test2="你们长得真帅";
-        String test3="北京欢迎mysql";
-        String test4="MySQL 5.6";
-        String test5="天津欢迎你";
-        String test6="中国是伟大的";
-        String test7="《无双》讲的是画家";
-        System.out.println("similarity=" + test.getSimilarityRatio(test1, tag));
-        System.out.println("similarity=" + test.getSimilarityRatio(test2, tag));
-        System.out.println("similarity=" + test.getSimilarityRatio(test3, tag));
-        System.out.println("similarity=" + test.getSimilarityRatio(test4, tag));
-        System.out.println("similarity=" + test.getSimilarityRatio(test5, tag));
-        System.out.println("similarity=" + test.getSimilarityRatio(test6, tag));
-        System.out.println("similarity=" + test.getSimilarityRatio(test7, tag));
+        String temp = "";
+        List<String> result = Arrays.asList(temp.split(","));
+        result.forEach(System.out::println);
+        String a = "a";
+        StringBuffer b = new StringBuffer();
+        b.append("b");
+        StringBuilder c = new StringBuilder();
+        c.append("c");
+
+        String s = "a";
+        System.out.println(a == s);
+//        StringTest test = new StringTest();
+//        String tag="速度与激情";//正确的
+//        String test1="速度与激情1";
+//        String test2="速度与激情之利刃出击";
+//        String test3="速度与激情3";
+//        String test4="《速度与激情》";
+//        String test5="速度";
+//        String test6="度情";
+//        String test7="《无双》讲的是画家";
+//        System.out.println("similarity=" + test.getSimilarityRatio(test1, tag));
+//        System.out.println("similarity=" + test.getSimilarityRatio(test2, tag));
+//        System.out.println("similarity=" + test.getSimilarityRatio(test3, tag));
+//        System.out.println("similarity=" + test.getSimilarityRatio(test4, tag));
+//        System.out.println("similarity=" + test.getSimilarityRatio(test5, tag));
+//        System.out.println("similarity=" + test.getSimilarityRatio(test6, tag));
+//        System.out.println("similarity=" + test.getSimilarityRatio(test7, tag));
     }
 
     //字符串相似度算法
     private int compare(String str, String target){
-        int d[][]; // 矩阵
-        try {
-            Pattern regex = Pattern.compile("(?<word>\\w+)", Pattern.COMMENTS);
-            Matcher regexMatcher = regex.matcher(str);
-            if (regexMatcher.find()) {
-                String string = regexMatcher.group("word");
-                System.out.println(this.getClass() + "+" + string);
-            }
-
-        } catch (PatternSyntaxException ex) {
-            // Syntax error in the regular expression
-        }
-        String str1 = str.replaceAll("\\w+", "?");
-        String target1 = target.replaceAll("\\w+", "?");
-        System.out.println(str1);
-        System.out.println(target1);
-        int n = str1.length();
-        int m = target1.length();
-        int i; // 遍历str的
-        int j; // 遍历target的
-        char ch1; // str的
-        char ch2; // target的
-        int temp; // 记录相同字符,在某个矩阵位置值的增量,不是0就是1
-
-        if (n == 0) {return m;}
+        int d[][];              // 矩阵
+        int n = str.length();
+        int m = target.length();
+        int i;                  // 遍历str的
+        int j;                  // 遍历target的
+        char ch1;               // str的
+        char ch2;               // target的
+        int temp;               // 记录相同字符,在某个矩阵位置值的增量,不是0就是1
+        if (n == 0) { return m; }
         if (m == 0) { return n; }
         d = new int[n + 1][m + 1];
-        for (i = 0; i <= n; i++) { // 初始化第一列
+        for (i = 0; i <= n; i++) {                       // 初始化第一列
             d[i][0] = i;
         }
-        for (j = 0; j <= m; j++) { // 初始化第一行
+    
+        for (j = 0; j <= m; j++) {                       // 初始化第一行
             d[0][j] = j;
         }
-        for (i = 1; i <= n; i++) { // 遍历str
+    
+        for (i = 1; i <= n; i++) {                       // 遍历str
             ch1 = str.charAt(i - 1);
             // 去匹配target
             for (j = 1; j <= m; j++) {
                 ch2 = target.charAt(j - 1);
-                if (ch1 == ch2) {
+                if (ch1 == ch2 || ch1 == ch2+32 || ch1+32 == ch2) {
                     temp = 0;
                 } else {
                     temp = 1;

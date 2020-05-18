@@ -38,15 +38,41 @@ public class ReverseInteger {
             revert = revert * 10 + y;
             x = (x - y) / 10;
         }
-        if (revert > Math.pow(2, 31) -1 || revert < -Math.pow(2,31)){
+        if (revert > Math.pow(2, 31) -1 || revert < -Math.pow(2,31)) {
             revert = 0;
         }
         return (int) revert;
     }
+    
+    public int reverse1(int x) {
+        long y = 0;
+        while (x != 0) {
+            y = y * 10 + x % 10;
+            x /= 10;
+        }
+        if (y < Integer.MIN_VALUE || y > Integer.MAX_VALUE) {
+            return 0;
+        } else {
+            return (int)y;
+        }
+    }
 
+    public int reverse2(int x) {
+        int y = 0;
+        while (x != 0) {
+            int tail = x % 10;
+            x = x / 10;
+            if (y > Integer.MAX_VALUE / 10 || y < Integer.MIN_VALUE / 10 || (y == Integer.MAX_VALUE / 10 && tail > 7 ) || (y == Integer.MIN_VALUE / 10 && tail < -8)) {
+                return 0;
+            }
+            y = y * 10 + tail;
+        }
+        return y;
+    }
+    
     public static void main(String[] args) {
         ReverseInteger r = new ReverseInteger();
-        int x = 123;
-        System.out.println(r.reverse(x));
+        int x = -2147483648;
+        System.out.println(r.reverse2(x));
     }
 }
