@@ -6,23 +6,44 @@
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
       <module name="VTool1" />
-      <module name="KBuild" />
       <module name="VideoBase1" />
+      <module name="KBuild" />
       <module name="javaSE" />
-      <module name="VideoBase" />
       <module name="VTool" />
-      <module name="KnowledgeBaseBuild" />
-      <module name="spring-boot-web" />
+      <module name="VideoBase" />
       <module name="media-base" />
+      <module name="spring-boot-web" />
+      <module name="KnowledgeBaseBuild" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60d9868f-381e-4a89-a2a7-5936749dcb2e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/css/knowledge/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/css/knowledge/list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/css/knowledge/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/css/knowledge/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/compare.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/compare.js" afterDir="false" />
+    <list default="true" id="60d9868f-381e-4a89-a2a7-5936749dcb2e" name="Default Changelist" comment="下拉冲突解决">
+      <change beforePath="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialEditInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialEditInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/version/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/version/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_1_10_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/smartfox_info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-10/all-2019-10-15-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-10/all-2019-10-15-2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-08-26-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-08-28-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-08-29-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-09-04-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-09-11-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-09-26-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-10-11-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-10-16-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-11-13-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-11-26-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-11-27-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-11-28-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/chiqweb/2020-03/all-2020-03-13-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/chiqweb/2020-03/all-2020-03-16-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/chiqweb/tag.log" beforeDir="false" />
     </list>
+    <list id="2ec5a7d0-3318-4287-b340-163cbce3745f" name="Revert &quot;解决专题下载失败问题&quot;" comment="Revert &quot;解决专题下载失败问题&quot;&#10;&#10;This reverts commit 55c7c3e" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/target/" />
     <ignored path="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/target/" />
@@ -56,6 +77,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/javaSE$RegexExtra.ic" NAME="RegexExtra Coverage Results" MODIFIED="1571625007643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>main.java.InterviewPrepare.DesignPattern.*</FILTER>
@@ -64,6 +88,24 @@
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="271" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/../../../ltr-tools-master">
@@ -86,7 +128,7 @@
     <session id="-1632132786">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="134" />
+          <entry key="project.closed" value="157" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.14" value="4" />
@@ -97,123 +139,130 @@
           <entry key="project.open.time.19" value="12" />
           <entry key="project.open.time.20" value="21" />
           <entry key="project.open.time.21" value="15" />
-          <entry key="project.open.time.22" value="10" />
-          <entry key="project.open.time.23" value="12" />
-          <entry key="project.open.time.24" value="13" />
+          <entry key="project.open.time.22" value="11" />
+          <entry key="project.open.time.23" value="16" />
+          <entry key="project.open.time.24" value="14" />
           <entry key="project.open.time.25" value="5" />
-          <entry key="project.open.time.26" value="7" />
-          <entry key="project.open.time.27" value="9" />
-          <entry key="project.open.time.28" value="12" />
-          <entry key="project.open.time.29" value="9" />
-          <entry key="project.open.time.30" value="9" />
+          <entry key="project.open.time.26" value="8" />
+          <entry key="project.open.time.27" value="11" />
+          <entry key="project.open.time.28" value="13" />
+          <entry key="project.open.time.29" value="14" />
+          <entry key="project.open.time.30" value="13" />
           <entry key="project.open.time.31" value="3" />
-          <entry key="project.open.time.32" value="2" />
+          <entry key="project.open.time.32" value="3" />
           <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="2" />
           <entry key="project.open.time.36" value="2" />
           <entry key="project.open.time.37" value="4" />
-          <entry key="project.open.time.38" value="2" />
-          <entry key="project.open.time.40" value="1" />
-          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.38" value="3" />
+          <entry key="project.open.time.40" value="2" />
+          <entry key="project.open.time.41" value="2" />
           <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.75" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="186" />
+          <entry key="project.opened" value="215" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="5" value="3" />
           <entry key="bat" value="1" />
-          <entry key="class" value="127" />
-          <entry key="css" value="37" />
+          <entry key="class" value="183" />
+          <entry key="css" value="50" />
           <entry key="factorypath" value="1" />
-          <entry key="gitignore" value="18" />
+          <entry key="gitignore" value="23" />
           <entry key="gradle" value="2" />
           <entry key="gradlew" value="1" />
           <entry key="hprof" value="1" />
-          <entry key="html" value="10" />
+          <entry key="html" value="31" />
           <entry key="iml" value="11" />
-          <entry key="java" value="1888" />
-          <entry key="js" value="117" />
+          <entry key="java" value="2613" />
+          <entry key="js" value="238" />
           <entry key="json" value="2" />
-          <entry key="jsp" value="142" />
-          <entry key="log" value="3" />
+          <entry key="jsp" value="252" />
+          <entry key="log" value="5" />
           <entry key="md" value="1" />
           <entry key="png" value="4" />
           <entry key="pom" value="5" />
-          <entry key="properties" value="116" />
+          <entry key="properties" value="150" />
           <entry key="readme" value="3" />
           <entry key="rnc" value="1" />
           <entry key="sh" value="1" />
-          <entry key="ts" value="10" />
-          <entry key="txt" value="125" />
+          <entry key="ts" value="13" />
+          <entry key="txt" value="143" />
           <entry key="vmoptions" value="2" />
-          <entry key="xml" value="66" />
+          <entry key="xml" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="127" />
-          <entry key="CSS" value="37" />
+          <entry key="CLASS" value="183" />
+          <entry key="CSS" value="50" />
           <entry key="Groovy" value="2" />
-          <entry key="HTML" value="10" />
+          <entry key="HTML" value="31" />
           <entry key="Hprof" value="1" />
           <entry key="IDEA_MODULE" value="11" />
           <entry key="Image" value="4" />
-          <entry key="JAVA" value="1888" />
+          <entry key="JAVA" value="2611" />
           <entry key="JSON" value="2" />
-          <entry key="JSP" value="142" />
-          <entry key="JavaScript" value="117" />
+          <entry key="JSP" value="252" />
+          <entry key="JavaScript" value="238" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="155" />
-          <entry key="Properties" value="116" />
+          <entry key="PLAIN_TEXT" value="182" />
+          <entry key="Properties" value="150" />
           <entry key="RNG Compact" value="1" />
-          <entry key="TypeScript" value="10" />
+          <entry key="TypeScript" value="13" />
           <entry key="UML" value="3" />
-          <entry key="XML" value="71" />
+          <entry key="XML" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="ErrTypeTestjava" value="49" />
           <entry key="class" value="11" />
-          <entry key="css" value="669" />
+          <entry key="css" value="696" />
           <entry key="dummy" value="12" />
-          <entry key="gitignore" value="57" />
+          <entry key="gitignore" value="106" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="65933" />
-          <entry key="js" value="12698" />
-          <entry key="jsp" value="11894" />
-          <entry key="properties" value="1556" />
+          <entry key="html" value="1057" />
+          <entry key="java" value="86253" />
+          <entry key="js" value="27508" />
+          <entry key="jsp" value="17144" />
+          <entry key="properties" value="2117" />
           <entry key="readme" value="15" />
-          <entry key="txt" value="734" />
+          <entry key="txt" value="827" />
           <entry key="vmoptions" value="11" />
-          <entry key="xml" value="205" />
+          <entry key="xml" value="229" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="11" />
-          <entry key="CSS" value="669" />
+          <entry key="CSS" value="696" />
           <entry key="Groovy" value="1" />
-          <entry key="HTML" value="9" />
-          <entry key="JAVA" value="65946" />
-          <entry key="JSP" value="11894" />
-          <entry key="JavaScript" value="12689" />
-          <entry key="PLAIN_TEXT" value="816" />
-          <entry key="Properties" value="1556" />
-          <entry key="XML" value="205" />
+          <entry key="HTML" value="1071" />
+          <entry key="JAVA" value="86266" />
+          <entry key="JSP" value="17144" />
+          <entry key="JavaScript" value="27494" />
+          <entry key="PLAIN_TEXT" value="1007" />
+          <entry key="Properties" value="2117" />
+          <entry key="XML" value="229" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="29" />
-          <entry key="git.branch.checkout.remote" value="10" />
-          <entry key="git.branch.compare" value="130" />
-          <entry key="git.branch.delete.local" value="45" />
-          <entry key="git.branch.delete.remote" value="14" />
-          <entry key="git.branch.merge" value="1" />
+          <entry key="git.branch.checkout.local" value="47" />
+          <entry key="git.branch.checkout.remote" value="16" />
+          <entry key="git.branch.compare" value="199" />
+          <entry key="git.branch.delete.local" value="63" />
+          <entry key="git.branch.delete.remote" value="20" />
+          <entry key="git.branch.merge" value="2" />
           <entry key="git.branch.rebase" value="2" />
           <entry key="git.branch.rename" value="1" />
           <entry key="git.checkout.as.new.branch" value="2" />
@@ -232,47 +281,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/KnowledgeController.java">
+        <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/version/VersionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="141" column="53" lean-forward="true" selection-start-line="141" selection-start-column="53" selection-end-line="141" selection-end-column="53" />
+            <state relative-caret-position="143">
+              <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/list.jsp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/version/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="290" column="30" lean-forward="true" selection-start-line="290" selection-start-column="30" selection-end-line="290" selection-end-column="30" />
+            <state relative-caret-position="299">
+              <caret line="363" column="92" lean-forward="true" selection-start-line="363" selection-start-column="92" selection-end-line="363" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/version/list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4565">
+              <caret line="319" column="13" selection-start-line="319" selection-start-column="7" selection-end-line="319" selection-end-column="13" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#div#3;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/css/knowledge/nav.css">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="548" column="1" lean-forward="true" selection-start-line="548" selection-start-column="1" selection-end-line="548" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KBaseService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="376" column="29" selection-start-line="376" selection-start-column="22" selection-end-line="376" selection-end-column="29" />
+            <state relative-caret-position="216">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -293,36 +335,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>开始时间</find>
-      <find>210</find>
-      <find>2%</find>
-      <find>cancelbutton</find>
-      <find>td_actor</find>
-      <find>180</find>
-      <find>div class=&quot;footer&quot;</find>
-      <find>tbar-panel-footer</find>
-      <find>tbar-panel-cart</find>
-      <find>查询</find>
+      <find>movie</find>
+      <find>updateStars</find>
+      <find>文件创建成功</find>
+      <find>updateAwards</find>
+      <find>saveAw</find>
+      <find>getAllMsgByType</find>
+      <find>score</find>
+      <find>footer</find>
+      <find>showImg</find>
+      <find>foot</find>
+      <find>getQ</find>
+      <find>delChild</find>
+      <find>showInfo</find>
+      <find>replace</find>
+      <find>repl</find>
+      <find>deleteChildModal</find>
+      <find>rep</find>
+      <find>show_img</find>
+      <find>updateMe</find>
+      <find>getAllS</find>
+      <find>Vtool</find>
+      <find>commons</find>
+      <find>equalsAny</find>
       <find>searchBtn</find>
-      <find>edit</find>
-      <find>short_pin</find>
-      <find>lists</find>
-      <find>/lists</find>
-      <find>list</find>
-      <find>title</find>
-      <find>searchQuery</find>
-      <find>标签</find>
-      <find>operate</find>
-      <find>col-md-2</find>
-      <find>my_type</find>
-      <find>body</find>
-      <find>has-feedback</find>
-      <find>440</find>
-      <find>类型</find>
-      <find>700</find>
-      <find>toolbar-o</find>
-      <find>setPay</find>
-      <find>searchTag2</find>
+      <find>player ms</find>
+      <find>机芯操作</find>
+      <find>launch</find>
+      <find>.launch</find>
+      <find>myModal</find>
+      <find>player</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -330,42 +372,48 @@
       <replace>nums</replace>
       <replace>c:if</replace>
       <replace>edit</replace>
+      <replace>j</replace>
+      <replace>+</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\工作\学习\java\javaSE\src\main\java</dir>
-      <dir>E:\工作\knowledge code\KBuild\KnowledgeBaseBuild\src\main\java\com\changhong\videobase\build</dir>
       <dir>E:\工作\knowledge code\KBuild\KnowledgeBaseBuild\src\main\java</dir>
       <dir>E:\工作\recommend code\rs-rec-algo</dir>
       <dir>E:\工作\recommend code\rs-rec-algo\src\main</dir>
       <dir>E:\工作\recommend code\rs-rec-algo\src\main\java</dir>
       <dir>E:\工作\knowledge code\VideoBase</dir>
-      <dir>E:\工作\knowledge code\KBuild</dir>
       <dir>E:\工作\knowledge code\VideoBase\VideoBase</dir>
       <dir>E:\工作\program code\spring-boot-web\src</dir>
       <dir>E:\工作\program code\spring-boot-web\src\main</dir>
       <dir>E:\工作\program code\spring-boot-web\src\main\java</dir>
       <dir>E:\工作\program code\spring-boot-web\src\main\webapp\ui</dir>
-      <dir>E:\工作\program code\spring-boot-web\src\main\java\com\changhong\web\controller</dir>
-      <dir>E:\工作\program code\spring-boot-web\src\main\webapp\res\knowledge</dir>
       <dir>E:\工作\program code\spring-boot-web\src\main\java\com\changhong\web</dir>
-      <dir>E:\工作\program code\spring-boot-web\src\main\webapp\ui\js</dir>
-      <dir>E:\工作\program code\spring-boot-web\src\main\webapp\ui\js\knowledge</dir>
       <dir>E:\工作\program code\spring-boot-web\src\main\java\com\changhong\web\service</dir>
-      <dir>E:\工作\knowledge code\KBuild\KnowledgeBaseBuild</dir>
       <dir>E:\工作\program code\spring-boot-web\src\main\webapp</dir>
+      <dir>E:\工作\program code\spring-boot-web\src\main\webapp\res</dir>
+      <dir>E:\工作\program code\spring-boot-web\src\main\webapp\res\knowledge</dir>
+      <dir>E:\工作\program code\spring-boot-web\src\main\webapp\ui\js\knowledge</dir>
+      <dir>E:\工作\knowledge code\KBuild\KnowledgeBaseBuild\src\main\java\com\changhong\videobase\build\controller</dir>
+      <dir>E:\工作\program code\spring-boot-web\src\main\webapp\ui\js</dir>
+      <dir>E:\工作\program code\spring-boot-web\src\main\java\com\changhong\web\controller</dir>
+      <dir>E:\工作\knowledge code\KBuild\KnowledgeBaseBuild\src\main\java\com\changhong\videobase\build</dir>
+      <dir>E:\工作\knowledge code\KBuild\KnowledgeBaseBuild\src\main\resources</dir>
+      <dir>E:\工作\knowledge code\KBuild</dir>
       <dir>E:\工作\program code\spring-boot-web</dir>
+      <dir>E:\工作\knowledge code\KBuild\KnowledgeBaseBuild</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../program code/spring-boot-web" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../../../knowledge code/KBuild" value="weilong0428" />
+        <entry key="$PROJECT_DIR$/../../../knowledge code/KBuild" value="weilong0624" />
         <entry key="$PROJECT_DIR$/../../../program code/pinyin4j" value="master" />
-        <entry key="$PROJECT_DIR$/../../../program code/spring-boot-web" value="weilong0518" />
+        <entry key="$PROJECT_DIR$/../../../program code/spring-boot-web" value="weilong0701" />
       </map>
     </option>
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -382,57 +430,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/specialEditInfo.jsp" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/MediaSource.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/YouKuAdapter.java" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/AutoFindController.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/VideoSeries.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/task/KBSeriesLoadTask.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KBaseSeriesCompController.java" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/dao/knowledge/KnowledgeDao.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/task/KBFilterTask.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/test/java/com/changhong/videobase/build/test/ErrTypeTitle.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/test/java/com/changhong/videobase/build/test/ErrTypeTestjava" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/test/java/com/changhong/videobase/build/test/ErrorTypeTest.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KbaseRewardController.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KBaseSeriesController.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KbaseStarsController.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/SpecialController.java" />
         <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/domain/newversiondomain/ChiqConfigVersionRecord.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/version/list.jsp" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/newversion/jixinview.jsp" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/newversion/list.jsp" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/version/jixinview.js" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/domain/newversiondomain/NewRequestData.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/plateservice/PlateInfoVaildService.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/domain/newversiondomain/NewChiqConfigVersionOperate.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/plateservice/InfoInitService.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/plateservice/OperateService.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/plateservice/RollBackDataService.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/plateservice/ChiqConfigVersionService.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/version/VersionController.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/version/list.js" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/newversion/list.js" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/version/jixinview.jsp" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/dao/chiq/BigDataJixinDao.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/plateservice/BasePlateService.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/newversion/jixinview.js" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/readme" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/utils/SignUtils.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/domain/base/Cover.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/domain/base/Picture.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/domain/base/Stream.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/domain/BaseDto.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/domain/PageBean.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/.gitignore" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/config/MongodbClient.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/config/MongodbConfig.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/service/KrcomDataService.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/KrcomDataApplication.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcom/src/main/java/com/changhong/krcom/config/MongodbClient.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcom/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/domain/base/Materiel.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/config/FastJsonConverterConfig.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/controller/KrcomDataController.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/dao/KrcomDataDao.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/.gitignore" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/compare.jsp" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/spring-boot-web.iml" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/newmain/NewMainService.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/compare.js" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/css/knowledge/list.css" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/IQiYiAdapter.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/css/knowledge/nav.css" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/utils/SaveMongoEventListener.java" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/domain/know/SelfCheckConfig.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialSourceInfo.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/test/java/com/changhong/videobase/build/test/StarsCleanTest.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/upload/errAwardIds.txt" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/CleanUpController.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/CleanService.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KBaseSeriesService.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KbaseStarsService.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/AwardInfo.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KbaseRewardService.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialEditInfo.java" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/main/list.jsp" />
         <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/list.jsp" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/list.js" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/KnowLedgeService.java" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/SpecialService.java" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/special_confirm.js" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/specialConfirm.jsp" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/VTool/VTool/src/main/java/com/changhong/video/tools/files/ExcelUtils.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SpecialService.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/save/KBHelper.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/load/MongooDBFactory.java" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/special_operation.jsp" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/special_operation.js" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java" />
+        <option value="E:/下载/input拖拽排序/6320/index.html" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/version/list.jsp" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -460,11 +508,39 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="meida-base" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spring-boot-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="meida-base" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spring-boot-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-boot-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="VideoBase" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="VideoBase" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="VideoBase" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="VTool" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="VTool" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -475,9 +551,9 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1915" />
-    <option name="y" value="9" />
-    <option name="width" value="1936" />
+    <option name="x" value="1880" />
+    <option name="y" value="1" />
+    <option name="width" value="1932" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -662,7 +738,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>AlibabaCommentsMustBeJavadocFormat</id>
+            <id>AlibabaClassNamingShouldBeCamel</id>
           </State>
         </selected-state>
       </profile-state>
@@ -676,49 +752,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KBuild" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KBuild" type="462c0819:PsiDirectoryNode" />
-              <item name="KnowledgeBaseBuild" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KBuild" type="462c0819:PsiDirectoryNode" />
-              <item name="KnowledgeBaseBuild" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KBuild" type="462c0819:PsiDirectoryNode" />
-              <item name="KnowledgeBaseBuild" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KBuild" type="462c0819:PsiDirectoryNode" />
-              <item name="KnowledgeBaseBuild" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KBuild" type="462c0819:PsiDirectoryNode" />
-              <item name="KnowledgeBaseBuild" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="javaSE" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
@@ -785,23 +826,31 @@
               <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="version" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="knowledge" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -809,8 +858,31 @@
               <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="version" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
@@ -819,7 +891,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
@@ -838,7 +909,17 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="knowledge" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="version" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -860,38 +941,39 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/工作/学习/java/javaSE/src/main/java/leetcode/compete22/MaximalRectangel.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591000266353" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594117389938" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../program code/media-base" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.changhong.web.domain.newversiondomain" />
-      <recent name="com.changhong.videobase.build.service" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\工作\program code\spring-boot-krcomdata\src\main\java\com\changhong\krcomdata\config" />
-      <recent name="E:\工作\program code\spring-boot-krcomdata\src\main\java\com\changhong\krcomdata\domain\base" />
-      <recent name="E:\工作\program code\spring-boot-krcomdata" />
-      <recent name="E:\工作\program code\spring-boot-krcomdata\src\main\resources" />
-      <recent name="E:\工作\program code\spring-boot-web\src\main\webapp\ui\js\newversion" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.changhong.krcomdata.domain" />
-      <recent name="com.changhong.krcomdata.domain.base" />
-      <recent name="com.changhong.krcomdata.utils" />
-      <recent name="com.changhong.web.domain.newversiondomain" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\工作\knowledge code\KBuild\KnowledgeBaseBuild\upload" />
       <recent name="E:\工作\program code\spring-boot-web\src\main\webapp\ui\js\newversion" />
       <recent name="E:\工作\program code\spring-boot-web\src\main\webapp\res\newversion" />
       <recent name="E:\工作\program code\spring-boot-web\src\main\webapp\ui\js\knowledge" />
       <recent name="E:\工作\学习\java\javaSE\src\main\java\Utils" />
-      <recent name="E:\工作\knowledge code\KBuild\KnowledgeBaseBuild\upload\selfCheckZip" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\工作\program code\spring-boot-web\src\main\webapp\res\knowledge" />
+      <recent name="E:\工作\program code\spring-boot-web\src\main\webapp\ui\js\knowledge" />
+      <recent name="E:\工作\program code\spring-boot-krcomdata\src\main\java\com\changhong\krcomdata\config" />
+      <recent name="E:\工作\program code\spring-boot-krcomdata\src\main\java\com\changhong\krcomdata\domain\base" />
+      <recent name="E:\工作\program code\spring-boot-krcomdata" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.changhong.videobase.bean" />
+      <recent name="com.changhong.videobase.build.service" />
+      <recent name="com.changhong.krcomdata.domain" />
+      <recent name="com.changhong.krcomdata.domain.base" />
+      <recent name="com.changhong.krcomdata.utils" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.changhong.web.domain.newversiondomain" />
+      <recent name="com.changhong.videobase.build.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -907,19 +989,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.WebApp">
-    <configuration name="KrcomDataApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.changhong.krcomdata.KrcomDataApplication" />
-      <module name="spring-boot-krcomdata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.changhong.krcomdata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AwardTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KnowledgeBaseBuild" />
       <extension name="coverage">
@@ -946,6 +1015,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.changhong.videobase.build.test" />
       <option name="MAIN_CLASS_NAME" value="com.changhong.videobase.build.test.CountField" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ErrorTypeTest.getErrTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KnowledgeBaseBuild" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.changhong.videobase.build.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.changhong.videobase.build.test" />
+      <option name="MAIN_CLASS_NAME" value="com.changhong.videobase.build.test.ErrorTypeTest" />
+      <option name="METHOD_NAME" value="getErrTitle" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1015,17 +1100,17 @@
       <item itemvalue="Spring Boot.KnowledgeBaseBuildApplication" />
       <item itemvalue="Spring Boot.WebApp" />
       <item itemvalue="Spring Boot.RecAlgorithmApp" />
-      <item itemvalue="Application.KrcomDataApplication" />
       <item itemvalue="JUnit.CountField" />
       <item itemvalue="JUnit.AwardTest.test" />
       <item itemvalue="Spring Boot.KrcomDataApplication" />
       <item itemvalue="Spring Boot.App" />
+      <item itemvalue="JUnit.ErrorTypeTest.getErrTitle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.KrcomDataApplication" />
+        <item itemvalue="JUnit.ErrorTypeTest.getErrTitle" />
         <item itemvalue="Spring Boot.App" />
-        <item itemvalue="Application.KrcomDataApplication" />
+        <item itemvalue="Spring Boot.KrcomDataApplication" />
         <item itemvalue="JUnit.AwardTest.test" />
         <item itemvalue="JUnit.CountField" />
       </list>
@@ -1227,6 +1312,35 @@
       <workItem from="1590713952221" duration="13255000" />
       <workItem from="1590738845816" duration="7193000" />
       <workItem from="1590974475707" duration="18739000" />
+      <workItem from="1591003937755" duration="3072000" />
+      <workItem from="1591059822137" duration="31082000" />
+      <workItem from="1591148587831" duration="22046000" />
+      <workItem from="1591319321842" duration="30317000" />
+      <workItem from="1591577938273" duration="29830000" />
+      <workItem from="1591666425597" duration="21093000" />
+      <workItem from="1591700241977" duration="1435000" />
+      <workItem from="1591752641292" duration="23501000" />
+      <workItem from="1591781833947" duration="7401000" />
+      <workItem from="1591837847184" duration="25304000" />
+      <workItem from="1591926331589" duration="26584000" />
+      <workItem from="1592014741071" duration="16558000" />
+      <workItem from="1592183723225" duration="8191000" />
+      <workItem from="1592270653760" duration="12564000" />
+      <workItem from="1592356761065" duration="12938000" />
+      <workItem from="1592443066138" duration="23839000" />
+      <workItem from="1592529023420" duration="10785000" />
+      <workItem from="1592788400321" duration="25236000" />
+      <workItem from="1592874902608" duration="24337000" />
+      <workItem from="1592961989544" duration="14293000" />
+      <workItem from="1593306911564" duration="30103000" />
+      <workItem from="1593393474549" duration="26905000" />
+      <workItem from="1593479380470" duration="16878000" />
+      <workItem from="1593567365850" duration="18959000" />
+      <workItem from="1593652255825" duration="11371000" />
+      <workItem from="1593673683842" duration="13479000" />
+      <workItem from="1593739317871" duration="19568000" />
+      <workItem from="1593835390695" duration="47211000" />
+      <workItem from="1594097973815" duration="12126000" />
     </task>
     <task id="LOCAL-00001" summary="添加日期函数获取昨天日期">
       <created>1577961005293</created>
@@ -1417,19 +1531,99 @@
       <option name="project" value="LOCAL" />
       <updated>1590988108809</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="知识库海报界面展示优化">
+      <created>1591004035044</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1591004035045</updated>
+    </task>
+    <task id="LOCAL-00029" summary="豆瓣资源匹配时字段错误">
+      <created>1591080898049</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1591080898049</updated>
+    </task>
+    <task id="LOCAL-00030" summary="知识库检索页面优化">
+      <created>1591338072204</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1591338072204</updated>
+    </task>
+    <task id="LOCAL-00031" summary="专题列表查询暂存">
+      <created>1591338138652</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1591338138652</updated>
+    </task>
+    <task id="LOCAL-00032" summary="机芯机型问题定位">
+      <created>1591338186277</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1591338186278</updated>
+    </task>
+    <task id="LOCAL-00033" summary="下拉冲突解决">
+      <created>1591338753891</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1591338753891</updated>
+    </task>
+    <task id="LOCAL-00034" summary="下拉冲突解决">
+      <created>1591338989503</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1591338989503</updated>
+    </task>
+    <task id="LOCAL-00035" summary="下拉冲突解决">
+      <created>1591339958672</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1591339958672</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CountField - 2020.04.13 at 16h 30m 20s.xml">
-      <configuration name="CountField" configurationId="JUnit" />
+    <history-entry file="StarsCleanTest_cleanTest - 2020.07.03 at 15h 27m 49s.xml">
+      <configuration name="StarsCleanTest.cleanTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AwardTest_test - 2020.04.27 at 16h 58m 35s.xml">
-      <configuration name="AwardTest.test" configurationId="JUnit" />
+    <history-entry file="StarsCleanTest_cleanTest - 2020.07.03 at 15h 42m 45s.xml">
+      <configuration name="StarsCleanTest.cleanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StarsCleanTest_cleanTest - 2020.07.03 at 15h 44m 54s.xml">
+      <configuration name="StarsCleanTest.cleanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StarsCleanTest_cleanTest - 2020.07.03 at 15h 46m 13s.xml">
+      <configuration name="StarsCleanTest.cleanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StarsCleanTest_cleanTest - 2020.07.03 at 15h 46m 39s.xml">
+      <configuration name="StarsCleanTest.cleanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StarsCleanTest_cleanTest - 2020.07.03 at 15h 58m 28s.xml">
+      <configuration name="StarsCleanTest.cleanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StarsCleanTest_cleanTest1 - 2020.07.03 at 15h 59m 17s.xml">
+      <configuration name="StarsCleanTest.cleanTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StarsCleanTest_cleanTest - 2020.07.03 at 16h 56m 53s.xml">
+      <configuration name="StarsCleanTest.cleanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StarsCleanTest_cleanTest - 2020.07.03 at 17h 01m 12s.xml">
+      <configuration name="StarsCleanTest.cleanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StarsCleanTest_cleanTest - 2020.07.03 at 17h 02m 01s.xml">
+      <configuration name="StarsCleanTest.cleanTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1646363000" />
+    <option name="totallyTimeSpent" value="2213369000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1442,13 +1636,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48288974" visible="true" weight="0.25479743" />
-      <window_info id="Structure" order="1" sideWeight="0.5171103" side_tool="true" weight="0.23667377" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47935367" visible="true" weight="0.23720682" />
+      <window_info id="Structure" order="1" sideWeight="0.52102375" side_tool="true" weight="0.23187633" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.5083612" side_tool="true" weight="0.22068231" />
+      <window_info id="Favorites" order="5" sideWeight="0.52064633" side_tool="true" weight="0.23187633" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32998884" />
@@ -1459,29 +1654,29 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32998884" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32998884" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.32998884" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3121516" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.3110368" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" visible="true" weight="0.3110368" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32998884" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4989339" visible="true" weight="0.32218507" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4989339" weight="0.3188406" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32887402" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="14" weight="0.29319954" />
       <window_info anchor="bottom" id="CheckStyle" order="15" weight="0.32887402" />
-      <window_info anchor="bottom" id="Run" order="16" weight="0.4136009" />
+      <window_info anchor="bottom" id="Run" order="16" weight="0.39018953" />
       <window_info anchor="bottom" id="Build" order="17" sideWeight="0.49946696" weight="0.32887402" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.21801706" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
-      <window_info anchor="right" id="Gradle" order="11" weight="0.32995737" />
-      <window_info anchor="right" id="Preview" order="12" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.19296375" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Gradle" order="10" weight="0.32995737" />
+      <window_info anchor="right" id="Preview" order="11" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="12" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1534,13 +1729,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="添加日期函数获取昨天日期" />
-    <MESSAGE value="去除时间覆盖、新增清晰度空指针检测" />
-    <MESSAGE value="去除废弃函数接口" />
-    <MESSAGE value="自动合并时附表资源替换" />
-    <MESSAGE value="label指向修改" />
-    <MESSAGE value="终端机芯管理界面修改优化" />
-    <MESSAGE value="Excel文件导入" />
     <MESSAGE value="IDEA环境文件" />
     <MESSAGE value="资源添加到对比栏、对比栏内容对比合并" />
     <MESSAGE value="添加新的机芯版本类" />
@@ -1559,7 +1747,14 @@
     <MESSAGE value="专题年份未设置修正" />
     <MESSAGE value="腾讯专栏类型设置修正" />
     <MESSAGE value="媒资检索Solr查询去除id排序，支持拼音首字母检索" />
-    <option name="LAST_COMMIT_MESSAGE" value="媒资检索Solr查询去除id排序，支持拼音首字母检索" />
+    <MESSAGE value="知识库海报界面展示优化" />
+    <MESSAGE value="豆瓣资源匹配时字段错误" />
+    <MESSAGE value="知识库检索页面优化" />
+    <MESSAGE value="专题列表查询暂存" />
+    <MESSAGE value="机芯机型问题定位" />
+    <MESSAGE value="下拉更新" />
+    <MESSAGE value="下拉冲突解决" />
+    <option name="LAST_COMMIT_MESSAGE" value="下拉冲突解决" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1593,12 +1788,6 @@
           <line>24</line>
           <properties />
           <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SpecialService.java</url>
-          <line>993</line>
-          <properties />
-          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/compete12/PermutationsII.java</url>
@@ -1818,21 +2007,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/mediabaseservice/MainService.java</url>
-          <line>231</line>
+          <line>246</line>
           <properties />
           <option name="timeStamp" value="261" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/KnowLedgeService.java</url>
-          <line>462</line>
+          <line>564</line>
           <properties />
           <option name="timeStamp" value="265" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/KnowLedgeService.java</url>
-          <line>486</line>
-          <properties />
-          <option name="timeStamp" value="272" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../../../knowledge code/VTool/VTool/src/main/java/com/changhong/video/tools/terms/StringTransfer.java</url>
@@ -1858,15 +2041,79 @@
           <properties />
           <option name="timeStamp" value="289" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/newmain/NewMainService.java</url>
-          <line>53</line>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/dao/knowledge/SpecialDao.java</url>
+          <line>78</line>
           <properties />
-          <option name="timeStamp" value="291" />
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java</url>
+          <line>221</line>
+          <properties />
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/dao/knowledge/SpecialDao.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java</url>
+          <line>403</line>
+          <properties />
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java</url>
+          <line>362</line>
+          <properties />
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java</url>
+          <line>380</line>
+          <properties />
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SpecialService.java</url>
+          <line>1094</line>
+          <properties />
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KbaseRewardService.java</url>
+          <line>292</line>
+          <properties />
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KBaseSeriesService.java</url>
+          <line>313</line>
+          <properties />
+          <option name="timeStamp" value="331" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KbaseStarsService.java</url>
+          <line>807</line>
+          <properties />
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SpecialService.java</url>
+          <line>1018</line>
+          <properties />
+          <option name="timeStamp" value="333" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
-        <breakpoints-dialog />
+        <breakpoints-dialog>
+          <selected-grouping-rules>
+            <grouping-rule id="by-file" />
+          </selected-grouping-rules>
+        </breakpoints-dialog>
       </breakpoints-dialog>
     </breakpoint-manager>
   </component>
@@ -1884,368 +2131,398 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/resources/application-dev.properties">
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KbaseRewardService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="412">
+          <caret line="277" column="21" selection-start-line="277" selection-start-column="21" selection-end-line="277" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/mq/KBaseUpdateService.java">
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KbaseRewardController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="79" column="69" lean-forward="true" selection-start-line="79" selection-start-column="69" selection-end-line="79" selection-end-column="69" />
+        <state relative-caret-position="284">
+          <caret line="237" column="29" selection-start-line="237" selection-start-column="29" selection-end-line="237" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.12.11.RELEASE/spring-data-commons-1.12.11.RELEASE.jar!/org/springframework/data/domain/Sort.class">
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/domain/know/SelfCheckConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/1.9.11.RELEASE/spring-data-mongodb-1.9.11.RELEASE.jar!/org/springframework/data/mongodb/core/query/Query.class">
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/SpecialOperationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="35" column="84" lean-forward="true" selection-start-line="35" selection-start-column="84" selection-end-line="35" selection-end-column="84" />
+        <state relative-caret-position="-2996">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/config/FastJsonConverterConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="22" column="79" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/domain/base/Materiel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/controller/KrcomDataController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="27" column="80" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/dao/KrcomDataDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/service/KrcomDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/domain/hlj/HotResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/pinyin4j/src/main/java/com/hp/hpl/sparta/BuildDocument.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/1.10.4.RELEASE/spring-data-mongodb-1.10.4.RELEASE.jar!/org/springframework/data/mongodb/core/MongoTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/pinyin4j/src/main/java/com/hp/hpl/sparta/CharCircBuffer.java">
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/BaseSpecialInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state relative-caret-position="-270">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/pinyin4j/src/main/java/com/hp/hpl/sparta/DefaultParseHandler.java">
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialPageBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/pinyin4j/src/main/java/com/hp/hpl/sparta/ParseHandler.java">
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialEditInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="95" column="56" lean-forward="true" selection-start-line="95" selection-start-column="56" selection-end-line="95" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SelfCheckConfigController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/kbase_series.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/layout/visualLayout.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/layout/common.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/layout/pageFoot.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2113" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/spring-boot-web.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="43" column="86" lean-forward="true" selection-start-line="43" selection-start-column="86" selection-end-line="43" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/compare.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="245" column="53" selection-start-line="245" selection-start-column="41" selection-end-line="245" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="225" column="24" selection-start-line="225" selection-start-column="24" selection-end-line="225" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/mediabaseservice/MainService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="511" column="28" selection-start-line="511" selection-start-column="28" selection-end-line="511" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="247" column="111" selection-start-line="247" selection-start-column="111" selection-end-line="247" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/media-base/src/main/java/com/changhong/domain/chiq/ChiqBaseInfoEdit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="483" column="24" selection-start-line="483" selection-start-column="15" selection-end-line="483" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/main/edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="216">
+          <caret line="203" column="41" lean-forward="true" selection-start-line="203" selection-start-column="41" selection-end-line="203" selection-end-column="41" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#3849#3850#0" expanded="true" />
+            <element signature="e#3884#3885#0" expanded="true" />
+            <element signature="e#3940#3941#0" expanded="true" />
+            <element signature="e#3988#3989#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/nio/ch/WindowsSelectorImpl.class">
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KBaseSeriesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="133" column="27" selection-start-line="133" selection-start-column="27" selection-end-line="133" selection-end-column="27" />
+        <state relative-caret-position="443">
+          <caret line="208" column="9" selection-start-line="208" selection-start-column="9" selection-end-line="208" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/main/list.js">
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KBaseSeriesService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="76" lean-forward="true" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/main/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="231" column="68" lean-forward="true" selection-start-line="231" selection-start-column="68" selection-end-line="231" selection-end-column="68" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/net/DualStackPlainSocketImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="282" column="22" selection-start-line="282" selection-start-column="22" selection-end-line="282" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/newmain/NewMainService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="396" column="73" lean-forward="true" selection-start-line="396" selection-start-column="73" selection-end-line="396" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="401" column="11" selection-start-line="401" selection-start-column="11" selection-end-line="401" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/KnowLedgeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="372" column="64" selection-start-line="372" selection-start-column="64" selection-end-line="372" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="185" selection-start-line="185" selection-end-line="185" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/css/global/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="4" column="36368" selection-start-line="4" selection-start-column="36368" selection-end-line="4" selection-end-column="36368" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/KnowledgeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="141" column="53" lean-forward="true" selection-start-line="141" selection-start-column="53" selection-end-line="141" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/tools/MediaHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="295" column="75" lean-forward="true" selection-start-line="295" selection-start-column="75" selection-end-line="295" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/css/knowledge/list.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="443">
+          <caret line="465" selection-start-line="465" selection-end-line="465" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/compare.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="134" column="57" lean-forward="true" selection-start-line="134" selection-start-column="57" selection-end-line="134" selection-end-column="57" />
+        <state relative-caret-position="186">
+          <caret line="249" column="31" selection-start-line="249" selection-start-column="24" selection-end-line="249" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KBaseService.java">
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/css/knowledge/list.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="376" column="29" selection-start-line="376" selection-start-column="22" selection-end-line="376" selection-end-column="29" />
+        <state relative-caret-position="27">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/MediaSource.java">
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/main/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="2571">
+          <caret line="519" column="64" lean-forward="true" selection-start-line="519" selection-start-column="64" selection-end-line="519" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/MediaInfo.java">
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/css/knowledge/nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="548" column="1" lean-forward="true" selection-start-line="548" selection-start-column="1" selection-end-line="548" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/SourceApdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/IQiYiAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="140" column="30" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="30" />
+        <state relative-caret-position="155">
+          <caret line="105" column="29" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="290" column="30" lean-forward="true" selection-start-line="290" selection-start-column="30" selection-end-line="290" selection-end-column="30" />
+        <state relative-caret-position="137">
+          <caret line="258" column="30" lean-forward="true" selection-start-line="258" selection-start-column="30" selection-end-line="258" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/VideoBuildController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="153" column="58" selection-start-line="153" selection-start-column="58" selection-end-line="153" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.0.10.RELEASE/spring-data-mongodb-2.0.10.RELEASE.jar!/org/springframework/data/mongodb/core/MongoTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="34" column="94" selection-start-line="34" selection-start-column="94" selection-end-line="34" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/net/DualStackPlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="282" column="22" selection-start-line="282" selection-start-column="22" selection-end-line="282" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/specialConfirm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5319">
+          <caret line="196" column="39" selection-start-line="196" selection-start-column="30" selection-end-line="196" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/special_confirm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7128">
+          <caret line="264" column="47" selection-start-line="264" selection-start-column="47" selection-end-line="264" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/resources/application-prod.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VTool/VTool/src/main/java/com/changhong/video/tools/files/ExcelUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="182" column="37" lean-forward="true" selection-start-line="182" selection-start-column="37" selection-end-line="182" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/config/MongoTemplateConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/config/MongoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="115" column="28" lean-forward="true" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#3;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="e#3324#3325#0" expanded="true" />
+            <element signature="e#3368#3369#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialSourceInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#2479#2480#0" expanded="true" />
+            <element signature="e#2514#2515#0" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2618#2619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/dao/knowledge/SpecialDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
+          <folding>
+            <element signature="e#3078#3079#0" expanded="true" />
+            <element signature="e#3157#3158#0" expanded="true" />
+            <element signature="e#3552#3553#0" expanded="true" />
+            <element signature="e#3601#3602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SpecialService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="785" column="50" lean-forward="true" selection-start-line="785" selection-start-column="50" selection-end-line="785" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/SpecialController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/save/KBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="69" column="74" lean-forward="true" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
+          <folding>
+            <element signature="e#53380#53381#0" expanded="true" />
+            <element signature="e#53415#53416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="91" column="37" lean-forward="true" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/load/MongooDBFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="182" column="29" lean-forward="true" selection-start-line="182" selection-start-column="29" selection-end-line="182" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/know/KnowUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="792" column="24" selection-start-line="792" selection-start-column="24" selection-end-line="792" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.3/commons-lang3-3.3.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="89" column="50" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/special_operation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="244" column="45" selection-start-line="244" selection-start-column="36" selection-end-line="244" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/KnowledgeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/special_operation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="419" column="36" lean-forward="true" selection-start-line="419" selection-start-column="36" selection-end-line="419" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/SpecialService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="114" column="22" lean-forward="true" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/KnowLedgeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="434" column="14" lean-forward="true" selection-start-line="434" selection-start-column="14" selection-end-line="434" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6070#6071#0" expanded="true" />
+            <element signature="e#6132#6133#0" expanded="true" />
+            <element signature="e#6721#6722#0" expanded="true" />
+            <element signature="e#6791#6792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/version/VersionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/下载/input拖拽排序/6320/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/下载/input拖拽排序/6320/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/下载/input拖拽排序/6320/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/version/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="363" column="92" lean-forward="true" selection-start-line="363" selection-start-column="92" selection-end-line="363" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/version/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4565">
+          <caret line="319" column="13" selection-start-line="319" selection-start-column="7" selection-end-line="319" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -2302,7 +2579,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>media-base</last-edited>
+          <last-edited>VideoBase</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
