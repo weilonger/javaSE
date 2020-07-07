@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/VTool/VTool/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../program code/media-base/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../../../program code/librec/core/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../program code/librec/gui/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../program code/librec/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../program code/librec/spark/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>

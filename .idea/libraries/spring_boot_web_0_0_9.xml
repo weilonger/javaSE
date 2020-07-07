@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-boot-web-0.0.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../program code/spring-boot-web/target/spring-boot-web-0.0.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

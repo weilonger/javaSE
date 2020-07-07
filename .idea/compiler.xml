@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="KnowledgeBaseBuild" />
+        <module name="media-base" />
+        <module name="spring-boot-web" />
+        <module name="VideoBase" />
+        <module name="VTool" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ik-analyzer-solr7" target="1.8" />
+      <module name="KBuild" target="1.5" />
+      <module name="KnowledgeBaseBuild" target="1.8" />
+      <module name="librec" target="1.5" />
+      <module name="librec-core" target="1.5" />
+      <module name="librec-gui" target="1.8" />
+      <module name="librec-spark" target="1.5" />
+      <module name="LTR" target="1.5" />
+      <module name="ltr-tools-master" target="1.5" />
+      <module name="ltr-tools_main" target="1.8" />
+      <module name="ltr-tools_test" target="1.8" />
+      <module name="media-base" target="1.8" />
+      <module name="pinyin4j" target="1.6" />
+      <module name="recommender" target="1.8" />
+      <module name="rs-rec-algo" target="1.8" />
+      <module name="solr-ltr-plugin" target="1.5" />
+      <module name="spring-boot-krcom" target="1.6" />
+      <module name="spring-boot-krcomdata" target="1.6" />
+      <module name="spring-boot-web" target="1.8" />
+      <module name="VideoBase" target="7" />
+      <module name="VTool" target="7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

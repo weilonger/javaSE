@@ -1,0 +1,2619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="VTool1" />
+      <module name="VideoBase1" />
+      <module name="KBuild" />
+      <module name="javaSE" />
+      <module name="VTool" />
+      <module name="VideoBase" />
+      <module name="media-base" />
+      <module name="spring-boot-web" />
+      <module name="KnowledgeBaseBuild" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60d9868f-381e-4a89-a2a7-5936749dcb2e" name="Default Changelist" comment="下拉冲突解决">
+      <change beforePath="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialEditInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialEditInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/version/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/version/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_1_10_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/smartfox_info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-10/all-2019-10-15-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-10/all-2019-10-15-2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-08-26-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-08-28-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-08-29-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-09-04-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-09-11-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-09-26-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-10-11-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-10-16-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-11-13-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-11-26-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-11-27-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all-2019-11-28-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/chiqweb/2020-03/all-2020-03-13-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/chiqweb/2020-03/all-2020-03-16-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/chiqweb/tag.log" beforeDir="false" />
+    </list>
+    <list id="2ec5a7d0-3318-4287-b340-163cbce3745f" name="Revert &quot;解决专题下载失败问题&quot;" comment="Revert &quot;解决专题下载失败问题&quot;&#10;&#10;This reverts commit 55c7c3e" />
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <ignored path="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/target/" />
+    <ignored path="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/target/" />
+    <ignored path="$PROJECT_DIR$/../../../knowledge code/VTool/VTool/target/" />
+    <ignored path="$PROJECT_DIR$/../../../program code/spring-boot-web/target/" />
+    <ignored path="$PROJECT_DIR$/../../../program code/media-base/target/" />
+    <ignored path="$PROJECT_DIR$/../../../program code/pinyin4j/target/" />
+    <ignored path="$PROJECT_DIR$/../../../program code/ik-analyzer-solr/target/" />
+    <ignored path="$PROJECT_DIR$/../../solr/ik-analyzer-solr7/target/" />
+    <ignored path="$PROJECT_DIR$/../../../program code/librec/target/" />
+    <ignored path="$PROJECT_DIR$/../../../program code/librec/spark/target/" />
+    <ignored path="$PROJECT_DIR$/../../../program code/librec/core/target/" />
+    <ignored path="$PROJECT_DIR$/../../../program code/librec/gui/target/" />
+    <ignored path="$PROJECT_DIR$/../../../LTR/target/" />
+    <ignored path="$PROJECT_DIR$/../../../ltr-tools-master/configuration/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../../ltr-tools-master/configuration/build/" />
+    <ignored path="$PROJECT_DIR$/../../../ltr-tools-master/ltr-tools/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../../ltr-tools-master/ltr-tools/build/" />
+    <ignored path="$PROJECT_DIR$/../../../ltr-tools-master/ltr-tools/out/" />
+    <ignored path="$PROJECT_DIR$/../../../ltr-tools-master/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../../../ltr-tools-master/build/" />
+    <ignored path="$PROJECT_DIR$/../../../ltr-tools-master/target/" />
+    <ignored path="E:/下载/solr-ltr-plugin/target/" />
+    <ignored path="$PROJECT_DIR$/../../../recommend code/rs-rec-algo/target/" />
+    <ignored path="$PROJECT_DIR$/../../../knowledge code/KBuild/target/" />
+    <ignored path="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/target/" />
+    <ignored path="$PROJECT_DIR$/../../../program code/spring-boot-krcom/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/javaSE$RegexExtra.ic" NAME="RegexExtra Coverage Results" MODIFIED="1571625007643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>main.java.InterviewPrepare.DesignPattern.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/javaSE$KnowledgeBaseBuildApplication.ic" NAME="KnowledgeBaseBuildApplication Coverage Results" MODIFIED="1586759743440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="271" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../../../ltr-tools-master">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1632132786">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="157" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.14" value="4" />
+          <entry key="project.open.time.15" value="5" />
+          <entry key="project.open.time.16" value="7" />
+          <entry key="project.open.time.17" value="4" />
+          <entry key="project.open.time.18" value="7" />
+          <entry key="project.open.time.19" value="12" />
+          <entry key="project.open.time.20" value="21" />
+          <entry key="project.open.time.21" value="15" />
+          <entry key="project.open.time.22" value="11" />
+          <entry key="project.open.time.23" value="16" />
+          <entry key="project.open.time.24" value="14" />
+          <entry key="project.open.time.25" value="5" />
+          <entry key="project.open.time.26" value="8" />
+          <entry key="project.open.time.27" value="11" />
+          <entry key="project.open.time.28" value="13" />
+          <entry key="project.open.time.29" value="14" />
+          <entry key="project.open.time.30" value="13" />
+          <entry key="project.open.time.31" value="3" />
+          <entry key="project.open.time.32" value="3" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="2" />
+          <entry key="project.open.time.36" value="2" />
+          <entry key="project.open.time.37" value="4" />
+          <entry key="project.open.time.38" value="3" />
+          <entry key="project.open.time.40" value="2" />
+          <entry key="project.open.time.41" value="2" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.69" value="1" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="215" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="5" value="3" />
+          <entry key="bat" value="1" />
+          <entry key="class" value="183" />
+          <entry key="css" value="50" />
+          <entry key="factorypath" value="1" />
+          <entry key="gitignore" value="23" />
+          <entry key="gradle" value="2" />
+          <entry key="gradlew" value="1" />
+          <entry key="hprof" value="1" />
+          <entry key="html" value="31" />
+          <entry key="iml" value="11" />
+          <entry key="java" value="2613" />
+          <entry key="js" value="238" />
+          <entry key="json" value="2" />
+          <entry key="jsp" value="252" />
+          <entry key="log" value="5" />
+          <entry key="md" value="1" />
+          <entry key="png" value="4" />
+          <entry key="pom" value="5" />
+          <entry key="properties" value="150" />
+          <entry key="readme" value="3" />
+          <entry key="rnc" value="1" />
+          <entry key="sh" value="1" />
+          <entry key="ts" value="13" />
+          <entry key="txt" value="143" />
+          <entry key="vmoptions" value="2" />
+          <entry key="xml" value="76" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="183" />
+          <entry key="CSS" value="50" />
+          <entry key="Groovy" value="2" />
+          <entry key="HTML" value="31" />
+          <entry key="Hprof" value="1" />
+          <entry key="IDEA_MODULE" value="11" />
+          <entry key="Image" value="4" />
+          <entry key="JAVA" value="2611" />
+          <entry key="JSON" value="2" />
+          <entry key="JSP" value="252" />
+          <entry key="JavaScript" value="238" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="182" />
+          <entry key="Properties" value="150" />
+          <entry key="RNG Compact" value="1" />
+          <entry key="TypeScript" value="13" />
+          <entry key="UML" value="3" />
+          <entry key="XML" value="81" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="ErrTypeTestjava" value="49" />
+          <entry key="class" value="11" />
+          <entry key="css" value="696" />
+          <entry key="dummy" value="12" />
+          <entry key="gitignore" value="106" />
+          <entry key="gradle" value="1" />
+          <entry key="html" value="1057" />
+          <entry key="java" value="86253" />
+          <entry key="js" value="27508" />
+          <entry key="jsp" value="17144" />
+          <entry key="properties" value="2117" />
+          <entry key="readme" value="15" />
+          <entry key="txt" value="827" />
+          <entry key="vmoptions" value="11" />
+          <entry key="xml" value="229" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CLASS" value="11" />
+          <entry key="CSS" value="696" />
+          <entry key="Groovy" value="1" />
+          <entry key="HTML" value="1071" />
+          <entry key="JAVA" value="86266" />
+          <entry key="JSP" value="17144" />
+          <entry key="JavaScript" value="27494" />
+          <entry key="PLAIN_TEXT" value="1007" />
+          <entry key="Properties" value="2117" />
+          <entry key="XML" value="229" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="47" />
+          <entry key="git.branch.checkout.remote" value="16" />
+          <entry key="git.branch.compare" value="199" />
+          <entry key="git.branch.delete.local" value="63" />
+          <entry key="git.branch.delete.remote" value="20" />
+          <entry key="git.branch.merge" value="2" />
+          <entry key="git.branch.rebase" value="2" />
+          <entry key="git.branch.rename" value="1" />
+          <entry key="git.checkout.as.new.branch" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.core.usages.trigger">
+        <counts>
+          <entry key="actions.SpringChangeActiveProfiles" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="javaSE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/version/VersionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/version/list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="363" column="92" lean-forward="true" selection-start-line="363" selection-start-column="92" selection-end-line="363" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/version/list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4565">
+              <caret line="319" column="13" selection-start-line="319" selection-start-column="7" selection-end-line="319" selection-end-column="13" />
+              <folding>
+                <element signature="n#style#0;n#select#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <exportBugCollectionDirectory>E:\桌面\findbugs</exportBugCollectionDirectory>
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>movie</find>
+      <find>updateStars</find>
+      <find>文件创建成功</find>
+      <find>updateAwards</find>
+      <find>saveAw</find>
+      <find>getAllMsgByType</find>
+      <find>score</find>
+      <find>footer</find>
+      <find>showImg</find>
+      <find>foot</find>
+      <find>getQ</find>
+      <find>delChild</find>
+      <find>showInfo</find>
+      <find>replace</find>
+      <find>repl</find>
+      <find>deleteChildModal</find>
+      <find>rep</find>
+      <find>show_img</find>
+      <find>updateMe</find>
+      <find>getAllS</find>
+      <find>Vtool</find>
+      <find>commons</find>
+      <find>equalsAny</find>
+      <find>searchBtn</find>
+      <find>player ms</find>
+      <find>机芯操作</find>
+      <find>launch</find>
+      <find>.launch</find>
+      <find>myModal</find>
+      <find>player</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>'</replace>
+      <replace>资源不存在</replace>
+      <replace>nums</replace>
+      <replace>c:if</replace>
+      <replace>edit</replace>
+      <replace>j</replace>
+      <replace>+</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\工作\学习\java\javaSE\src\main\java</dir>
+      <dir>E:\工作\knowledge code\KBuild\KnowledgeBaseBuild\src\main\java</dir>
+      <dir>E:\工作\recommend code\rs-rec-algo</dir>
+      <dir>E:\工作\recommend code\rs-rec-algo\src\main</dir>
+      <dir>E:\工作\recommend code\rs-rec-algo\src\main\java</dir>
+      <dir>E:\工作\knowledge code\VideoBase</dir>
+      <dir>E:\工作\knowledge code\VideoBase\VideoBase</dir>
+      <dir>E:\工作\program code\spring-boot-web\src</dir>
+      <dir>E:\工作\program code\spring-boot-web\src\main</dir>
+      <dir>E:\工作\program code\spring-boot-web\src\main\java</dir>
+      <dir>E:\工作\program code\spring-boot-web\src\main\webapp\ui</dir>
+      <dir>E:\工作\program code\spring-boot-web\src\main\java\com\changhong\web</dir>
+      <dir>E:\工作\program code\spring-boot-web\src\main\java\com\changhong\web\service</dir>
+      <dir>E:\工作\program code\spring-boot-web\src\main\webapp</dir>
+      <dir>E:\工作\program code\spring-boot-web\src\main\webapp\res</dir>
+      <dir>E:\工作\program code\spring-boot-web\src\main\webapp\res\knowledge</dir>
+      <dir>E:\工作\program code\spring-boot-web\src\main\webapp\ui\js\knowledge</dir>
+      <dir>E:\工作\knowledge code\KBuild\KnowledgeBaseBuild\src\main\java\com\changhong\videobase\build\controller</dir>
+      <dir>E:\工作\program code\spring-boot-web\src\main\webapp\ui\js</dir>
+      <dir>E:\工作\program code\spring-boot-web\src\main\java\com\changhong\web\controller</dir>
+      <dir>E:\工作\knowledge code\KBuild\KnowledgeBaseBuild\src\main\java\com\changhong\videobase\build</dir>
+      <dir>E:\工作\knowledge code\KBuild\KnowledgeBaseBuild\src\main\resources</dir>
+      <dir>E:\工作\knowledge code\KBuild</dir>
+      <dir>E:\工作\program code\spring-boot-web</dir>
+      <dir>E:\工作\knowledge code\KBuild\KnowledgeBaseBuild</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../knowledge code/KBuild" value="weilong0624" />
+        <entry key="$PROJECT_DIR$/../../../program code/pinyin4j" value="master" />
+        <entry key="$PROJECT_DIR$/../../../program code/spring-boot-web" value="weilong0701" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../ltr-tools-master/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/../../../ltr-tools-master/build.gradle" value="3903691400" />
+        <entry key="$PROJECT_DIR$/../../../ltr-tools-master/configuration/build.gradle" value="2913414604" />
+        <entry key="$PROJECT_DIR$/../../../ltr-tools-master/gradle/wrapper/gradle-wrapper.properties" value="1334391402" />
+        <entry key="$PROJECT_DIR$/../../../ltr-tools-master/ltr-tools/build.gradle" value="3708380878" />
+        <entry key="$PROJECT_DIR$/../../../ltr-tools-master/settings.gradle" value="2006930480" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/specialEditInfo.jsp" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/MediaSource.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/YouKuAdapter.java" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/AutoFindController.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/VideoSeries.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/task/KBSeriesLoadTask.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KBaseSeriesCompController.java" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/dao/knowledge/KnowledgeDao.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/task/KBFilterTask.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/test/java/com/changhong/videobase/build/test/ErrTypeTitle.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/test/java/com/changhong/videobase/build/test/ErrTypeTestjava" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/test/java/com/changhong/videobase/build/test/ErrorTypeTest.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KbaseRewardController.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KBaseSeriesController.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KbaseStarsController.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/SpecialController.java" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/domain/newversiondomain/ChiqConfigVersionRecord.java" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/utils/SaveMongoEventListener.java" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/domain/know/SelfCheckConfig.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialSourceInfo.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/test/java/com/changhong/videobase/build/test/StarsCleanTest.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/upload/errAwardIds.txt" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/CleanUpController.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/CleanService.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KBaseSeriesService.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KbaseStarsService.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/AwardInfo.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KbaseRewardService.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialEditInfo.java" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/main/list.jsp" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/list.jsp" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/list.js" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/KnowLedgeService.java" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/SpecialService.java" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/special_confirm.js" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/specialConfirm.jsp" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/VTool/VTool/src/main/java/com/changhong/video/tools/files/ExcelUtils.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SpecialService.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/save/KBHelper.java" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/load/MongooDBFactory.java" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/special_operation.jsp" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/special_operation.js" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java" />
+        <option value="E:/下载/input拖拽排序/6320/index.html" />
+        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/version/list.jsp" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven_repository" />
+        <option name="userSettingsFile" value="D:\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-boot-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-boot-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-boot-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="VideoBase" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="VideoBase" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="VideoBase" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="VTool" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="VTool" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1880" />
+    <option name="y" value="1" />
+    <option name="width" value="1932" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>AccessibilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Ali-Check</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Bidirectional TextInternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Chrome OSCorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Cloning issuesJava</id>
+          </State>
+          <State>
+            <id>Code maturityJava</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>FreeMarker</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice</id>
+          </State>
+          <State>
+            <id>IconsUsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Internationalization</id>
+          </State>
+          <State>
+            <id>InternationalizationJava</id>
+          </State>
+          <State>
+            <id>InternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>J2ME SupportJava</id>
+          </State>
+          <State>
+            <id>JUnitJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavadocJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>MessagesCorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>PortabilityJava</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>SecurityLintAndroid</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>Spring IntegrationSpring</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>StyleGroovy</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>UsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>VisibilityJava</id>
+          </State>
+          <State>
+            <id>Web Services</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AlibabaClassNamingShouldBeCamel</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaSE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="knowledge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="version" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="knowledge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="version" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="version" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/工作/学习/java/javaSE/src/main/java/leetcode/compete22/MaximalRectangel.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594117389938" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../program code/media-base" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\工作\knowledge code\KBuild\KnowledgeBaseBuild\upload" />
+      <recent name="E:\工作\program code\spring-boot-web\src\main\webapp\ui\js\newversion" />
+      <recent name="E:\工作\program code\spring-boot-web\src\main\webapp\res\newversion" />
+      <recent name="E:\工作\program code\spring-boot-web\src\main\webapp\ui\js\knowledge" />
+      <recent name="E:\工作\学习\java\javaSE\src\main\java\Utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\工作\program code\spring-boot-web\src\main\webapp\res\knowledge" />
+      <recent name="E:\工作\program code\spring-boot-web\src\main\webapp\ui\js\knowledge" />
+      <recent name="E:\工作\program code\spring-boot-krcomdata\src\main\java\com\changhong\krcomdata\config" />
+      <recent name="E:\工作\program code\spring-boot-krcomdata\src\main\java\com\changhong\krcomdata\domain\base" />
+      <recent name="E:\工作\program code\spring-boot-krcomdata" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.changhong.videobase.bean" />
+      <recent name="com.changhong.videobase.build.service" />
+      <recent name="com.changhong.krcomdata.domain" />
+      <recent name="com.changhong.krcomdata.domain.base" />
+      <recent name="com.changhong.krcomdata.utils" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.changhong.web.domain.newversiondomain" />
+      <recent name="com.changhong.videobase.build.service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WebApp">
+    <configuration name="AwardTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KnowledgeBaseBuild" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.changhong.videobase.build.test.scheduleTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.changhong.videobase.build.test" />
+      <option name="MAIN_CLASS_NAME" value="com.changhong.videobase.build.test.AwardTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KnowledgeBaseBuild" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.changhong.videobase.build.test.scheduleTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.changhong.videobase.build.test" />
+      <option name="MAIN_CLASS_NAME" value="com.changhong.videobase.build.test.CountField" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ErrorTypeTest.getErrTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KnowledgeBaseBuild" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.changhong.videobase.build.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.changhong.videobase.build.test" />
+      <option name="MAIN_CLASS_NAME" value="com.changhong.videobase.build.test.ErrorTypeTest" />
+      <option name="METHOD_NAME" value="getErrTitle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-krcom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.changhong.krcom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.changhong.krcom.App" />
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnowledgeBaseBuildApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="KnowledgeBaseBuild" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.changhong.videobase.build.KnowledgeBaseBuildApplication" />
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KrcomDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-krcomdata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.changhong.krcomdata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.changhong.krcomdata.KrcomDataApplication" />
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecAlgorithmApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rs-rec-algo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.changhong.rs.recommender.RecAlgorithmApp" />
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.changhong.web.WebApp" />
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.KnowledgeBaseBuildApplication" />
+      <item itemvalue="Spring Boot.WebApp" />
+      <item itemvalue="Spring Boot.RecAlgorithmApp" />
+      <item itemvalue="JUnit.CountField" />
+      <item itemvalue="JUnit.AwardTest.test" />
+      <item itemvalue="Spring Boot.KrcomDataApplication" />
+      <item itemvalue="Spring Boot.App" />
+      <item itemvalue="JUnit.ErrorTypeTest.getErrTitle" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ErrorTypeTest.getErrTitle" />
+        <item itemvalue="Spring Boot.App" />
+        <item itemvalue="Spring Boot.KrcomDataApplication" />
+        <item itemvalue="JUnit.AwardTest.test" />
+        <item itemvalue="JUnit.CountField" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60d9868f-381e-4a89-a2a7-5936749dcb2e" name="Default Changelist" comment="" />
+      <created>1566526670375</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566526670375</updated>
+      <workItem from="1566526678712" duration="2640000" />
+      <workItem from="1566550233344" duration="1766000" />
+      <workItem from="1566790922407" duration="8288000" />
+      <workItem from="1566868702520" duration="8591000" />
+      <workItem from="1566954348647" duration="21313000" />
+      <workItem from="1567040875370" duration="12936000" />
+      <workItem from="1567128297833" duration="3305000" />
+      <workItem from="1567150696622" duration="408000" />
+      <workItem from="1567386503450" duration="1604000" />
+      <workItem from="1567413109090" duration="1852000" />
+      <workItem from="1567472766694" duration="6978000" />
+      <workItem from="1567491688976" duration="2565000" />
+      <workItem from="1567494370242" duration="1215000" />
+      <workItem from="1567499513263" duration="2735000" />
+      <workItem from="1567562269187" duration="9628000" />
+      <workItem from="1567645069791" duration="2004000" />
+      <workItem from="1567732478005" duration="3610000" />
+      <workItem from="1567991245333" duration="2336000" />
+      <workItem from="1568078203688" duration="2262000" />
+      <workItem from="1568164098814" duration="2610000" />
+      <workItem from="1568250717174" duration="1443000" />
+      <workItem from="1568596702488" duration="4338000" />
+      <workItem from="1568682151767" duration="1457000" />
+      <workItem from="1568768638675" duration="4081000" />
+      <workItem from="1568855421300" duration="3737000" />
+      <workItem from="1568941630278" duration="4166000" />
+      <workItem from="1569201738864" duration="4177000" />
+      <workItem from="1569373774406" duration="5743000" />
+      <workItem from="1569460665174" duration="4782000" />
+      <workItem from="1569547209060" duration="1268000" />
+      <workItem from="1570496262612" duration="11909000" />
+      <workItem from="1570582659945" duration="8277000" />
+      <workItem from="1570670821629" duration="6103000" />
+      <workItem from="1570755858440" duration="7241000" />
+      <workItem from="1570842782824" duration="3500000" />
+      <workItem from="1571015028801" duration="4119000" />
+      <workItem from="1571101169176" duration="5851000" />
+      <workItem from="1571187770687" duration="9383000" />
+      <workItem from="1571274425116" duration="6847000" />
+      <workItem from="1571375368082" duration="6507000" />
+      <workItem from="1571619991498" duration="10191000" />
+      <workItem from="1571708472776" duration="9146000" />
+      <workItem from="1571793283630" duration="9574000" />
+      <workItem from="1571880086279" duration="3765000" />
+      <workItem from="1571965858160" duration="9995000" />
+      <workItem from="1572224583648" duration="3633000" />
+      <workItem from="1572325622478" duration="9347000" />
+      <workItem from="1572397581441" duration="8656000" />
+      <workItem from="1572485765466" duration="5627000" />
+      <workItem from="1572571796062" duration="3838000" />
+      <workItem from="1572829961074" duration="585000" />
+      <workItem from="1572916402545" duration="585000" />
+      <workItem from="1573002735265" duration="8220000" />
+      <workItem from="1573088815274" duration="4705000" />
+      <workItem from="1573175186310" duration="5738000" />
+      <workItem from="1573443652327" duration="9550000" />
+      <workItem from="1573520772636" duration="8894000" />
+      <workItem from="1573606954197" duration="7994000" />
+      <workItem from="1573780883723" duration="2833000" />
+      <workItem from="1574039691281" duration="3579000" />
+      <workItem from="1574127314557" duration="11564000" />
+      <workItem from="1574212447021" duration="5168000" />
+      <workItem from="1574299238828" duration="6883000" />
+      <workItem from="1574384694961" duration="10803000" />
+      <workItem from="1574644108903" duration="3894000" />
+      <workItem from="1574730556322" duration="8700000" />
+      <workItem from="1574818760929" duration="5561000" />
+      <workItem from="1574903376419" duration="6332000" />
+      <workItem from="1574989455118" duration="2671000" />
+      <workItem from="1575248462316" duration="15921000" />
+      <workItem from="1575335844873" duration="2917000" />
+      <workItem from="1575421889796" duration="586000" />
+      <workItem from="1575507689663" duration="1785000" />
+      <workItem from="1575610494839" duration="1174000" />
+      <workItem from="1575940045523" duration="583000" />
+      <workItem from="1576486254613" duration="775000" />
+      <workItem from="1576804691245" duration="12266000" />
+      <workItem from="1577064072525" duration="9191000" />
+      <workItem from="1577150120218" duration="15623000" />
+      <workItem from="1577236448715" duration="13494000" />
+      <workItem from="1577322219318" duration="8496000" />
+      <workItem from="1577409218879" duration="17506000" />
+      <workItem from="1577670463316" duration="15267000" />
+      <workItem from="1577754523350" duration="6355000" />
+      <workItem from="1577927446567" duration="10520000" />
+      <workItem from="1578016211182" duration="1802000" />
+      <workItem from="1578359365612" duration="7977000" />
+      <workItem from="1578445942566" duration="12612000" />
+      <workItem from="1578533041032" duration="29665000" />
+      <workItem from="1578618856625" duration="17085000" />
+      <workItem from="1578877955641" duration="7294000" />
+      <workItem from="1578966789199" duration="4300000" />
+      <workItem from="1578986547653" duration="3384000" />
+      <workItem from="1579051434160" duration="16599000" />
+      <workItem from="1579138539070" duration="12088000" />
+      <workItem from="1579223495183" duration="2851000" />
+      <workItem from="1581318186332" duration="282000" />
+      <workItem from="1581404714478" duration="1207000" />
+      <workItem from="1581478408309" duration="515000" />
+      <workItem from="1581563047802" duration="7640000" />
+      <workItem from="1581644156338" duration="9990000" />
+      <workItem from="1581902251742" duration="2880000" />
+      <workItem from="1581988270153" duration="13834000" />
+      <workItem from="1582074791982" duration="2172000" />
+      <workItem from="1582162019218" duration="10417000" />
+      <workItem from="1582248995051" duration="7654000" />
+      <workItem from="1582275675583" duration="3450000" />
+      <workItem from="1582507811375" duration="19733000" />
+      <workItem from="1582597264424" duration="21330000" />
+      <workItem from="1582680247505" duration="13121000" />
+      <workItem from="1582768464677" duration="22211000" />
+      <workItem from="1582866645300" duration="8728000" />
+      <workItem from="1583112667000" duration="11887000" />
+      <workItem from="1583199161503" duration="11241000" />
+      <workItem from="1583284126437" duration="14661000" />
+      <workItem from="1583386961673" duration="7776000" />
+      <workItem from="1583457417057" duration="15838000" />
+      <workItem from="1583716658624" duration="12356000" />
+      <workItem from="1583803295997" duration="9392000" />
+      <workItem from="1583895191485" duration="8045000" />
+      <workItem from="1583980334237" duration="10499000" />
+      <workItem from="1584080878354" duration="1020000" />
+      <workItem from="1584081979304" duration="10639000" />
+      <workItem from="1584326055695" duration="16047000" />
+      <workItem from="1584425641391" duration="442000" />
+      <workItem from="1584429012929" duration="2106000" />
+      <workItem from="1584435130893" duration="1506000" />
+      <workItem from="1584436691193" duration="599000" />
+      <workItem from="1584681137270" duration="674000" />
+      <workItem from="1584947111701" duration="96000" />
+      <workItem from="1584951265998" duration="2303000" />
+      <workItem from="1584957130763" duration="1962000" />
+      <workItem from="1585038854095" duration="2197000" />
+      <workItem from="1585098686597" duration="3605000" />
+      <workItem from="1585190261298" duration="1612000" />
+      <workItem from="1585215111445" duration="840000" />
+      <workItem from="1585277417484" duration="4952000" />
+      <workItem from="1585622077015" duration="468000" />
+      <workItem from="1585639354213" duration="8958000" />
+      <workItem from="1585649621189" duration="816000" />
+      <workItem from="1585702927227" duration="1172000" />
+      <workItem from="1585796652365" duration="15228000" />
+      <workItem from="1585876244494" duration="12925000" />
+      <workItem from="1586311322336" duration="6359000" />
+      <workItem from="1586314482157" duration="2124000" />
+      <workItem from="1586322839624" duration="8922000" />
+      <workItem from="1586394107349" duration="10715000" />
+      <workItem from="1586427224203" duration="875000" />
+      <workItem from="1586481527010" duration="2985000" />
+      <workItem from="1586740789522" duration="18780000" />
+      <workItem from="1586840308228" duration="10256000" />
+      <workItem from="1586916283593" duration="12102000" />
+      <workItem from="1587015324676" duration="2958000" />
+      <workItem from="1587088688504" duration="8953000" />
+      <workItem from="1587104359228" duration="7197000" />
+      <workItem from="1587862815501" duration="22261000" />
+      <workItem from="1587956989155" duration="21985000" />
+      <workItem from="1588035731977" duration="24259000" />
+      <workItem from="1588127210789" duration="15242000" />
+      <workItem from="1588208624325" duration="20438000" />
+      <workItem from="1588727125946" duration="28210000" />
+      <workItem from="1588813448658" duration="30026000" />
+      <workItem from="1588900510603" duration="23409000" />
+      <workItem from="1588986811651" duration="24775000" />
+      <workItem from="1589160326854" duration="26482000" />
+      <workItem from="1589245820337" duration="27603000" />
+      <workItem from="1589331836820" duration="27440000" />
+      <workItem from="1589418244481" duration="37606000" />
+      <workItem from="1589520574580" duration="7919000" />
+      <workItem from="1589763965285" duration="20532000" />
+      <workItem from="1589850301052" duration="12568000" />
+      <workItem from="1589872862745" duration="5348000" />
+      <workItem from="1589936429033" duration="24949000" />
+      <workItem from="1590023848132" duration="24136000" />
+      <workItem from="1590109697296" duration="24916000" />
+      <workItem from="1590368337244" duration="27638000" />
+      <workItem from="1590455635402" duration="12201000" />
+      <workItem from="1590487347372" duration="3207000" />
+      <workItem from="1590542171223" duration="17704000" />
+      <workItem from="1590567720821" duration="7509000" />
+      <workItem from="1590575332481" duration="1480000" />
+      <workItem from="1590576911773" duration="355000" />
+      <workItem from="1590628365286" duration="18004000" />
+      <workItem from="1590713952221" duration="13255000" />
+      <workItem from="1590738845816" duration="7193000" />
+      <workItem from="1590974475707" duration="18739000" />
+      <workItem from="1591003937755" duration="3072000" />
+      <workItem from="1591059822137" duration="31082000" />
+      <workItem from="1591148587831" duration="22046000" />
+      <workItem from="1591319321842" duration="30317000" />
+      <workItem from="1591577938273" duration="29830000" />
+      <workItem from="1591666425597" duration="21093000" />
+      <workItem from="1591700241977" duration="1435000" />
+      <workItem from="1591752641292" duration="23501000" />
+      <workItem from="1591781833947" duration="7401000" />
+      <workItem from="1591837847184" duration="25304000" />
+      <workItem from="1591926331589" duration="26584000" />
+      <workItem from="1592014741071" duration="16558000" />
+      <workItem from="1592183723225" duration="8191000" />
+      <workItem from="1592270653760" duration="12564000" />
+      <workItem from="1592356761065" duration="12938000" />
+      <workItem from="1592443066138" duration="23839000" />
+      <workItem from="1592529023420" duration="10785000" />
+      <workItem from="1592788400321" duration="25236000" />
+      <workItem from="1592874902608" duration="24337000" />
+      <workItem from="1592961989544" duration="14293000" />
+      <workItem from="1593306911564" duration="30103000" />
+      <workItem from="1593393474549" duration="26905000" />
+      <workItem from="1593479380470" duration="16878000" />
+      <workItem from="1593567365850" duration="18959000" />
+      <workItem from="1593652255825" duration="11371000" />
+      <workItem from="1593673683842" duration="13479000" />
+      <workItem from="1593739317871" duration="19568000" />
+      <workItem from="1593835390695" duration="47211000" />
+      <workItem from="1594097973815" duration="12126000" />
+    </task>
+    <task id="LOCAL-00001" summary="添加日期函数获取昨天日期">
+      <created>1577961005293</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577961005293</updated>
+    </task>
+    <task id="LOCAL-00002" summary="去除时间覆盖、新增清晰度空指针检测">
+      <created>1587958211643</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587958211643</updated>
+    </task>
+    <task id="LOCAL-00003" summary="去除废弃函数接口">
+      <created>1587958895531</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587958895531</updated>
+    </task>
+    <task id="LOCAL-00004" summary="自动合并时附表资源替换">
+      <created>1587963691473</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587963691473</updated>
+    </task>
+    <task id="LOCAL-00005" summary="label指向修改">
+      <created>1588211081159</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588211081159</updated>
+    </task>
+    <task id="LOCAL-00006" summary="终端机芯管理界面修改优化">
+      <created>1588917451585</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588917451585</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Excel文件导入">
+      <created>1588918344141</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588918344141</updated>
+    </task>
+    <task id="LOCAL-00008" summary="IDEA环境文件">
+      <created>1588918459949</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588918459949</updated>
+    </task>
+    <task id="LOCAL-00009" summary="资源添加到对比栏、对比栏内容对比合并">
+      <created>1589784056777</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589784056777</updated>
+    </task>
+    <task id="LOCAL-00010" summary="添加新的机芯版本类">
+      <created>1589785591265</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589785591265</updated>
+    </task>
+    <task id="LOCAL-00011" summary="媒资检索上锁时solr修改需要第二次才能成功修复">
+      <created>1589785978259</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589785978259</updated>
+    </task>
+    <task id="LOCAL-00012" summary="媒资检索上锁时solr修改需要第二次才能成功修复">
+      <created>1589786057615</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1589786057615</updated>
+    </task>
+    <task id="LOCAL-00013" summary="右侧对比栏css样式修改">
+      <created>1589786084380</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1589786084380</updated>
+    </task>
+    <task id="LOCAL-00014" summary="input list选择后出现清除按钮，方便运营人员操作">
+      <created>1589790866847</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589790866847</updated>
+    </task>
+    <task id="LOCAL-00015" summary="系列片分类框样式、数据修改优化">
+      <created>1589797239658</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589797239658</updated>
+    </task>
+    <task id="LOCAL-00016" summary="系列片分类框样式、数据修改优化">
+      <created>1589797270628</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589797270628</updated>
+    </task>
+    <task id="LOCAL-00017" summary="pull代码、配置文件添加端口号配置">
+      <created>1589797858510</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1589797858510</updated>
+    </task>
+    <task id="LOCAL-00018" summary="配置文件添加端口号配置">
+      <created>1589797902173</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1589797902173</updated>
+    </task>
+    <task id="LOCAL-00019" summary="知识库上线资源时，发现该资源下线或被过滤时，从列表中清除该资源方信息后进行资源总状态判断">
+      <created>1590372145257</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1590372145257</updated>
+    </task>
+    <task id="LOCAL-00020" summary="自检服务配置页面及功能完成">
+      <created>1590546620766</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1590546620766</updated>
+    </task>
+    <task id="LOCAL-00021" summary="自增id取消监控，实现插入时自增，保存时不自增">
+      <created>1590546933662</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1590546933662</updated>
+    </task>
+    <task id="LOCAL-00022" summary="自检服务可配置化修改页面">
+      <created>1590547000793</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1590547000793</updated>
+    </task>
+    <task id="LOCAL-00023" summary="判空时异常解决">
+      <created>1590547168740</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1590547168740</updated>
+    </task>
+    <task id="LOCAL-00024" summary="自检服务可配置化接口开发，暂停原先定时任务">
+      <created>1590547282355</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1590547282355</updated>
+    </task>
+    <task id="LOCAL-00025" summary="专题年份未设置修正">
+      <created>1590547305287</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1590547305287</updated>
+    </task>
+    <task id="LOCAL-00026" summary="腾讯专栏类型设置修正">
+      <created>1590547338605</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1590547338605</updated>
+    </task>
+    <task id="LOCAL-00027" summary="媒资检索Solr查询去除id排序，支持拼音首字母检索">
+      <created>1590988108809</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1590988108809</updated>
+    </task>
+    <task id="LOCAL-00028" summary="知识库海报界面展示优化">
+      <created>1591004035044</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1591004035045</updated>
+    </task>
+    <task id="LOCAL-00029" summary="豆瓣资源匹配时字段错误">
+      <created>1591080898049</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1591080898049</updated>
+    </task>
+    <task id="LOCAL-00030" summary="知识库检索页面优化">
+      <created>1591338072204</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1591338072204</updated>
+    </task>
+    <task id="LOCAL-00031" summary="专题列表查询暂存">
+      <created>1591338138652</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1591338138652</updated>
+    </task>
+    <task id="LOCAL-00032" summary="机芯机型问题定位">
+      <created>1591338186277</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1591338186278</updated>
+    </task>
+    <task id="LOCAL-00033" summary="下拉冲突解决">
+      <created>1591338753891</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1591338753891</updated>
+    </task>
+    <task id="LOCAL-00034" summary="下拉冲突解决">
+      <created>1591338989503</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1591338989503</updated>
+    </task>
+    <task id="LOCAL-00035" summary="下拉冲突解决">
+      <created>1591339958672</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1591339958672</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="StarsCleanTest_cleanTest - 2020.07.03 at 15h 27m 49s.xml">
+      <configuration name="StarsCleanTest.cleanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StarsCleanTest_cleanTest - 2020.07.03 at 15h 42m 45s.xml">
+      <configuration name="StarsCleanTest.cleanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StarsCleanTest_cleanTest - 2020.07.03 at 15h 44m 54s.xml">
+      <configuration name="StarsCleanTest.cleanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StarsCleanTest_cleanTest - 2020.07.03 at 15h 46m 13s.xml">
+      <configuration name="StarsCleanTest.cleanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StarsCleanTest_cleanTest - 2020.07.03 at 15h 46m 39s.xml">
+      <configuration name="StarsCleanTest.cleanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StarsCleanTest_cleanTest - 2020.07.03 at 15h 58m 28s.xml">
+      <configuration name="StarsCleanTest.cleanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StarsCleanTest_cleanTest1 - 2020.07.03 at 15h 59m 17s.xml">
+      <configuration name="StarsCleanTest.cleanTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StarsCleanTest_cleanTest - 2020.07.03 at 16h 56m 53s.xml">
+      <configuration name="StarsCleanTest.cleanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StarsCleanTest_cleanTest - 2020.07.03 at 17h 01m 12s.xml">
+      <configuration name="StarsCleanTest.cleanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StarsCleanTest_cleanTest - 2020.07.03 at 17h 02m 01s.xml">
+      <configuration name="StarsCleanTest.cleanTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2213369000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47935367" visible="true" weight="0.23720682" />
+      <window_info id="Structure" order="1" sideWeight="0.52102375" side_tool="true" weight="0.23187633" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.52064633" side_tool="true" weight="0.23187633" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32998884" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32998884" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37904125" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32998884" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32998884" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.3110368" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" visible="true" weight="0.3110368" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32998884" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4989339" weight="0.3188406" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32887402" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="14" weight="0.29319954" />
+      <window_info anchor="bottom" id="CheckStyle" order="15" weight="0.32887402" />
+      <window_info anchor="bottom" id="Run" order="16" weight="0.39018953" />
+      <window_info anchor="bottom" id="Build" order="17" sideWeight="0.49946696" weight="0.32887402" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.19296375" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Gradle" order="10" weight="0.32995737" />
+      <window_info anchor="right" id="Preview" order="11" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="12" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnloadedModulesList">
+    <module name="recommender" />
+    <module name="spring-boot-krcom" />
+    <module name="spring-boot-krcomdata" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="IDEA环境文件" />
+    <MESSAGE value="资源添加到对比栏、对比栏内容对比合并" />
+    <MESSAGE value="添加新的机芯版本类" />
+    <MESSAGE value="媒资检索上锁时solr修改需要第二次才能成功修复" />
+    <MESSAGE value="右侧对比栏css样式修改" />
+    <MESSAGE value="input list选择后出现清除按钮，方便运营人员操作" />
+    <MESSAGE value="系列片分类框样式、数据修改优化" />
+    <MESSAGE value="pull代码、配置文件添加端口号配置" />
+    <MESSAGE value="配置文件添加端口号配置" />
+    <MESSAGE value="知识库上线资源时，发现该资源下线或被过滤时，从列表中清除该资源方信息后进行资源总状态判断" />
+    <MESSAGE value="自检服务配置页面及功能完成" />
+    <MESSAGE value="自增id取消监控，实现插入时自增，保存时不自增" />
+    <MESSAGE value="自检服务可配置化修改页面" />
+    <MESSAGE value="判空时异常解决" />
+    <MESSAGE value="自检服务可配置化接口开发，暂停原先定时任务" />
+    <MESSAGE value="专题年份未设置修正" />
+    <MESSAGE value="腾讯专栏类型设置修正" />
+    <MESSAGE value="媒资检索Solr查询去除id排序，支持拼音首字母检索" />
+    <MESSAGE value="知识库海报界面展示优化" />
+    <MESSAGE value="豆瓣资源匹配时字段错误" />
+    <MESSAGE value="知识库检索页面优化" />
+    <MESSAGE value="专题列表查询暂存" />
+    <MESSAGE value="机芯机型问题定位" />
+    <MESSAGE value="下拉更新" />
+    <MESSAGE value="下拉冲突解决" />
+    <option name="LAST_COMMIT_MESSAGE" value="下拉冲突解决" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/compete1/LongestSubstring.java</url>
+          <line>177</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/compete2/LongestSubstring.java</url>
+          <line>172</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/compete2/ReverseInteger.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test/SetTest.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jdk8/Lamada/LamadaTest.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/compete12/PermutationsII.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/compete13/GroupAnagrams.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SellfCheckScheduledService.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SelfCheckingService.java</url>
+          <line>314</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/DoubanService.java</url>
+          <line>151</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/compete1/AddTwoNumbers.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/compete133/MatrixCellsInDistanceOrder.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test/StringTest.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/compete14/MergeIntevals.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Sort/ShellSort.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Sort/ShellSort.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Sort/HeapSort.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Sort/BubbleSort.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Sort/QuickSort.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/YouKuAdapter.java</url>
+          <line>237</line>
+          <properties />
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test/VectorTest.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/DeckOfCard.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/IQiYiAdapter.java</url>
+          <line>378</line>
+          <properties />
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/YouKuAdapter.java</url>
+          <line>393</line>
+          <properties />
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SelfCheckingService.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/YouKuAdapter.java</url>
+          <line>373</line>
+          <properties />
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/TencentAdapter.java</url>
+          <line>315</line>
+          <properties />
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/base/AreaProcessor.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/login.jsp</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/security/LoginSuccessHandler.java</url>
+          <line>140</line>
+          <properties />
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/security/LoginSuccessHandler.java</url>
+          <line>164</line>
+          <properties />
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/security/LoginSuccessHandler.java</url>
+          <line>155</line>
+          <properties />
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/bigdataservice/BigDataService.java</url>
+          <line>212</line>
+          <properties />
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/plateservice/BasePlateService.java</url>
+          <line>123</line>
+          <properties />
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/dao/chiq/BigDataJixinDao.java</url>
+          <line>125</line>
+          <properties />
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/plateservice/OperateService.java</url>
+          <line>160</line>
+          <properties />
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/domain/newversiondomain/ChiqConfigVersionRecord.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/plateservice/OperateService.java</url>
+          <line>139</line>
+          <properties />
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/plateservice/OperateService.java</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/version/VersionController.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/version/VersionController.java</url>
+          <line>308</line>
+          <properties />
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/mediabaseservice/MainService.java</url>
+          <line>246</line>
+          <properties />
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/KnowLedgeService.java</url>
+          <line>564</line>
+          <properties />
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/VTool/VTool/src/main/java/com/changhong/video/tools/terms/StringTransfer.java</url>
+          <line>225</line>
+          <properties />
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/IQiYiAdapter.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/config/MongodbClient.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/controller/KrcomDataController.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/dao/knowledge/SpecialDao.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java</url>
+          <line>221</line>
+          <properties />
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/dao/knowledge/SpecialDao.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java</url>
+          <line>403</line>
+          <properties />
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java</url>
+          <line>362</line>
+          <properties />
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java</url>
+          <line>380</line>
+          <properties />
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SpecialService.java</url>
+          <line>1094</line>
+          <properties />
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KbaseRewardService.java</url>
+          <line>292</line>
+          <properties />
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KBaseSeriesService.java</url>
+          <line>313</line>
+          <properties />
+          <option name="timeStamp" value="331" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KbaseStarsService.java</url>
+          <line>807</line>
+          <properties />
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SpecialService.java</url>
+          <line>1018</line>
+          <properties />
+          <option name="timeStamp" value="333" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog>
+          <selected-grouping-rules>
+            <grouping-rule id="by-file" />
+          </selected-grouping-rules>
+        </breakpoints-dialog>
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="arrayFilter">
+      <expression>
+        <expression-string>127小时id为vfcc3citb4r2lb77和d2tcjhig5kto1ml3年份一致，有相同演员，有相同导演</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KbaseRewardService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="277" column="21" selection-start-line="277" selection-start-column="21" selection-end-line="277" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KbaseRewardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="237" column="29" selection-start-line="237" selection-start-column="29" selection-end-line="237" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/domain/know/SelfCheckConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/SpecialOperationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2996">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/1.10.4.RELEASE/spring-data-mongodb-1.10.4.RELEASE.jar!/org/springframework/data/mongodb/core/MongoTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/BaseSpecialInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialPageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialEditInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="203" column="41" lean-forward="true" selection-start-line="203" selection-start-column="41" selection-end-line="203" selection-end-column="41" />
+          <folding>
+            <element signature="e#3849#3850#0" expanded="true" />
+            <element signature="e#3884#3885#0" expanded="true" />
+            <element signature="e#3940#3941#0" expanded="true" />
+            <element signature="e#3988#3989#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KBaseSeriesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="208" column="9" selection-start-line="208" selection-start-column="9" selection-end-line="208" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KBaseSeriesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="465" selection-start-line="465" selection-end-line="465" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/compare.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="249" column="31" selection-start-line="249" selection-start-column="24" selection-end-line="249" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/css/knowledge/list.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/main/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2571">
+          <caret line="519" column="64" lean-forward="true" selection-start-line="519" selection-start-column="64" selection-end-line="519" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="105" column="29" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="258" column="30" lean-forward="true" selection-start-line="258" selection-start-column="30" selection-end-line="258" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/VideoBuildController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="153" column="58" selection-start-line="153" selection-start-column="58" selection-end-line="153" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.0.10.RELEASE/spring-data-mongodb-2.0.10.RELEASE.jar!/org/springframework/data/mongodb/core/MongoTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="34" column="94" selection-start-line="34" selection-start-column="94" selection-end-line="34" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/net/DualStackPlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="282" column="22" selection-start-line="282" selection-start-column="22" selection-end-line="282" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/specialConfirm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5319">
+          <caret line="196" column="39" selection-start-line="196" selection-start-column="30" selection-end-line="196" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/special_confirm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7128">
+          <caret line="264" column="47" selection-start-line="264" selection-start-column="47" selection-end-line="264" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/resources/application-prod.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VTool/VTool/src/main/java/com/changhong/video/tools/files/ExcelUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="182" column="37" lean-forward="true" selection-start-line="182" selection-start-column="37" selection-end-line="182" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/config/MongoTemplateConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/config/MongoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="115" column="28" lean-forward="true" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
+          <folding>
+            <element signature="e#3324#3325#0" expanded="true" />
+            <element signature="e#3368#3369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialSourceInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#2479#2480#0" expanded="true" />
+            <element signature="e#2514#2515#0" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2618#2619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/dao/knowledge/SpecialDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
+          <folding>
+            <element signature="e#3078#3079#0" expanded="true" />
+            <element signature="e#3157#3158#0" expanded="true" />
+            <element signature="e#3552#3553#0" expanded="true" />
+            <element signature="e#3601#3602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SpecialService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="785" column="50" lean-forward="true" selection-start-line="785" selection-start-column="50" selection-end-line="785" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/SpecialController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/save/KBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="69" column="74" lean-forward="true" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
+          <folding>
+            <element signature="e#53380#53381#0" expanded="true" />
+            <element signature="e#53415#53416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="91" column="37" lean-forward="true" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/load/MongooDBFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="182" column="29" lean-forward="true" selection-start-line="182" selection-start-column="29" selection-end-line="182" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/know/KnowUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="792" column="24" selection-start-line="792" selection-start-column="24" selection-end-line="792" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.3/commons-lang3-3.3.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="89" column="50" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/special_operation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="244" column="45" selection-start-line="244" selection-start-column="36" selection-end-line="244" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/KnowledgeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/special_operation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="419" column="36" lean-forward="true" selection-start-line="419" selection-start-column="36" selection-end-line="419" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/SpecialService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="114" column="22" lean-forward="true" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/KnowLedgeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="434" column="14" lean-forward="true" selection-start-line="434" selection-start-column="14" selection-end-line="434" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6070#6071#0" expanded="true" />
+            <element signature="e#6132#6133#0" expanded="true" />
+            <element signature="e#6721#6722#0" expanded="true" />
+            <element signature="e#6791#6792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/version/VersionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/下载/input拖拽排序/6320/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/下载/input拖拽排序/6320/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/下载/input拖拽排序/6320/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/version/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="363" column="92" lean-forward="true" selection-start-line="363" selection-start-column="92" selection-end-line="363" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/version/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4565">
+          <caret line="319" column="13" selection-start-line="319" selection-start-column="7" selection-end-line="319" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>spring-boot-web:Web exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>VideoBase</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>gradle-wrapper</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

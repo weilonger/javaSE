@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../knowledge code/KBuild" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../knowledge code/VTool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../knowledge code/VideoBase" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../program code/media-base" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../program code/spring-boot-web" vcs="Git" />
+  </component>
+</project>

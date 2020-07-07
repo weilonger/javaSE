@@ -68,9 +68,9 @@ public class Atoi {
             num = Integer.parseInt(number);
         } catch (NumberFormatException e) {
             if (number.contains("-")) {
-                num = (int)-Math.pow(2, 31);
+                num = Integer.MIN_VALUE;
             } else {
-                num = (int)(Math.pow(2, 31) - 1);
+                num = Integer.MAX_VALUE;
             }
         }
         return num;
@@ -78,8 +78,9 @@ public class Atoi {
 
     public static void main(String[] args) {
         Atoi a = new Atoi();
-        String s = "  -1";
-        System.out.println(a.myAtoi1(s));
+        String s = "2147483648";
+//        System.out.println(a.myAtoi1(s));
+        System.out.println(a.myAtoi2(s));
     }
 
     //90ms
@@ -110,4 +111,45 @@ public class Atoi {
         String number = str.substring(start, end).trim();
         return getValidInt(number);
     }
+    
+    public int myAtoi2(String str) {
+        int length = str.length();
+        //符号状态
+        boolean status = true;
+        //是否已经开始
+        boolean start = true;
+        StringBuilder s = new StringBuilder();
+        for (int i = 0; i < length; i++) {
+            char temp = str.charAt(i);
+            if ((temp >= 48 && temp <= 57)) {
+                start = false;
+                s.append(temp);
+            } else if (start && (temp == '-' || temp == '+')) {
+                status = temp == '+';
+                start = false;
+            } else if (start && temp == ' ') {
+                continue;
+            } else {
+                break;
+            }
+        }
+        int y = 0;
+        for (int i = 0; i < s.length(); i++) {
+            int x = s.charAt(i) - 48;
+            if (status) {
+                if ((y == Integer.MAX_VALUE / 10 && x > 7) || y > Integer.MAX_VALUE / 10) {
+                    return Integer.MAX_VALUE;
+                }
+                y = y * 10 + x;
+            } else {
+                if ((y == Integer.MIN_VALUE / 10 && x > 8) || y < Integer.MIN_VALUE / 10) {
+                    return Integer.MIN_VALUE;
+                }
+                y = y * 10 - x;
+            }
+            
+        }
+        return y;
+    }
+    
 }

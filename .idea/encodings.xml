@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../program code/ik-analyzer-solr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../program code/librec" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../program code/librec/core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../program code/librec/gui" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../program code/librec/spark" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../program code/media-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../program code/pinyin4j" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../program code/spring-boot-krcom" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../program code/spring-boot-krcomdata" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../program code/spring-boot-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../recommend code/rs-rec-algo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../solr/ik-analyzer-solr7" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -51,7 +51,7 @@ public class LongestSubstring {
     public static void main(String[] args) {
         LongestSubstring l = new LongestSubstring();
         String s = "bbbbabbb";
-        System.out.println(l.longestPalindrome1(s));
+        System.out.println(l.longestPalindrome3(s));
     }
 
     /*方法一：动态规划
@@ -69,7 +69,7 @@ public class LongestSubstring {
         int start = 0;
         int end = 1;
         int max = 0;
-        if (n <= 1 ) {
+        if (n <= 1) {
             return s;
         }
         for (int i = 0; i < n - 1; i++) {
@@ -79,10 +79,10 @@ public class LongestSubstring {
             int len1 = getLongest(left, right1, s);
             int len2 = getLongest(left, right2, s);
             if (len1 > len2 && len1 > max) {
-                max =len1;
+                max = len1;
                 start = left - len1 / 2;
                 end = right1 + len1 / 2 + 1;
-            } else if (len2 > len1 && len2 > max){
+            } else if (len2 > len1 && len2 > max) {
                 max = len2;
                 start = left - len2 / 2 + 1;
                 end = right2 + len2 / 2;
@@ -144,4 +144,33 @@ public class LongestSubstring {
         }
         return R - L - 1;
     }
+
+    public String longestPalindrome3(String s) {
+        int len = s.length();
+        if (s == null || len < 1) return "";
+        int start = 0;
+        int end = 0;
+        for (int i = 0; i < len; i++) {
+            int maxA = getMaxLength(s, i, i);
+            int maxB = getMaxLength(s, i, i + 1);
+            int temp = Math.max(maxA, maxB);
+            if (temp > end - start) {
+                start = i - (temp - 1) / 2;
+                end = i + temp / 2;
+            }
+        }
+        return s.substring(start, end + 1);
+    }
+
+    private int getMaxLength(String s, int left, int right) {
+        int len = s.length();
+        int L = left;
+        int R = right;
+        while(L >= 0 && R < len && s.charAt(L) == s.charAt(R)) {
+            L--;
+            R++;
+        }
+        return R - L - 1;
+    }
+
 }
