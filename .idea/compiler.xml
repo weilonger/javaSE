@@ -2,39 +2,49 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dataservice" />
+        <module name="javaSE" />
         <module name="KnowledgeBaseBuild" />
         <module name="media-base" />
+        <module name="rs-java-api" />
+        <module name="rs-java-common-resource" />
+        <module name="rs-java-rec-provider" />
+        <module name="rs-java-voice-api" />
+        <module name="rs_schedule" />
+        <module name="spring-boot-bilibili-data" />
         <module name="spring-boot-web" />
+        <module name="spring-boot-xiguadata" />
         <module name="VideoBase" />
+        <module name="VideoBaseHome" />
         <module name="VTool" />
+        <module name="VToolHome" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ik-analyzer-solr7" target="1.8" />
-      <module name="KBuild" target="1.5" />
+    <bytecodeTargetLevel target="8">
+      <module name="dataservice" target="1.8" />
+      <module name="javaSE" target="8" />
+      <module name="KBuild" target="8" />
       <module name="KnowledgeBaseBuild" target="1.8" />
-      <module name="librec" target="1.5" />
-      <module name="librec-core" target="1.5" />
-      <module name="librec-gui" target="1.8" />
-      <module name="librec-spark" target="1.5" />
-      <module name="LTR" target="1.5" />
-      <module name="ltr-tools-master" target="1.5" />
-      <module name="ltr-tools_main" target="1.8" />
-      <module name="ltr-tools_test" target="1.8" />
       <module name="media-base" target="1.8" />
-      <module name="pinyin4j" target="1.6" />
-      <module name="recommender" target="1.8" />
-      <module name="rs-rec-algo" target="1.8" />
-      <module name="solr-ltr-plugin" target="1.5" />
-      <module name="spring-boot-krcom" target="1.6" />
-      <module name="spring-boot-krcomdata" target="1.6" />
+      <module name="rs-java-api" target="1.8" />
+      <module name="rs-java-common-resource" target="1.8" />
+      <module name="rs-java-rec-provider" target="1.8" />
+      <module name="rs-java-resource" target="1.8" />
+      <module name="rs-java-rest-api" target="1.8" />
+      <module name="rs-java-voice-api" target="1.8" />
+      <module name="rs_schedule" target="1.8" />
+      <module name="spring-boot-bilibili-data" target="1.8" />
       <module name="spring-boot-web" target="1.8" />
+      <module name="spring-boot-xiguadata" target="1.8" />
       <module name="VideoBase" target="7" />
+      <module name="VideoBaseHome" target="7" />
       <module name="VTool" target="7" />
+      <module name="VToolHome" target="7" />
     </bytecodeTargetLevel>
   </component>
 </project>

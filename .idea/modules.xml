@@ -2,18 +2,24 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KBuild.iml" filepath="$PROJECT_DIR$/../../../knowledge code/KBuild/KBuild.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/KnowledgeBaseBuild.iml" filepath="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/KnowledgeBaseBuild.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../knowledge code/VTool/VTool/VTool.iml" filepath="$PROJECT_DIR$/../../../knowledge code/VTool/VTool/VTool.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../knowledge code/VTool/VTool1.iml" filepath="$PROJECT_DIR$/../../../knowledge code/VTool/VTool1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/VideoBase.iml" filepath="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/VideoBase.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase1.iml" filepath="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javaSE.iml" filepath="$PROJECT_DIR$/javaSE.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../program code/media-base/media-base.iml" filepath="$PROJECT_DIR$/../../../program code/media-base/media-base.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../recommend code/rs-rec-algo/recommender.iml" filepath="$PROJECT_DIR$/../../../recommend code/rs-rec-algo/recommender.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../program code/spring-boot-krcom/spring-boot-krcom.iml" filepath="$PROJECT_DIR$/../../../program code/spring-boot-krcom/spring-boot-krcom.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/spring-boot-krcomdata.iml" filepath="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/spring-boot-krcomdata.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../program code/spring-boot-web/spring-boot-web.iml" filepath="$PROJECT_DIR$/../../../program code/spring-boot-web/spring-boot-web.iml" />
+      <module fileurl="file://F:/knowledge_code/KBuild/KBuild.iml" filepath="F:/knowledge_code/KBuild/KBuild.iml" />
+      <module fileurl="file://F:/knowledge_code/KBuild/KnowledgeBaseBuild/KnowledgeBaseBuild.iml" filepath="F:/knowledge_code/KBuild/KnowledgeBaseBuild/KnowledgeBaseBuild.iml" />
+      <module fileurl="file://F:/knowledge_code/VTool/VTool/VTool.iml" filepath="F:/knowledge_code/VTool/VTool/VTool.iml" />
+      <module fileurl="file://F:/knowledge_code/VTool/VToolHome.iml" filepath="F:/knowledge_code/VTool/VToolHome.iml" />
+      <module fileurl="file://F:/knowledge_code/VideoBase/VideoBase/VideoBase.iml" filepath="F:/knowledge_code/VideoBase/VideoBase/VideoBase.iml" />
+      <module fileurl="file://F:/knowledge_code/VideoBase/VideoBaseHome.iml" filepath="F:/knowledge_code/VideoBase/VideoBaseHome.iml" />
+      <module fileurl="file://F:/ai_launcher_code/changhong-recommend-system/changhong-recommend-system.iml" filepath="F:/ai_launcher_code/changhong-recommend-system/changhong-recommend-system.iml" />
+      <module fileurl="file://F:/ai_launcher_code/spring-boot-rs-data/dataservice.iml" filepath="F:/ai_launcher_code/spring-boot-rs-data/dataservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/javaSE.iml" filepath="$PROJECT_DIR$/.idea/javaSE.iml" />
+      <module fileurl="file://F:/program_code/media-base/media-base.iml" filepath="F:/program_code/media-base/media-base.iml" />
+      <module fileurl="file://F:/ai_launcher_code/changhong-recommend-system/rs-java-api/rs-java-api.iml" filepath="F:/ai_launcher_code/changhong-recommend-system/rs-java-api/rs-java-api.iml" />
+      <module fileurl="file://F:/ai_launcher_code/changhong-recommend-system/rs-java-common-resource/rs-java-common-resource.iml" filepath="F:/ai_launcher_code/changhong-recommend-system/rs-java-common-resource/rs-java-common-resource.iml" />
+      <module fileurl="file://F:/ai_launcher_code/changhong-recommend-system/rs-java-rec-provider/rs-java-rec-provider.iml" filepath="F:/ai_launcher_code/changhong-recommend-system/rs-java-rec-provider/rs-java-rec-provider.iml" />
+      <module fileurl="file://F:/ai_launcher_code/spring-boot-voice-rec/rs-java-voice-api.iml" filepath="F:/ai_launcher_code/spring-boot-voice-rec/rs-java-voice-api.iml" />
+      <module fileurl="file://F:/ai_launcher_code/rs-java-schedule/rs_schedule.iml" filepath="F:/ai_launcher_code/rs-java-schedule/rs_schedule.iml" />
+      <module fileurl="file://F:/program_code/spring-boot-bilibili-data/spring-boot-bilibili-data.iml" filepath="F:/program_code/spring-boot-bilibili-data/spring-boot-bilibili-data.iml" />
+      <module fileurl="file://F:/program_code/spring-boot-web/spring-boot-web.iml" filepath="F:/program_code/spring-boot-web/spring-boot-web.iml" />
+      <module fileurl="file://F:/program_code/spring-boot-xiguadata/spring-boot-xiguadata.iml" filepath="F:/program_code/spring-boot-xiguadata/spring-boot-xiguadata.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,226 @@
+/* 1 */
+{
+                        "_id" : ObjectId("5d89c7204728f24288cb4a55"),
+                        "_class" : "com.changhong.domain.chiq.ChiqBaseInfo",
+                        "name" : "中国机长",
+    "searchName" : [
+        "中国机长"
+    ],
+    "short_pin" : [
+        "zgjz"
+    ],
+    "updateTime" : "20200618",
+    "enName" : "The Captain",
+    "alias" : "",
+    "season" : "0",
+    "icons_tencent" : {
+        "HOR_LARGE" : "http://puui.qpic.cn/vcover_hz_pic/0/rj8uc45tm8a17wm1575030307/556",
+        "VER_SMALL" : "http://puui.qpic.cn/vcover_vt_pic/0/rj8uc45tm8a17wm1575030295/175",
+        "HOR_HUGE" : "http://puui.qpic.cn/vcover_hz_pic/0/rj8uc45tm8a17wm1575030307/1920",
+        "VER_LARGE" : "http://puui.qpic.cn/vcover_vt_pic/0/rj8uc45tm8a17wm1575030295/450",
+        "VER_MIDDLE" : "http://puui.qpic.cn/vcover_vt_pic/0/rj8uc45tm8a17wm1575030295/260",
+        "HOR_MIDDLE" : "http://puui.qpic.cn/vcover_hz_pic/0/rj8uc45tm8a17wm1575030307/226",
+        "VER_HUGE" : "http://puui.qpic.cn/vcover_vt_pic/0/rj8uc45tm8a17wm1575030295/770",
+        "HOR_SMALL" : "http://puui.qpic.cn/vcover_hz_pic/0/rj8uc45tm8a17wm1575030307/175"
+    },
+    "icons_iqiyi" : {
+        "HOR_LARGE" : "http://pic6.iqiyipic.com/image/20200225/5d/3b/v_127077106_m_601_m14_320_180.jpg",
+        "VER_SMALL" : "http://pic6.iqiyipic.com/image/20200225/5d/3b/v_127077106_m_601_m14_120_160.jpg",
+        "HOR_HUGE" : "http://pic6.iqiyipic.com/image/20200225/5d/3b/v_127077106_m_601_m14_480_360.jpg",
+        "VER_LARGE" : "http://pic6.iqiyipic.com/image/20200225/5d/3b/v_127077106_m_601_m14_260_360.jpg",
+        "VER_MIDDLE" : "http://pic6.iqiyipic.com/image/20200225/5d/3b/v_127077106_m_601_m14_260_360.jpg",
+        "HOR_MIDDLE" : "http://pic6.iqiyipic.com/image/20200225/5d/3b/v_127077106_m_601_m14_284_160.jpg",
+        "VER_HUGE" : "http://pic6.iqiyipic.com/image/20200225/5d/3b/v_127077106_m_601_m14_260_360.jpg",
+        "HOR_SMALL" : "http://pic6.iqiyipic.com/image/20200225/5d/3b/v_127077106_m_601_m14_220_124.jpg"
+    },
+    "icons_mgtv" : {
+        "HOR_LARGE" : "http://0img.hitv.com/preview/internettv/sp_images/ott/2019/6/21/dianying/330234/20190621095132955-new.jpg",
+        "HOR_HUGE" : "http://0img.hitv.com/preview/internettv/sp_images/ott/2019/6/21/dianying/330234/20190621095132955-new.jpg",
+        "VER_SMALL" : "http://3img.hitv.com/preview/internettv/sp_images/ott/2019/12/3/dianying/330234/20191203155401722-new.jpg",
+        "VER_LARGE" : "http://3img.hitv.com/preview/internettv/sp_images/ott/2019/12/3/dianying/330234/20191203155401722-new.jpg",
+        "HOR_MIDDLE" : "http://0img.hitv.com/preview/internettv/sp_images/ott/2019/6/21/dianying/330234/20190621095132955-new.jpg",
+        "VER_MIDDLE" : "http://3img.hitv.com/preview/internettv/sp_images/ott/2019/12/3/dianying/330234/20191203155401722-new.jpg",
+        "VER_HUGE" : "http://3img.hitv.com/preview/internettv/sp_images/ott/2019/12/3/dianying/330234/20191203155401722-new.jpg",
+        "HOR_SMALL" : "http://0img.hitv.com/preview/internettv/sp_images/ott/2019/6/21/dianying/330234/20190621095132955-new.jpg"
+    },
+    "icons_youku" : {
+        "HOR_LARGE" : "http://cn-vmc-images.alicdn.com/vmac/10000000050C00005E97F2634265930CD34FC3F0",
+        "HOR_HUGE" : "http://cn-vmc-images.alicdn.com/vmac/10000000053500005E97F2634265930CD34FC3F0?x-oss-process=image/resize,p_45",
+        "VER_SMALL" : "http://cn-vmc-images.alicdn.com/vmac/10000000050E00005D7778918B7439FBA00A957E?x-oss-process=image/resize,p_45",
+        "VER_LARGE" : "http://cn-vmc-images.alicdn.com/vmac/10000000050E00005D7778918B7439FBA00A957E",
+        "HOR_MIDDLE" : "http://cn-vmc-images.alicdn.com/vmac/10000000050C00005E97F2634265930CD34FC3F0?x-oss-process=image/resize,p_45",
+        "VER_MIDDLE" : "http://cn-vmc-images.alicdn.com/vmac/10000000050E00005D7778918B7439FBA00A957E?x-oss-process=image/resize,p_45",
+        "VER_HUGE" : "http://cn-vmc-images.alicdn.com/vmac/10000000053400005D7778978B7439FABF0C01C4?x-oss-process=image/resize,p_45",
+        "HOR_SMALL" : "http://cn-vmc-images.alicdn.com/vmac/10000000050C00005E97F2634265930CD34FC3F0?x-oss-process=image/resize,p_45"
+    },
+    "categorys" : {
+        "categoryId" : "1",
+        "categoryName" : "电影"
+    },
+    "category_map" : [
+        "10139",
+        "正片",
+        "1037",
+        "电影",
+        "1",
+        "电影"
+    ],
+    "country" : "内地/亚洲/大陆/中国",
+    "country_group" : [
+        "内地"
+    ],
+    "year" : 2019,
+    "language" : "国语",
+    "director" : [
+        "刘伟强"
+    ],
+    "cast" : [
+        "张涵予",
+        "欧豪",
+        "杜江",
+        "袁泉",
+        "张天爱",
+        "李沁",
+        "张雅玫",
+        "杨祺如",
+        "高戈"
+    ],
+    "issue" : "2019-09-30",
+    "isClip" : "0",
+    "enable" : "1",
+    "tag" : [
+        "剧情",
+        "传记",
+        "灾难",
+        "院线"
+    ],
+    "guests" : [],
+    "grade_score" : "8.3",
+    "summary" : "根据2018年5月14日川航3U8633航班成功备降的真实事件改编：机组执行航班任务时，在万米高空突遇驾驶舱风挡玻璃爆裂脱落、座舱释压的极端罕见险情，生死关头，他们临危不乱、果断应对、正确处置，确保了机上全部人员的生命安全，创造了世界民航史上的奇迹。",
+    "pp_tencent" : {
+        "pay_status" : "6",
+        "tencentId" : "rj8uc45tm8a17wm",
+        "name" : "中国机长",
+        "status" : "110分钟",
+        "score" : "8.3",
+        "playindex" : {
+            "$ref" : "chiq_base_tx_detail_new1",
+            "$id" : ObjectId("5eeabb234728f22bbcb8cea6")
+        }
+    },
+    "pp_iqiyi" : {
+        "iqiyiId" : "2164623000",
+        "sid" : "5de633d64728f2694f1ccd35",
+        "episodes" : 1,
+        "episodes_total" : 1,
+        "duration" : 110,
+        "vipInfo" : {
+            "isVip" : 1,
+            "isTvod" : 1,
+            "isCoupon" : 0,
+            "isPkg" : 0,
+            "orgPrc" : 500,
+            "validTime" : "48h",
+            "epIsVip" : 1,
+            "epIsTvod" : 1,
+            "epIsCoupon" : 0,
+            "epIsPkg" : 0,
+            "epOrgPrc" : 500,
+            "epValidTime" : "48h"
+        },
+        "eqId" : "2164623000",
+        "cid" : 1,
+        "name" : "中国机长",
+        "status" : "110分钟",
+        "score" : "8.8",
+        "playindex" : {
+            "$ref" : "chiq_base_iqiyi_detail",
+            "$id" : ObjectId("5ee2fa3b4728f20cc30c1d7a")
+        }
+    },
+    "pp_mgtv" : {
+        "name" : "中国机长",
+        "duration" : 110,
+        "status" : "110分钟",
+        "score" : "7.6"
+    },
+    "pp_youku" : {
+        "episodes" : 1,
+        "episodes_total" : 1,
+        "status" : "1分钟",
+        "programId" : NumberLong(207355),
+        "playindex" : {
+            "$ref" : "chiq_base_youku_detail",
+            "$id" : "8f928ecb187844868ef7"
+        }
+    },
+    "tencent" : "1",
+    "iqiyi" : "1",
+    "mgtv" : "1",
+    "youku" : "1",
+    "cibn" : "1",
+    "wasu" : "1",
+    "status" : "110分钟",
+    "status_tc" : "110分钟",
+    "model" : "movie",
+    "ver_flag" : "1",
+    "hor_flag" : "1",
+    "ver_flag_tencent" : "1",
+    "hor_flag_tencent" : "1",
+    "ver_flag_iqiyi" : "1",
+    "hor_flag_iqiyi" : "1",
+    "ver_flag_mgtv" : "1",
+    "hor_flag_mgtv" : "1",
+    "ver_flag_youku" : "1",
+    "hor_flag_youku" : "1",
+    "duration" : 110,
+    "episodes" : 1,
+    "online_time_tencent" : "2019-12-03 00:00:00",
+    "online_time_iqiyi" : "2019-12-03 15:30:28",
+    "online_time_mgtv" : "",
+    "new_rank" : 380,
+    "hot_rank" : 62,
+    "srcId" : "rj8uc45tm8a17wm",
+    "srcIdMgtv" : "330234",
+    "srcIdYouku" : "8f928ecb187844868ef7",
+    "team" : [],
+    "athlete" : [],
+    "broadcasts" : [
+        "和主人一起见证中国奇迹",
+        "9800米高空飞翔，128人命悬一线",
+        "真为张涵予捏把汗呢",
+        "根据川航3U8633航班真实改编",
+        "四川8633，成都在叫你"
+    ],
+    "hot" : "1",
+    "hotIndex" : "2299",
+    "actor" : [
+        {
+            "actorId" : "131284",
+            "head" : "https://puui.qpic.cn/media_img/0/1312841573697591/0",
+            "poster" : "https://puui.qpic.cn/media_img/0/_628_1533985549867097_20012/0",
+            "name" : "欧豪"
+        },
+        {
+            "actorId" : "107149",
+            "head" : "http://puui.qpic.cn/vstar_pic/0/name_107149_688t1467970764.jpg/0",
+            "name" : "杜江"
+        },
+        {
+            "actorId" : "103782",
+            "head" : "http://puui.qpic.cn/media_img/0/null1521198389/0",
+            "poster" : "http://puui.qpic.cn/media_img/0/_715_1533985717400937_20018/0",
+            "name" : "张天爱"
+        }
+    ],
+    "tencentPay" : 6,
+    "youkuPay" : 1,
+    "iqiyiPay" : 3,
+    "mgtvPay" : 1,
+    "update_by" : "tencent_new",
+    "update_date" : ISODate("2020-06-18T00:53:55.508Z"),
+    "chiqBaseInfoEdit" : {
+        "$ref" : "chiq_base_info_edit",
+        "$id" : ObjectId("5ed9f79d4728f24f61413f06")
+    }
+}

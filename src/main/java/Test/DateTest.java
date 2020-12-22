@@ -6,7 +6,7 @@ import java.util.Date;
 public class DateTest {
 
     public static void main(String[] args){
-        test2();
+        test3();
     }
 
     private static void test1(){
@@ -22,6 +22,17 @@ public class DateTest {
         String now = format.format(date);
         System.out.println(now);
         System.out.println(date);
+    }
+
+    private static void test3() {
+        long time = 1604073600000L;
+        System.out.println(time);
+        try {
+            long nowTime = time - (time + 8 * 3600000) % 86400000;
+            System.out.println(nowTime);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
 }

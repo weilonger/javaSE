@@ -3,6 +3,7 @@ package main.java.Model;
 import java.io.Serializable;
 
 public class Person implements Serializable {
+    private String id;
     private String firstName;
     private String lastName;
     private String job;
@@ -11,13 +12,32 @@ public class Person implements Serializable {
     private int age;
 
     public Person(String firstName, String lastName, String job,
-                  String gender, int age, int salary)       {
+                   String gender, int age, int salary){
         this.firstName = firstName;
         this.lastName = lastName;
         this.gender = gender;
         this.age = age;
         this.job = job;
         this.salary = salary;
+    }
+
+    public Person(String id, String firstName, String lastName, String job,
+                  String gender, int age, int salary){
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.gender = gender;
+        this.age = age;
+        this.job = job;
+        this.salary = salary;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getFirstName() {
