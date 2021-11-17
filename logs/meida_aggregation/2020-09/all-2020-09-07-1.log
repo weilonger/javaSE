@@ -1,0 +1,649 @@
+2020-09-07T16:29:06.560+08:00 meida_aggregation INFO Starting AggregationApp on DESKTOP-PJQUS7V with PID 11488 (started by hwl in F:\javaSE)
+2020-09-07T16:29:06.605+08:00 meida_aggregation INFO The following profiles are active: dev
+2020-09-07T16:29:07.095+08:00 meida_aggregation INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-07T16:29:07.096+08:00 meida_aggregation INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-07T16:29:07.959+08:00 meida_aggregation INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-09-07T16:29:07.982+08:00 meida_aggregation INFO Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2020-09-07T16:29:08.707+08:00 meida_aggregation INFO Tomcat initialized with port(s): 8079 (http)
+2020-09-07T16:29:08.722+08:00 meida_aggregation INFO Initializing ProtocolHandler ["http-nio-8079"]
+2020-09-07T16:29:08.734+08:00 meida_aggregation INFO Starting service [Tomcat]
+2020-09-07T16:29:08.735+08:00 meida_aggregation INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-09-07T16:29:08.742+08:00 meida_aggregation INFO Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2020-09-07T16:29:08.743+08:00 meida_aggregation INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-09-07T16:29:08.743+08:00 meida_aggregation INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-09-07T16:29:09.823+08:00 meida_aggregation INFO OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2020-09-07T16:29:10.004+08:00 meida_aggregation INFO Initializing Spring embedded WebApplicationContext
+2020-09-07T16:29:10.005+08:00 meida_aggregation INFO Root WebApplicationContext: initialization completed in 2909 ms
+2020-09-07T16:29:10.035+08:00 meida_aggregation INFO Servlet dispatcherServlet mapped to [/]
+2020-09-07T16:29:10.041+08:00 meida_aggregation INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-07T16:29:10.041+08:00 meida_aggregation INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-07T16:29:10.041+08:00 meida_aggregation INFO Mapping filter: 'formContentFilter' to: [/*]
+2020-09-07T16:29:10.042+08:00 meida_aggregation INFO Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-07T16:29:10.912+08:00 meida_aggregation INFO Cluster created with settings {hosts=[121.36.46.118:8635], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-09-07T16:29:11.178+08:00 meida_aggregation INFO Cluster created with settings {hosts=[121.36.46.118:8635], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-09-07T16:29:11.623+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:1, serverValue:1590095}] to 121.36.46.118:8635
+2020-09-07T16:29:11.623+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:2, serverValue:1590096}] to 121.36.46.118:8635
+2020-09-07T16:29:11.684+08:00 meida_aggregation INFO Monitor thread successfully connected to server with description ServerDescription{address=121.36.46.118:8635, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=58632914, setName='replica', canonicalAddress=172.17.3.181:8635, hosts=[172.17.3.181:8635, 172.17.3.91:8635], passives=[], arbiters=[], primary='172.17.3.181:8635', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Mon Sep 07 16:29:11 CST 2020, lastUpdateTimeNanos=27100638061843}
+2020-09-07T16:29:11.686+08:00 meida_aggregation INFO Monitor thread successfully connected to server with description ServerDescription{address=121.36.46.118:8635, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=62366616, setName='replica', canonicalAddress=172.17.3.181:8635, hosts=[172.17.3.181:8635, 172.17.3.91:8635], passives=[], arbiters=[], primary='172.17.3.181:8635', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Mon Sep 07 16:29:11 CST 2020, lastUpdateTimeNanos=27100640774354}
+2020-09-07T16:29:11.714+08:00 meida_aggregation INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07T16:29:11.885+08:00 meida_aggregation WARN [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-09-07T16:29:12.329+08:00 meida_aggregation INFO Adding welcome page template: index
+2020-09-07T16:29:12.454+08:00 meida_aggregation INFO Initializing ExecutorService 'taskScheduler'
+2020-09-07T16:29:12.560+08:00 meida_aggregation INFO LiveReload server is running on port 35729
+2020-09-07T16:29:12.593+08:00 meida_aggregation INFO Starting ProtocolHandler ["http-nio-8079"]
+2020-09-07T16:29:12.604+08:00 meida_aggregation INFO Using a shared selector for servlet write/read
+2020-09-07T16:29:12.620+08:00 meida_aggregation INFO Tomcat started on port(s): 8079 (http) with context path ''
+2020-09-07T16:29:12.623+08:00 meida_aggregation INFO Started AggregationApp in 6.653 seconds (JVM running for 8.612)
+2020-09-07T16:29:51.382+08:00 meida_aggregation INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-07T16:29:51.382+08:00 meida_aggregation INFO Initializing Servlet 'dispatcherServlet'
+2020-09-07T16:29:51.391+08:00 meida_aggregation INFO Completed initialization in 9 ms
+2020-09-07T16:29:56.385+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:3, serverValue:1590121}] to 121.36.46.118:8635
+2020-09-07T16:30:03.637+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:4, serverValue:1590127}] to 121.36.46.118:8635
+2020-09-07T16:30:07.692+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T16:38:34.554+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T16:40:28.922+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:5, serverValue:1590460}] to 121.36.46.118:8635
+2020-09-07T16:40:32.645+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T16:40:40.286+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T16:40:57.883+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T16:47:00.331+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T16:48:08.262+08:00 meida_aggregation INFO Starting AggregationApp on DESKTOP-PJQUS7V with PID 14564 (started by hwl in F:\javaSE)
+2020-09-07T16:48:08.269+08:00 meida_aggregation INFO The following profiles are active: dev
+2020-09-07T16:48:08.620+08:00 meida_aggregation INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-07T16:48:08.620+08:00 meida_aggregation INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-07T16:48:09.416+08:00 meida_aggregation INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-09-07T16:48:09.439+08:00 meida_aggregation INFO Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2020-09-07T16:48:10.047+08:00 meida_aggregation INFO Tomcat initialized with port(s): 8079 (http)
+2020-09-07T16:48:10.063+08:00 meida_aggregation INFO Initializing ProtocolHandler ["http-nio-8079"]
+2020-09-07T16:48:10.073+08:00 meida_aggregation INFO Starting service [Tomcat]
+2020-09-07T16:48:10.074+08:00 meida_aggregation INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-09-07T16:48:10.082+08:00 meida_aggregation INFO Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2020-09-07T16:48:10.083+08:00 meida_aggregation INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-09-07T16:48:10.083+08:00 meida_aggregation INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-09-07T16:48:11.173+08:00 meida_aggregation INFO OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2020-09-07T16:48:11.362+08:00 meida_aggregation INFO Initializing Spring embedded WebApplicationContext
+2020-09-07T16:48:11.362+08:00 meida_aggregation INFO Root WebApplicationContext: initialization completed in 2742 ms
+2020-09-07T16:48:11.394+08:00 meida_aggregation INFO Servlet dispatcherServlet mapped to [/]
+2020-09-07T16:48:11.400+08:00 meida_aggregation INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-07T16:48:11.400+08:00 meida_aggregation INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-07T16:48:11.400+08:00 meida_aggregation INFO Mapping filter: 'formContentFilter' to: [/*]
+2020-09-07T16:48:11.400+08:00 meida_aggregation INFO Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-07T16:48:12.271+08:00 meida_aggregation INFO Cluster created with settings {hosts=[121.36.46.118:8635], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-09-07T16:48:12.457+08:00 meida_aggregation INFO Cluster created with settings {hosts=[121.36.46.118:8635], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-09-07T16:48:12.844+08:00 meida_aggregation INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07T16:48:12.890+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:1, serverValue:1590689}] to 121.36.46.118:8635
+2020-09-07T16:48:12.979+08:00 meida_aggregation WARN [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-09-07T16:48:13.220+08:00 meida_aggregation INFO Monitor thread successfully connected to server with description ServerDescription{address=121.36.46.118:8635, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=328471582, setName='replica', canonicalAddress=172.17.3.181:8635, hosts=[172.17.3.181:8635, 172.17.3.91:8635], passives=[], arbiters=[], primary='172.17.3.181:8635', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Mon Sep 07 16:48:13 CST 2020, lastUpdateTimeNanos=28242173721126}
+2020-09-07T16:48:13.241+08:00 meida_aggregation INFO Adding welcome page template: index
+2020-09-07T16:48:13.290+08:00 meida_aggregation INFO Initializing ExecutorService 'taskScheduler'
+2020-09-07T16:48:13.392+08:00 meida_aggregation INFO LiveReload server is running on port 35729
+2020-09-07T16:48:13.439+08:00 meida_aggregation INFO Starting ProtocolHandler ["http-nio-8079"]
+2020-09-07T16:48:13.450+08:00 meida_aggregation INFO Using a shared selector for servlet write/read
+2020-09-07T16:48:13.481+08:00 meida_aggregation INFO Tomcat started on port(s): 8079 (http) with context path ''
+2020-09-07T16:48:13.486+08:00 meida_aggregation INFO Started AggregationApp in 5.663 seconds (JVM running for 7.351)
+2020-09-07T16:48:14.064+08:00 meida_aggregation INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-07T16:48:14.065+08:00 meida_aggregation INFO Initializing Servlet 'dispatcherServlet'
+2020-09-07T16:48:14.072+08:00 meida_aggregation INFO Completed initialization in 7 ms
+2020-09-07T16:48:14.349+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:2, serverValue:1590691}] to 121.36.46.118:8635
+2020-09-07T16:48:14.407+08:00 meida_aggregation INFO Monitor thread successfully connected to server with description ServerDescription{address=121.36.46.118:8635, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=57394384, setName='replica', canonicalAddress=172.17.3.181:8635, hosts=[172.17.3.181:8635, 172.17.3.91:8635], passives=[], arbiters=[], primary='172.17.3.181:8635', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Mon Sep 07 16:48:14 CST 2020, lastUpdateTimeNanos=28243361354963}
+2020-09-07T16:48:15.227+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:3, serverValue:1590692}] to 121.36.46.118:8635
+2020-09-07T16:48:24.045+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:4, serverValue:1590705}] to 121.36.46.118:8635
+2020-09-07T16:48:25.369+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T16:50:18.993+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T16:50:30.556+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T16:50:43.610+08:00 meida_aggregation INFO Starting AggregationApp on DESKTOP-PJQUS7V with PID 15304 (started by hwl in F:\javaSE)
+2020-09-07T16:50:43.617+08:00 meida_aggregation INFO The following profiles are active: dev
+2020-09-07T16:50:44.007+08:00 meida_aggregation INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-07T16:50:44.007+08:00 meida_aggregation INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-07T16:50:44.784+08:00 meida_aggregation INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-09-07T16:50:44.811+08:00 meida_aggregation INFO Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2020-09-07T16:50:45.416+08:00 meida_aggregation INFO Tomcat initialized with port(s): 8079 (http)
+2020-09-07T16:50:45.430+08:00 meida_aggregation INFO Initializing ProtocolHandler ["http-nio-8079"]
+2020-09-07T16:50:45.441+08:00 meida_aggregation INFO Starting service [Tomcat]
+2020-09-07T16:50:45.442+08:00 meida_aggregation INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-09-07T16:50:45.448+08:00 meida_aggregation INFO Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2020-09-07T16:50:45.449+08:00 meida_aggregation INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-09-07T16:50:45.449+08:00 meida_aggregation INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-09-07T16:50:46.531+08:00 meida_aggregation INFO OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2020-09-07T16:50:46.729+08:00 meida_aggregation INFO Initializing Spring embedded WebApplicationContext
+2020-09-07T16:50:46.729+08:00 meida_aggregation INFO Root WebApplicationContext: initialization completed in 2721 ms
+2020-09-07T16:50:46.761+08:00 meida_aggregation INFO Servlet dispatcherServlet mapped to [/]
+2020-09-07T16:50:46.766+08:00 meida_aggregation INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-07T16:50:46.766+08:00 meida_aggregation INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-07T16:50:46.766+08:00 meida_aggregation INFO Mapping filter: 'formContentFilter' to: [/*]
+2020-09-07T16:50:46.766+08:00 meida_aggregation INFO Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-07T16:50:47.574+08:00 meida_aggregation INFO Cluster created with settings {hosts=[121.36.46.118:8635], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-09-07T16:50:47.809+08:00 meida_aggregation INFO Cluster created with settings {hosts=[121.36.46.118:8635], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-09-07T16:50:48.006+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:1, serverValue:1590775}] to 121.36.46.118:8635
+2020-09-07T16:50:48.121+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:2, serverValue:1590776}] to 121.36.46.118:8635
+2020-09-07T16:50:48.144+08:00 meida_aggregation INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07T16:50:48.194+08:00 meida_aggregation INFO Monitor thread successfully connected to server with description ServerDescription{address=121.36.46.118:8635, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=71884854, setName='replica', canonicalAddress=172.17.3.181:8635, hosts=[172.17.3.181:8635, 172.17.3.91:8635], passives=[], arbiters=[], primary='172.17.3.181:8635', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Mon Sep 07 16:50:48 CST 2020, lastUpdateTimeNanos=28397147338594}
+2020-09-07T16:50:48.343+08:00 meida_aggregation INFO Monitor thread successfully connected to server with description ServerDescription{address=121.36.46.118:8635, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=336420754, setName='replica', canonicalAddress=172.17.3.181:8635, hosts=[172.17.3.181:8635, 172.17.3.91:8635], passives=[], arbiters=[], primary='172.17.3.181:8635', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Mon Sep 07 16:50:48 CST 2020, lastUpdateTimeNanos=28397297207375}
+2020-09-07T16:50:48.418+08:00 meida_aggregation WARN [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-09-07T16:50:48.707+08:00 meida_aggregation INFO Adding welcome page template: index
+2020-09-07T16:50:48.760+08:00 meida_aggregation INFO Initializing ExecutorService 'taskScheduler'
+2020-09-07T16:50:48.823+08:00 meida_aggregation INFO LiveReload server is running on port 35729
+2020-09-07T16:50:48.858+08:00 meida_aggregation INFO Starting ProtocolHandler ["http-nio-8079"]
+2020-09-07T16:50:48.868+08:00 meida_aggregation INFO Using a shared selector for servlet write/read
+2020-09-07T16:50:48.911+08:00 meida_aggregation INFO Tomcat started on port(s): 8079 (http) with context path ''
+2020-09-07T16:50:48.916+08:00 meida_aggregation INFO Started AggregationApp in 5.971 seconds (JVM running for 7.603)
+2020-09-07T16:59:20.490+08:00 meida_aggregation INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-07T16:59:20.491+08:00 meida_aggregation INFO Initializing Servlet 'dispatcherServlet'
+2020-09-07T16:59:20.498+08:00 meida_aggregation INFO Completed initialization in 7 ms
+2020-09-07T16:59:25.729+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:3, serverValue:1591064}] to 121.36.46.118:8635
+2020-09-07T16:59:32.601+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:4, serverValue:1591067}] to 121.36.46.118:8635
+2020-09-07T16:59:36.217+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T17:44:13.773+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T18:12:40.252+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T18:12:42.141+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T18:33:00.678+08:00 meida_aggregation INFO Starting AggregationApp on DESKTOP-PJQUS7V with PID 15756 (started by hwl in F:\javaSE)
+2020-09-07T18:33:00.684+08:00 meida_aggregation INFO The following profiles are active: dev
+2020-09-07T18:33:00.956+08:00 meida_aggregation INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-07T18:33:00.956+08:00 meida_aggregation INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-07T18:33:01.630+08:00 meida_aggregation INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-09-07T18:33:01.652+08:00 meida_aggregation INFO Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2020-09-07T18:33:02.250+08:00 meida_aggregation INFO Tomcat initialized with port(s): 8079 (http)
+2020-09-07T18:33:02.265+08:00 meida_aggregation INFO Initializing ProtocolHandler ["http-nio-8079"]
+2020-09-07T18:33:02.275+08:00 meida_aggregation INFO Starting service [Tomcat]
+2020-09-07T18:33:02.276+08:00 meida_aggregation INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-09-07T18:33:02.282+08:00 meida_aggregation INFO Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2020-09-07T18:33:02.282+08:00 meida_aggregation INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-09-07T18:33:02.283+08:00 meida_aggregation INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-09-07T18:33:03.365+08:00 meida_aggregation INFO OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2020-09-07T18:33:03.543+08:00 meida_aggregation INFO Initializing Spring embedded WebApplicationContext
+2020-09-07T18:33:03.544+08:00 meida_aggregation INFO Root WebApplicationContext: initialization completed in 2587 ms
+2020-09-07T18:33:03.569+08:00 meida_aggregation INFO Servlet dispatcherServlet mapped to [/]
+2020-09-07T18:33:03.575+08:00 meida_aggregation INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-07T18:33:03.575+08:00 meida_aggregation INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-07T18:33:03.576+08:00 meida_aggregation INFO Mapping filter: 'formContentFilter' to: [/*]
+2020-09-07T18:33:03.576+08:00 meida_aggregation INFO Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-07T18:33:04.310+08:00 meida_aggregation INFO Cluster created with settings {hosts=[121.36.46.118:8635], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-09-07T18:33:04.477+08:00 meida_aggregation INFO Cluster created with settings {hosts=[121.36.46.118:8635], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-09-07T18:33:04.700+08:00 meida_aggregation INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07T18:33:04.808+08:00 meida_aggregation WARN [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-09-07T18:33:04.873+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:1, serverValue:1594567}] to 121.36.46.118:8635
+2020-09-07T18:33:04.952+08:00 meida_aggregation INFO Monitor thread successfully connected to server with description ServerDescription{address=121.36.46.118:8635, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=77152909, setName='replica', canonicalAddress=172.17.3.181:8635, hosts=[172.17.3.181:8635, 172.17.3.91:8635], passives=[], arbiters=[], primary='172.17.3.181:8635', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Mon Sep 07 18:33:05 CST 2020, lastUpdateTimeNanos=34533905124308}
+2020-09-07T18:33:05.008+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:2, serverValue:1594568}] to 121.36.46.118:8635
+2020-09-07T18:33:05.043+08:00 meida_aggregation INFO Adding welcome page template: index
+2020-09-07T18:33:05.087+08:00 meida_aggregation INFO Initializing ExecutorService 'taskScheduler'
+2020-09-07T18:33:05.111+08:00 meida_aggregation INFO Monitor thread successfully connected to server with description ServerDescription{address=121.36.46.118:8635, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=102390487, setName='replica', canonicalAddress=172.17.3.181:8635, hosts=[172.17.3.181:8635, 172.17.3.91:8635], passives=[], arbiters=[], primary='172.17.3.181:8635', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Mon Sep 07 18:33:05 CST 2020, lastUpdateTimeNanos=34534064928498}
+2020-09-07T18:33:05.147+08:00 meida_aggregation INFO LiveReload server is running on port 35729
+2020-09-07T18:33:05.180+08:00 meida_aggregation INFO Starting ProtocolHandler ["http-nio-8079"]
+2020-09-07T18:33:05.190+08:00 meida_aggregation INFO Using a shared selector for servlet write/read
+2020-09-07T18:33:05.206+08:00 meida_aggregation INFO Tomcat started on port(s): 8079 (http) with context path ''
+2020-09-07T18:33:05.210+08:00 meida_aggregation INFO Started AggregationApp in 5.092 seconds (JVM running for 6.532)
+2020-09-07T18:34:24.549+08:00 meida_aggregation INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-07T18:34:24.550+08:00 meida_aggregation INFO Initializing Servlet 'dispatcherServlet'
+2020-09-07T18:34:24.556+08:00 meida_aggregation INFO Completed initialization in 5 ms
+2020-09-07T18:34:25.486+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:3, serverValue:1594599}] to 121.36.46.118:8635
+2020-09-07T18:34:27.132+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:4, serverValue:1594600}] to 121.36.46.118:8635
+2020-09-07T18:34:27.587+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T18:36:18.572+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T18:36:21.488+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T18:37:01.132+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T18:37:04.961+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T18:37:17.256+08:00 meida_aggregation INFO Starting AggregationApp on DESKTOP-PJQUS7V with PID 6840 (started by hwl in F:\javaSE)
+2020-09-07T18:37:17.261+08:00 meida_aggregation INFO The following profiles are active: dev
+2020-09-07T18:37:17.611+08:00 meida_aggregation INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-07T18:37:17.611+08:00 meida_aggregation INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-07T18:37:18.321+08:00 meida_aggregation INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-09-07T18:37:18.343+08:00 meida_aggregation INFO Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2020-09-07T18:37:18.930+08:00 meida_aggregation INFO Tomcat initialized with port(s): 8079 (http)
+2020-09-07T18:37:18.945+08:00 meida_aggregation INFO Initializing ProtocolHandler ["http-nio-8079"]
+2020-09-07T18:37:18.955+08:00 meida_aggregation INFO Starting service [Tomcat]
+2020-09-07T18:37:18.956+08:00 meida_aggregation INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-09-07T18:37:18.963+08:00 meida_aggregation INFO Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2020-09-07T18:37:18.963+08:00 meida_aggregation INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-09-07T18:37:18.963+08:00 meida_aggregation INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-09-07T18:37:20.046+08:00 meida_aggregation INFO OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2020-09-07T18:37:20.212+08:00 meida_aggregation INFO Initializing Spring embedded WebApplicationContext
+2020-09-07T18:37:20.212+08:00 meida_aggregation INFO Root WebApplicationContext: initialization completed in 2601 ms
+2020-09-07T18:37:20.236+08:00 meida_aggregation INFO Servlet dispatcherServlet mapped to [/]
+2020-09-07T18:37:20.240+08:00 meida_aggregation INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-07T18:37:20.241+08:00 meida_aggregation INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-07T18:37:20.241+08:00 meida_aggregation INFO Mapping filter: 'formContentFilter' to: [/*]
+2020-09-07T18:37:20.241+08:00 meida_aggregation INFO Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-07T18:37:21.003+08:00 meida_aggregation INFO Cluster created with settings {hosts=[121.36.46.118:8635], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-09-07T18:37:21.183+08:00 meida_aggregation INFO Cluster created with settings {hosts=[121.36.46.118:8635], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-09-07T18:37:21.409+08:00 meida_aggregation INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07T18:37:21.505+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:1, serverValue:1594686}] to 121.36.46.118:8635
+2020-09-07T18:37:21.516+08:00 meida_aggregation WARN [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-09-07T18:37:21.529+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:2, serverValue:1594687}] to 121.36.46.118:8635
+2020-09-07T18:37:21.571+08:00 meida_aggregation INFO Monitor thread successfully connected to server with description ServerDescription{address=121.36.46.118:8635, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=63770867, setName='replica', canonicalAddress=172.17.3.181:8635, hosts=[172.17.3.181:8635, 172.17.3.91:8635], passives=[], arbiters=[], primary='172.17.3.181:8635', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Mon Sep 07 18:37:17 CST 2020, lastUpdateTimeNanos=34790524034064}
+2020-09-07T18:37:21.618+08:00 meida_aggregation INFO Monitor thread successfully connected to server with description ServerDescription{address=121.36.46.118:8635, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=89200126, setName='replica', canonicalAddress=172.17.3.181:8635, hosts=[172.17.3.181:8635, 172.17.3.91:8635], passives=[], arbiters=[], primary='172.17.3.181:8635', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Mon Sep 07 18:37:17 CST 2020, lastUpdateTimeNanos=34790571761996}
+2020-09-07T18:37:21.748+08:00 meida_aggregation INFO Adding welcome page template: index
+2020-09-07T18:37:21.791+08:00 meida_aggregation INFO Initializing ExecutorService 'taskScheduler'
+2020-09-07T18:37:21.848+08:00 meida_aggregation INFO LiveReload server is running on port 35729
+2020-09-07T18:37:21.878+08:00 meida_aggregation INFO Starting ProtocolHandler ["http-nio-8079"]
+2020-09-07T18:37:21.887+08:00 meida_aggregation INFO Using a shared selector for servlet write/read
+2020-09-07T18:37:21.902+08:00 meida_aggregation INFO Tomcat started on port(s): 8079 (http) with context path ''
+2020-09-07T18:37:21.905+08:00 meida_aggregation INFO Started AggregationApp in 4.993 seconds (JVM running for 6.694)
+2020-09-07T18:39:17.393+08:00 meida_aggregation INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-07T18:39:17.393+08:00 meida_aggregation INFO Initializing Servlet 'dispatcherServlet'
+2020-09-07T18:39:17.399+08:00 meida_aggregation INFO Completed initialization in 6 ms
+2020-09-07T18:39:18.405+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:3, serverValue:1594748}] to 121.36.46.118:8635
+2020-09-07T18:39:20.062+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:4, serverValue:1594749}] to 121.36.46.118:8635
+2020-09-07T18:39:20.539+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T18:42:22.252+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:00:18.652+08:00 meida_aggregation INFO Starting AggregationApp on DESKTOP-PJQUS7V with PID 15616 (started by hwl in F:\javaSE)
+2020-09-07T19:00:18.668+08:00 meida_aggregation INFO The following profiles are active: dev
+2020-09-07T19:00:19.133+08:00 meida_aggregation INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-07T19:00:19.134+08:00 meida_aggregation INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-07T19:00:19.910+08:00 meida_aggregation INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-09-07T19:00:19.932+08:00 meida_aggregation INFO Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2020-09-07T19:00:20.573+08:00 meida_aggregation INFO Tomcat initialized with port(s): 8079 (http)
+2020-09-07T19:00:20.587+08:00 meida_aggregation INFO Initializing ProtocolHandler ["http-nio-8079"]
+2020-09-07T19:00:20.604+08:00 meida_aggregation INFO Starting service [Tomcat]
+2020-09-07T19:00:20.605+08:00 meida_aggregation INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-09-07T19:00:20.613+08:00 meida_aggregation INFO Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2020-09-07T19:00:20.620+08:00 meida_aggregation INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-09-07T19:00:20.629+08:00 meida_aggregation INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-09-07T19:00:21.721+08:00 meida_aggregation INFO OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2020-09-07T19:00:21.917+08:00 meida_aggregation INFO Initializing Spring embedded WebApplicationContext
+2020-09-07T19:00:21.917+08:00 meida_aggregation INFO Root WebApplicationContext: initialization completed in 2783 ms
+2020-09-07T19:00:21.948+08:00 meida_aggregation INFO Servlet dispatcherServlet mapped to [/]
+2020-09-07T19:00:21.952+08:00 meida_aggregation INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-07T19:00:21.953+08:00 meida_aggregation INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-07T19:00:21.953+08:00 meida_aggregation INFO Mapping filter: 'formContentFilter' to: [/*]
+2020-09-07T19:00:21.953+08:00 meida_aggregation INFO Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-07T19:00:22.700+08:00 meida_aggregation INFO Cluster created with settings {hosts=[121.36.46.118:8635], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-09-07T19:00:22.873+08:00 meida_aggregation INFO Cluster created with settings {hosts=[121.36.46.118:8635], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-09-07T19:00:23.119+08:00 meida_aggregation INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07T19:00:23.228+08:00 meida_aggregation WARN [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-09-07T19:00:23.260+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:1, serverValue:1595332}] to 121.36.46.118:8635
+2020-09-07T19:00:23.322+08:00 meida_aggregation INFO Monitor thread successfully connected to server with description ServerDescription{address=121.36.46.118:8635, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=59174149, setName='replica', canonicalAddress=172.17.3.181:8635, hosts=[172.17.3.181:8635, 172.17.3.91:8635], passives=[], arbiters=[], primary='172.17.3.181:8635', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Mon Sep 07 19:00:20 CST 2020, lastUpdateTimeNanos=36172275780473}
+2020-09-07T19:00:23.445+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:2, serverValue:1595333}] to 121.36.46.118:8635
+2020-09-07T19:00:23.476+08:00 meida_aggregation INFO Adding welcome page template: index
+2020-09-07T19:00:23.497+08:00 meida_aggregation INFO Monitor thread successfully connected to server with description ServerDescription{address=121.36.46.118:8635, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=51316742, setName='replica', canonicalAddress=172.17.3.181:8635, hosts=[172.17.3.181:8635, 172.17.3.91:8635], passives=[], arbiters=[], primary='172.17.3.181:8635', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Mon Sep 07 19:00:20 CST 2020, lastUpdateTimeNanos=36172451496891}
+2020-09-07T19:00:23.523+08:00 meida_aggregation INFO Initializing ExecutorService 'taskScheduler'
+2020-09-07T19:00:23.602+08:00 meida_aggregation INFO LiveReload server is running on port 35729
+2020-09-07T19:00:23.632+08:00 meida_aggregation INFO Starting ProtocolHandler ["http-nio-8079"]
+2020-09-07T19:00:23.643+08:00 meida_aggregation INFO Using a shared selector for servlet write/read
+2020-09-07T19:00:23.661+08:00 meida_aggregation INFO Tomcat started on port(s): 8079 (http) with context path ''
+2020-09-07T19:00:23.665+08:00 meida_aggregation INFO Started AggregationApp in 5.614 seconds (JVM running for 6.922)
+2020-09-07T19:03:36.123+08:00 meida_aggregation INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-07T19:03:36.123+08:00 meida_aggregation INFO Initializing Servlet 'dispatcherServlet'
+2020-09-07T19:03:36.129+08:00 meida_aggregation INFO Completed initialization in 5 ms
+2020-09-07T19:03:36.918+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:3, serverValue:1595418}] to 121.36.46.118:8635
+2020-09-07T19:03:38.811+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:4, serverValue:1595419}] to 121.36.46.118:8635
+2020-09-07T19:03:39.209+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:07:06.913+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:07:09.759+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:07:12.394+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:15:25.268+08:00 meida_aggregation INFO Starting AggregationApp on DESKTOP-PJQUS7V with PID 16324 (started by hwl in F:\javaSE)
+2020-09-07T19:15:25.274+08:00 meida_aggregation INFO The following profiles are active: dev
+2020-09-07T19:15:25.659+08:00 meida_aggregation INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-07T19:15:25.660+08:00 meida_aggregation INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-07T19:15:26.300+08:00 meida_aggregation INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-09-07T19:15:26.323+08:00 meida_aggregation INFO Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2020-09-07T19:15:26.977+08:00 meida_aggregation INFO Tomcat initialized with port(s): 8079 (http)
+2020-09-07T19:15:26.992+08:00 meida_aggregation INFO Initializing ProtocolHandler ["http-nio-8079"]
+2020-09-07T19:15:27.005+08:00 meida_aggregation INFO Starting service [Tomcat]
+2020-09-07T19:15:27.006+08:00 meida_aggregation INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-09-07T19:15:27.012+08:00 meida_aggregation INFO Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2020-09-07T19:15:27.013+08:00 meida_aggregation INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-09-07T19:15:27.013+08:00 meida_aggregation INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-09-07T19:15:28.087+08:00 meida_aggregation INFO OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2020-09-07T19:15:28.268+08:00 meida_aggregation INFO Initializing Spring embedded WebApplicationContext
+2020-09-07T19:15:28.268+08:00 meida_aggregation INFO Root WebApplicationContext: initialization completed in 2608 ms
+2020-09-07T19:15:28.295+08:00 meida_aggregation INFO Servlet dispatcherServlet mapped to [/]
+2020-09-07T19:15:28.329+08:00 meida_aggregation INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-07T19:15:28.330+08:00 meida_aggregation INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-07T19:15:28.330+08:00 meida_aggregation INFO Mapping filter: 'formContentFilter' to: [/*]
+2020-09-07T19:15:28.330+08:00 meida_aggregation INFO Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-07T19:15:29.131+08:00 meida_aggregation INFO Cluster created with settings {hosts=[121.36.46.118:8635], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-09-07T19:15:29.298+08:00 meida_aggregation INFO Cluster created with settings {hosts=[121.36.46.118:8635], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-09-07T19:15:29.533+08:00 meida_aggregation INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07T19:15:29.555+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:1, serverValue:1595726}] to 121.36.46.118:8635
+2020-09-07T19:15:29.635+08:00 meida_aggregation INFO Monitor thread successfully connected to server with description ServerDescription{address=121.36.46.118:8635, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=78620248, setName='replica', canonicalAddress=172.17.3.181:8635, hosts=[172.17.3.181:8635, 172.17.3.91:8635], passives=[], arbiters=[], primary='172.17.3.181:8635', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Mon Sep 07 19:15:23 CST 2020, lastUpdateTimeNanos=37078588436421}
+2020-09-07T19:15:29.641+08:00 meida_aggregation WARN [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-09-07T19:15:29.683+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:2, serverValue:1595727}] to 121.36.46.118:8635
+2020-09-07T19:15:29.758+08:00 meida_aggregation INFO Monitor thread successfully connected to server with description ServerDescription{address=121.36.46.118:8635, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=74146386, setName='replica', canonicalAddress=172.17.3.181:8635, hosts=[172.17.3.181:8635, 172.17.3.91:8635], passives=[], arbiters=[], primary='172.17.3.181:8635', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Mon Sep 07 19:15:23 CST 2020, lastUpdateTimeNanos=37078711171644}
+2020-09-07T19:15:29.875+08:00 meida_aggregation INFO Adding welcome page template: index
+2020-09-07T19:15:29.916+08:00 meida_aggregation INFO Initializing ExecutorService 'taskScheduler'
+2020-09-07T19:15:29.985+08:00 meida_aggregation INFO LiveReload server is running on port 35729
+2020-09-07T19:15:30.034+08:00 meida_aggregation INFO Starting ProtocolHandler ["http-nio-8079"]
+2020-09-07T19:15:30.045+08:00 meida_aggregation INFO Using a shared selector for servlet write/read
+2020-09-07T19:15:30.077+08:00 meida_aggregation INFO Tomcat started on port(s): 8079 (http) with context path ''
+2020-09-07T19:15:30.080+08:00 meida_aggregation INFO Started AggregationApp in 5.195 seconds (JVM running for 7.182)
+2020-09-07T19:15:48.737+08:00 meida_aggregation INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-07T19:15:48.737+08:00 meida_aggregation INFO Initializing Servlet 'dispatcherServlet'
+2020-09-07T19:15:48.742+08:00 meida_aggregation INFO Completed initialization in 5 ms
+2020-09-07T19:15:49.522+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:3, serverValue:1595735}] to 121.36.46.118:8635
+2020-09-07T19:15:51.199+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:4, serverValue:1595736}] to 121.36.46.118:8635
+2020-09-07T19:15:51.723+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:15:56.769+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:17:36.364+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:17:39.548+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:19:23.652+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:19:23.678+08:00 meida_aggregation ERROR [THYMELEAF][http-nio-8079-exec-2] Exception processing template "media/config/list": An error happened during template parsing (template: "class path resource [templates/media/config/list.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/media/config/list.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_131]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "label." (template: "media/config/list" - line 112, col 68)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	... 52 more
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "label." (template: "media/config/list" - line 112, col 68)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:293) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.GatheringModelProcessable.process(GatheringModelProcessable.java:78) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	... 52 more
+Caused by: org.springframework.expression.spel.SpelParseException: Expression [label.] @5: EL1044E: Unexpectedly ran out of input
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.internalException(InternalSpelExpressionParser.java:1044) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatDottedNode(InternalSpelExpressionParser.java:405) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatNode(InternalSpelExpressionParser.java:373) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatPrimaryExpression(InternalSpelExpressionParser.java:353) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatUnaryExpression(InternalSpelExpressionParser.java:345) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatPowerIncDecExpression(InternalSpelExpressionParser.java:304) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatProductExpression(InternalSpelExpressionParser.java:282) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatSumExpression(InternalSpelExpressionParser.java:264) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatRelationalExpression(InternalSpelExpressionParser.java:218) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatLogicalAndExpression(InternalSpelExpressionParser.java:205) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatLogicalOrExpression(InternalSpelExpressionParser.java:192) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatExpression(InternalSpelExpressionParser.java:153) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.doParseExpression(InternalSpelExpressionParser.java:131) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.SpelExpressionParser.doParseExpression(SpelExpressionParser.java:61) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.SpelExpressionParser.doParseExpression(SpelExpressionParser.java:33) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.common.TemplateAwareExpressionParser.parseExpression(TemplateAwareExpressionParser.java:52) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.common.TemplateAwareExpressionParser.parseExpression(TemplateAwareExpressionParser.java:43) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.getExpression(SPELVariableExpressionEvaluator.java:360) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.obtainComputedSpelExpression(SPELVariableExpressionEvaluator.java:311) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:180) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:293) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.GatheringModelProcessable.process(GatheringModelProcessable.java:78) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	... 52 more
+2020-09-07T19:19:23.759+08:00 meida_aggregation ERROR Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/media/config/list.html]")] with root cause
+org.springframework.expression.spel.SpelParseException: Expression [label.] @5: EL1044E: Unexpectedly ran out of input
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.internalException(InternalSpelExpressionParser.java:1044) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatDottedNode(InternalSpelExpressionParser.java:405) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatNode(InternalSpelExpressionParser.java:373) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatPrimaryExpression(InternalSpelExpressionParser.java:353) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatUnaryExpression(InternalSpelExpressionParser.java:345) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatPowerIncDecExpression(InternalSpelExpressionParser.java:304) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatProductExpression(InternalSpelExpressionParser.java:282) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatSumExpression(InternalSpelExpressionParser.java:264) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatRelationalExpression(InternalSpelExpressionParser.java:218) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatLogicalAndExpression(InternalSpelExpressionParser.java:205) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatLogicalOrExpression(InternalSpelExpressionParser.java:192) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.eatExpression(InternalSpelExpressionParser.java:153) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.InternalSpelExpressionParser.doParseExpression(InternalSpelExpressionParser.java:131) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.SpelExpressionParser.doParseExpression(SpelExpressionParser.java:61) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.spel.standard.SpelExpressionParser.doParseExpression(SpelExpressionParser.java:33) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.common.TemplateAwareExpressionParser.parseExpression(TemplateAwareExpressionParser.java:52) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.expression.common.TemplateAwareExpressionParser.parseExpression(TemplateAwareExpressionParser.java:43) ~[spring-expression-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.getExpression(SPELVariableExpressionEvaluator.java:360) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.obtainComputedSpelExpression(SPELVariableExpressionEvaluator.java:311) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:180) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:293) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.GatheringModelProcessable.process(GatheringModelProcessable.java:78) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_131]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+2020-09-07T19:19:23.865+08:00 meida_aggregation ERROR Cannot render error page for request [/aggregation/list] and exception [An error happened during template parsing (template: "class path resource [templates/media/config/list.html]")] as the response has already been committed. As a result, the response may have the wrong status code.
+2020-09-07T19:19:29.229+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:19:32.989+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:20:39.557+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:20:43.769+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:20:46.594+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:20:50.324+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:20:54.107+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:21:00.796+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:21:02.343+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:23:59.619+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:24:03.604+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:25:12.695+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:25:15.976+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:27:28.760+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:27:35.680+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:29:45.761+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:5, serverValue:1596086}] to 121.36.46.118:8635
+2020-09-07T19:29:46.513+08:00 meida_aggregation INFO Opened connection [connectionId{localValue:6, serverValue:1596087}] to 121.36.46.118:8635
+2020-09-07T19:30:34.656+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:30:38.875+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:30:53.089+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:30:55.944+08:00 meida_aggregation INFO 访问主配置页面
+2020-09-07T19:30:59.675+08:00 meida_aggregation INFO 访问主配置页面

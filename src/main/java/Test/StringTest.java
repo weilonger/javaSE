@@ -18,8 +18,9 @@ public class StringTest {
         String s = "a";
         System.out.println(a == s);
 //        StringTest test = new StringTest();
-//        String tag="速度与激情";//正确的
-//        String test1="速度与激情1";
+        String tag="速度与激情";//正确的
+        String test1="速度与激情1";
+        System.out.println(test1.lastIndexOf(tag));
 //        String test2="速度与激情之利刃出击";
 //        String test3="速度与激情3";
 //        String test4="《速度与激情》";

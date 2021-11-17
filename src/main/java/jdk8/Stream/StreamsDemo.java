@@ -1,5 +1,7 @@
 package main.java.jdk8.Stream;
 
+import main.java.Model.CourceAndPerson;
+import main.java.Model.Course;
 import main.java.Model.Person;
 
 import java.util.*;
@@ -39,8 +41,52 @@ public class StreamsDemo {
         }
     };
 
+    private static List<Person> persons  = new ArrayList<Person>() {
+        {
+            add(new Person("1", "Elsdon", "Jaycob", "Java programmer", "male", 43, 2000));
+            add(new Person("2","Tamsen", "Brittany", "Java programmer", "female", 23, 1500));
+            add(new Person("3", "Floyd", "Donny", "Java programmer", "male", 33, 1800));
+            add(new Person("4", "Sindy", "Jonie", "Java programmer", "female", 32, 1600));
+            add(new Person("5", "Vere", "Hervey", "Java programmer", "male", 22, 1200));
+            add(new Person("6", "Maude", "Jaimie", "Java programmer", "female", 27, 1900));
+            add(new Person("7", "Shawn", "Randall", "Java programmer", "male", 30, 2300));
+        }
+    };
+
+    private static List<Course> courses = new ArrayList<Course>() {
+        {
+            add(new Course("1", "1", "Chinese"));
+            add(new Course("2", "2", "Franch"));
+            add(new Course("3", "5", "English"));
+            add(new Course("4", "7", "Japanese"));
+            add(new Course("5", "12", "Russian"));
+        }
+    };
+
+    private static void addToCombine() {
+        List<CourceAndPerson> courceAndPeople = new ArrayList<>();
+        List<CourceAndPerson> list = persons
+                .stream()
+                .flatMap(p -> courses
+                        .stream()
+                        .filter(c -> p.getId() == c.getPid())
+                        .map(c -> new CourceAndPerson(p, c)))
+                .collect(Collectors.toList());
+        Map<String, Object> map = list.stream().collect(Collectors.toMap(CourceAndPerson::getId, CourceAndPerson::getAge));
+        for (Person person : persons) {
+            for (Course course : courses) {
+                if (person.getId().equals(course.getPid())) {
+                    CourceAndPerson courceAndPerson = new CourceAndPerson(person, course);
+                    courceAndPeople.add(courceAndPerson);
+                }
+            }
+        }
+        System.out.println(courceAndPeople.size());
+    }
+
     //map, filter, limit, sorted, count, min, max, sum, collect
     public static void main(String[] args) {
+        addToCombine();
         namePrint();
         addSalary();
         getAll();

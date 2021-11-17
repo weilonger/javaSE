@@ -1,0 +1,167 @@
+2020-09-16T16:02:48.834+08:00 aiweb INFO Starting App on DESKTOP-PJQUS7V with PID 7876 (started by hwl in F:\javaSE)
+2020-09-16T16:02:48.840+08:00 aiweb INFO The following profiles are active: dev
+2020-09-16T16:02:49.098+08:00 aiweb INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-16T16:02:49.099+08:00 aiweb INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-16T16:02:49.724+08:00 aiweb INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-09-16T16:02:49.744+08:00 aiweb INFO Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2020-09-16T16:02:50.300+08:00 aiweb INFO Tomcat initialized with port(s): 8080 (http)
+2020-09-16T16:02:50.314+08:00 aiweb INFO Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-16T16:02:50.324+08:00 aiweb INFO Starting service [Tomcat]
+2020-09-16T16:02:50.325+08:00 aiweb INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-09-16T16:02:50.343+08:00 aiweb INFO Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2020-09-16T16:02:50.344+08:00 aiweb INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-09-16T16:02:50.344+08:00 aiweb INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-09-16T16:02:51.437+08:00 aiweb INFO OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2020-09-16T16:02:51.614+08:00 aiweb INFO Initializing Spring embedded WebApplicationContext
+2020-09-16T16:02:51.614+08:00 aiweb INFO Root WebApplicationContext: initialization completed in 2515 ms
+2020-09-16T16:02:51.638+08:00 aiweb INFO Servlet dispatcherServlet mapped to [/]
+2020-09-16T16:02:51.642+08:00 aiweb INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-16T16:02:51.643+08:00 aiweb INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-16T16:02:51.643+08:00 aiweb INFO Mapping filter: 'formContentFilter' to: [/*]
+2020-09-16T16:02:51.643+08:00 aiweb INFO Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-16T16:02:51.668+08:00 aiweb WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongoConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.data.mongodb.aggregation.username' in value "${spring.data.mongodb.aggregation.username}"
+2020-09-16T16:02:51.671+08:00 aiweb INFO Stopping service [Tomcat]
+2020-09-16T16:02:51.683+08:00 aiweb INFO 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-16T16:02:51.688+08:00 aiweb ERROR Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongoConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.data.mongodb.aggregation.username' in value "${spring.data.mongodb.aggregation.username}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.changhong.web.App.main(App.java:25) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.data.mongodb.aggregation.username' in value "${spring.data.mongodb.aggregation.username}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172) ~[spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237) ~[spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211) ~[spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:842) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1187) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	... 22 more
+2020-09-16T16:04:48.020+08:00 aiweb INFO Starting App on DESKTOP-PJQUS7V with PID 14432 (started by hwl in F:\javaSE)
+2020-09-16T16:04:48.027+08:00 aiweb INFO The following profiles are active: dev
+2020-09-16T16:04:48.326+08:00 aiweb INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-16T16:04:48.327+08:00 aiweb INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-16T16:04:49.068+08:00 aiweb INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-09-16T16:04:49.090+08:00 aiweb INFO Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2020-09-16T16:04:49.717+08:00 aiweb INFO Tomcat initialized with port(s): 8080 (http)
+2020-09-16T16:04:49.733+08:00 aiweb INFO Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-16T16:04:49.761+08:00 aiweb INFO Starting service [Tomcat]
+2020-09-16T16:04:49.762+08:00 aiweb INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-09-16T16:04:49.769+08:00 aiweb INFO Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2020-09-16T16:04:49.769+08:00 aiweb INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-09-16T16:04:49.769+08:00 aiweb INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-09-16T16:04:50.866+08:00 aiweb INFO OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2020-09-16T16:04:51.106+08:00 aiweb INFO Initializing Spring embedded WebApplicationContext
+2020-09-16T16:04:51.107+08:00 aiweb INFO Root WebApplicationContext: initialization completed in 2780 ms
+2020-09-16T16:04:51.137+08:00 aiweb INFO Servlet dispatcherServlet mapped to [/]
+2020-09-16T16:04:51.143+08:00 aiweb INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-16T16:04:51.143+08:00 aiweb INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-16T16:04:51.143+08:00 aiweb INFO Mapping filter: 'formContentFilter' to: [/*]
+2020-09-16T16:04:51.143+08:00 aiweb INFO Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-16T16:04:51.174+08:00 aiweb WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongoConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.data.mongodb.secondHost' in value "${spring.data.mongodb.secondHost}"
+2020-09-16T16:04:51.178+08:00 aiweb INFO Stopping service [Tomcat]
+2020-09-16T16:04:51.191+08:00 aiweb INFO 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-16T16:04:51.198+08:00 aiweb ERROR Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongoConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.data.mongodb.secondHost' in value "${spring.data.mongodb.secondHost}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.changhong.web.App.main(App.java:25) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.data.mongodb.secondHost' in value "${spring.data.mongodb.secondHost}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172) ~[spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237) ~[spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211) ~[spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:842) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1187) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	... 22 more
+2020-09-16T16:05:51.054+08:00 aiweb INFO Starting App on DESKTOP-PJQUS7V with PID 13040 (started by hwl in F:\javaSE)
+2020-09-16T16:05:51.060+08:00 aiweb INFO The following profiles are active: dev
+2020-09-16T16:05:51.348+08:00 aiweb INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-16T16:05:51.348+08:00 aiweb INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-16T16:05:52.042+08:00 aiweb INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-09-16T16:05:52.064+08:00 aiweb INFO Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2020-09-16T16:05:52.760+08:00 aiweb INFO Tomcat initialized with port(s): 8080 (http)
+2020-09-16T16:05:52.786+08:00 aiweb INFO Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-16T16:05:52.828+08:00 aiweb INFO Starting service [Tomcat]
+2020-09-16T16:05:52.829+08:00 aiweb INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-09-16T16:05:52.852+08:00 aiweb INFO Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2020-09-16T16:05:52.852+08:00 aiweb INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-09-16T16:05:52.852+08:00 aiweb INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-09-16T16:05:53.942+08:00 aiweb INFO OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2020-09-16T16:05:54.146+08:00 aiweb INFO Initializing Spring embedded WebApplicationContext
+2020-09-16T16:05:54.146+08:00 aiweb INFO Root WebApplicationContext: initialization completed in 2797 ms
+2020-09-16T16:05:54.172+08:00 aiweb INFO Servlet dispatcherServlet mapped to [/]
+2020-09-16T16:05:54.178+08:00 aiweb INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-16T16:05:54.178+08:00 aiweb INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-16T16:05:54.178+08:00 aiweb INFO Mapping filter: 'formContentFilter' to: [/*]
+2020-09-16T16:05:54.178+08:00 aiweb INFO Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-16T16:05:55.064+08:00 aiweb INFO Cluster created with settings {hosts=[121.36.46.118:8635], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-09-16T16:05:55.334+08:00 aiweb INFO Cluster created with settings {hosts=[121.36.46.118:8635], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-09-16T16:05:55.517+08:00 aiweb INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-16T16:05:55.582+08:00 aiweb INFO Opened connection [connectionId{localValue:1, serverValue:1948782}] to 121.36.46.118:8635
+2020-09-16T16:05:55.645+08:00 aiweb WARN [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-09-16T16:05:55.686+08:00 aiweb INFO Monitor thread successfully connected to server with description ServerDescription{address=121.36.46.118:8635, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=102647494, setName='replica', canonicalAddress=172.17.3.181:8635, hosts=[172.17.3.181:8635, 172.17.3.91:8635], passives=[], arbiters=[], primary='172.17.3.181:8635', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Wed Sep 16 16:05:55 CST 2020, lastUpdateTimeNanos=111290919400361}
+2020-09-16T16:05:55.789+08:00 aiweb INFO Opened connection [connectionId{localValue:2, serverValue:1948783}] to 121.36.46.118:8635
+2020-09-16T16:05:55.844+08:00 aiweb INFO Monitor thread successfully connected to server with description ServerDescription{address=121.36.46.118:8635, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=55267246, setName='replica', canonicalAddress=172.17.3.181:8635, hosts=[172.17.3.181:8635, 172.17.3.91:8635], passives=[], arbiters=[], primary='172.17.3.181:8635', tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Wed Sep 16 16:05:55 CST 2020, lastUpdateTimeNanos=111291077652277}
+2020-09-16T16:05:55.883+08:00 aiweb INFO Adding welcome page template: index
+2020-09-16T16:05:55.925+08:00 aiweb INFO Initializing ExecutorService 'taskScheduler'
+2020-09-16T16:05:55.980+08:00 aiweb INFO LiveReload server is running on port 35729
+2020-09-16T16:05:56.017+08:00 aiweb INFO Starting ProtocolHandler ["http-nio-8080"]
+2020-09-16T16:05:56.028+08:00 aiweb INFO Using a shared selector for servlet write/read
+2020-09-16T16:05:56.048+08:00 aiweb INFO Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-16T16:05:56.052+08:00 aiweb INFO Started App in 5.404 seconds (JVM running for 7.066)
+2020-09-16T16:06:00.329+08:00 aiweb INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-16T16:06:00.329+08:00 aiweb INFO Initializing Servlet 'dispatcherServlet'
+2020-09-16T16:06:00.335+08:00 aiweb INFO Completed initialization in 6 ms

@@ -2,10 +2,16 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../../knowledge code/KBuild" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../../knowledge code/VTool" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../../knowledge code/VideoBase" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../../program code/media-base" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../../program code/spring-boot-web" vcs="Git" />
+    <mapping directory="F:/ai_launcher_code/changhong-recommend-system" vcs="Git" />
+    <mapping directory="F:/ai_launcher_code/rs-java-schedule" vcs="Git" />
+    <mapping directory="F:/ai_launcher_code/spring-boot-rs-data" vcs="Git" />
+    <mapping directory="F:/ai_launcher_code/spring-boot-voice-rec" vcs="Git" />
+    <mapping directory="F:/knowledge_code/KBuild" vcs="Git" />
+    <mapping directory="F:/knowledge_code/VTool" vcs="Git" />
+    <mapping directory="F:/knowledge_code/VideoBase" vcs="Git" />
+    <mapping directory="F:/program_code/media-base" vcs="Git" />
+    <mapping directory="F:/program_code/spring-boot-bilibili-data" vcs="Git" />
+    <mapping directory="F:/program_code/spring-boot-web" vcs="Git" />
+    <mapping directory="F:/program_code/spring-boot-xiguadata" vcs="Git" />
   </component>
 </project>
