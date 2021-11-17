@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KBuild.iml" filepath="$PROJECT_DIR$/../../../knowledge code/KBuild/KBuild.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/KnowledgeBaseBuild.iml" filepath="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/KnowledgeBaseBuild.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../knowledge code/VTool/VTool/VTool.iml" filepath="$PROJECT_DIR$/../../../knowledge code/VTool/VTool/VTool.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../knowledge code/VTool/VTool1.iml" filepath="$PROJECT_DIR$/../../../knowledge code/VTool/VTool1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/VideoBase.iml" filepath="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/VideoBase.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase1.iml" filepath="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javaSE.iml" filepath="$PROJECT_DIR$/javaSE.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../program code/media-base/media-base.iml" filepath="$PROJECT_DIR$/../../../program code/media-base/media-base.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../recommend code/rs-rec-algo/recommender.iml" filepath="$PROJECT_DIR$/../../../recommend code/rs-rec-algo/recommender.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../program code/spring-boot-krcom/spring-boot-krcom.iml" filepath="$PROJECT_DIR$/../../../program code/spring-boot-krcom/spring-boot-krcom.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/spring-boot-krcomdata.iml" filepath="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/spring-boot-krcomdata.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../program code/spring-boot-web/spring-boot-web.iml" filepath="$PROJECT_DIR$/../../../program code/spring-boot-web/spring-boot-web.iml" />
+      <module fileurl="file://J:/../knowledge code/KBuild/KBuild.iml" filepath="J:/../knowledge code/KBuild/KBuild.iml" />
+      <module fileurl="file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/KnowledgeBaseBuild.iml" filepath="J:/../knowledge code/KBuild/KnowledgeBaseBuild/KnowledgeBaseBuild.iml" />
+      <module fileurl="file://J:/../knowledge code/VTool/VTool/VTool.iml" filepath="J:/../knowledge code/VTool/VTool/VTool.iml" />
+      <module fileurl="file://J:/../knowledge code/VTool/VTool1.iml" filepath="J:/../knowledge code/VTool/VTool1.iml" />
+      <module fileurl="file://J:/../knowledge code/VideoBase/VideoBase/VideoBase.iml" filepath="J:/../knowledge code/VideoBase/VideoBase/VideoBase.iml" />
+      <module fileurl="file://J:/../knowledge code/VideoBase/VideoBase1.iml" filepath="J:/../knowledge code/VideoBase/VideoBase1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../interview/interview.iml" filepath="$PROJECT_DIR$/../interview/interview.iml" />
+      <module fileurl="file://J:/../program code/media-base/media-base.iml" filepath="J:/../program code/media-base/media-base.iml" />
+      <module fileurl="file://J:/../program code/spring-boot-web/spring-boot-web.iml" filepath="J:/../program code/spring-boot-web/spring-boot-web.iml" />
     </modules>
   </component>
 </project>

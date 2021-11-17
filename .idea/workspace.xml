@@ -18,59 +18,283 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60d9868f-381e-4a89-a2a7-5936749dcb2e" name="Default Changelist" comment="下拉冲突解决">
-      <change beforePath="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialEditInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialEditInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/version/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/version/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_1_10_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/smartfox_info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_44.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_changhong_pinyin4j_2_5_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_huaban_jieba_analysis_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_3_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_4_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_1_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_spring4all_mongodb_plus_spring_boot_starter_1_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_retrofit2_converter_gson_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_retrofit2_retrofit_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_debatty_java_string_similarity_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_42.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_javacsv_javacsv_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_common_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_jul_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_solr_solr_solrj_5_5_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_34.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_34.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_5_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_34.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apdplat_word_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_12_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_12_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_12_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_12_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20180813.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_6_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_2_14_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_6_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_6_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_noggit_noggit_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_1_7_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_1_7_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_1_5_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_5_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_1_5_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_5_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_1_5_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_solr_1_5_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_1_5_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_11_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_1_10_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_0_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_solr_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_18_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_18_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_18_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_18_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-10/all-2019-10-15-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-10/all-2019-10-15-2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2019-08-26-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2019-08-28-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2019-08-29-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2019-09-04-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2019-09-11-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2019-09-26-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2019-10-11-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2019-10-16-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2019-11-13-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2019-11-26-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2019-11-27-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all-2019-11-28-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/all.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/chiqweb/2020-03/all-2020-03-13-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/chiqweb/2020-03/all-2020-03-16-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/chiqweb/tag.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE.iml" afterDir="false" />
     </list>
     <list id="2ec5a7d0-3318-4287-b340-163cbce3745f" name="Revert &quot;解决专题下载失败问题&quot;" comment="Revert &quot;解决专题下载失败问题&quot;&#10;&#10;This reverts commit 55c7c3e" />
     <ignored path="$PROJECT_DIR$/bin/" />
-    <ignored path="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/target/" />
-    <ignored path="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/target/" />
-    <ignored path="$PROJECT_DIR$/../../../knowledge code/VTool/VTool/target/" />
-    <ignored path="$PROJECT_DIR$/../../../program code/spring-boot-web/target/" />
-    <ignored path="$PROJECT_DIR$/../../../program code/media-base/target/" />
-    <ignored path="$PROJECT_DIR$/../../../program code/pinyin4j/target/" />
-    <ignored path="$PROJECT_DIR$/../../../program code/ik-analyzer-solr/target/" />
-    <ignored path="$PROJECT_DIR$/../../solr/ik-analyzer-solr7/target/" />
-    <ignored path="$PROJECT_DIR$/../../../program code/librec/target/" />
-    <ignored path="$PROJECT_DIR$/../../../program code/librec/spark/target/" />
-    <ignored path="$PROJECT_DIR$/../../../program code/librec/core/target/" />
-    <ignored path="$PROJECT_DIR$/../../../program code/librec/gui/target/" />
-    <ignored path="$PROJECT_DIR$/../../../LTR/target/" />
-    <ignored path="$PROJECT_DIR$/../../../ltr-tools-master/configuration/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../../ltr-tools-master/configuration/build/" />
-    <ignored path="$PROJECT_DIR$/../../../ltr-tools-master/ltr-tools/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../../ltr-tools-master/ltr-tools/build/" />
-    <ignored path="$PROJECT_DIR$/../../../ltr-tools-master/ltr-tools/out/" />
-    <ignored path="$PROJECT_DIR$/../../../ltr-tools-master/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../../../ltr-tools-master/build/" />
-    <ignored path="$PROJECT_DIR$/../../../ltr-tools-master/target/" />
+    <ignored path="J:/../knowledge code/KBuild/KnowledgeBaseBuild/target/" />
+    <ignored path="J:/../knowledge code/VideoBase/VideoBase/target/" />
+    <ignored path="J:/../knowledge code/VTool/VTool/target/" />
+    <ignored path="J:/../program code/spring-boot-web/target/" />
+    <ignored path="J:/../program code/media-base/target/" />
+    <ignored path="J:/../program code/pinyin4j/target/" />
+    <ignored path="J:/../program code/ik-analyzer-solr/target/" />
+    <ignored path="J:/solr/ik-analyzer-solr7/target/" />
+    <ignored path="J:/../program code/librec/target/" />
+    <ignored path="J:/../program code/librec/spark/target/" />
+    <ignored path="J:/../program code/librec/core/target/" />
+    <ignored path="J:/../program code/librec/gui/target/" />
+    <ignored path="J:/../LTR/target/" />
+    <ignored path="J:/../ltr-tools-master/configuration/.gradle/" />
+    <ignored path="J:/../ltr-tools-master/configuration/build/" />
+    <ignored path="J:/../ltr-tools-master/ltr-tools/.gradle/" />
+    <ignored path="J:/../ltr-tools-master/ltr-tools/build/" />
+    <ignored path="J:/../ltr-tools-master/ltr-tools/out/" />
+    <ignored path="J:/../ltr-tools-master/.gradle/" />
+    <ignored path="J:/../ltr-tools-master/build/" />
+    <ignored path="J:/../ltr-tools-master/target/" />
     <ignored path="E:/下载/solr-ltr-plugin/target/" />
-    <ignored path="$PROJECT_DIR$/../../../recommend code/rs-rec-algo/target/" />
-    <ignored path="$PROJECT_DIR$/../../../knowledge code/KBuild/target/" />
-    <ignored path="$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/target/" />
-    <ignored path="$PROJECT_DIR$/../../../program code/spring-boot-krcom/target/" />
+    <ignored path="J:/../recommend code/rs-rec-algo/target/" />
+    <ignored path="J:/../knowledge code/KBuild/target/" />
+    <ignored path="J:/../program code/spring-boot-krcomdata/target/" />
+    <ignored path="J:/../program code/spring-boot-krcom/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../interview/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +332,7 @@
     <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$/../../../ltr-tools-master">
+    <projectState path="J:/../ltr-tools-master">
       <ProjectState />
     </projectState>
   </component>
@@ -274,52 +498,52 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1099485718">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="16" />
+          <entry key="md" value="1" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="16" />
+          <entry key="Markdown" value="1" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="472" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="472" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="javaSE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/version/VersionController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/version/list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="363" column="92" lean-forward="true" selection-start-line="363" selection-start-column="92" selection-end-line="363" selection-end-column="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/version/list.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4565">
-              <caret line="319" column="13" selection-start-line="319" selection-start-column="7" selection-end-line="319" selection-end-column="13" />
-              <folding>
-                <element signature="n#style#0;n#select#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -335,7 +559,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>movie</find>
       <find>updateStars</find>
       <find>文件创建成功</find>
       <find>updateAwards</find>
@@ -365,6 +588,7 @@
       <find>.launch</find>
       <find>myModal</find>
       <find>player</find>
+      <find>value</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -408,9 +632,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../../../knowledge code/KBuild" value="weilong0624" />
-        <entry key="$PROJECT_DIR$/../../../program code/pinyin4j" value="master" />
-        <entry key="$PROJECT_DIR$/../../../program code/spring-boot-web" value="weilong0701" />
+        <entry key="J:/../knowledge code/KBuild" value="weilong0624" />
+        <entry key="J:/../program code/pinyin4j" value="master" />
+        <entry key="J:/../program code/spring-boot-web" value="weilong0701" />
       </map>
     </option>
     <option name="RESET_MODE" value="MIXED" />
@@ -418,69 +642,69 @@
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/../../../ltr-tools-master/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/../../../ltr-tools-master/build.gradle" value="3903691400" />
-        <entry key="$PROJECT_DIR$/../../../ltr-tools-master/configuration/build.gradle" value="2913414604" />
-        <entry key="$PROJECT_DIR$/../../../ltr-tools-master/gradle/wrapper/gradle-wrapper.properties" value="1334391402" />
-        <entry key="$PROJECT_DIR$/../../../ltr-tools-master/ltr-tools/build.gradle" value="3708380878" />
-        <entry key="$PROJECT_DIR$/../../../ltr-tools-master/settings.gradle" value="2006930480" />
+        <entry key="J:/../ltr-tools-master/.gradle" value="0" />
+        <entry key="J:/../ltr-tools-master/build.gradle" value="3903691400" />
+        <entry key="J:/../ltr-tools-master/configuration/build.gradle" value="2913414604" />
+        <entry key="J:/../ltr-tools-master/gradle/wrapper/gradle-wrapper.properties" value="1334391402" />
+        <entry key="J:/../ltr-tools-master/ltr-tools/build.gradle" value="3708380878" />
+        <entry key="J:/../ltr-tools-master/settings.gradle" value="2006930480" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/specialEditInfo.jsp" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/MediaSource.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/YouKuAdapter.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/AutoFindController.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/VideoSeries.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/task/KBSeriesLoadTask.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KBaseSeriesCompController.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/dao/knowledge/KnowledgeDao.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/task/KBFilterTask.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/test/java/com/changhong/videobase/build/test/ErrTypeTitle.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/test/java/com/changhong/videobase/build/test/ErrTypeTestjava" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/test/java/com/changhong/videobase/build/test/ErrorTypeTest.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KbaseRewardController.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KBaseSeriesController.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KbaseStarsController.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/SpecialController.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/domain/newversiondomain/ChiqConfigVersionRecord.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/utils/SaveMongoEventListener.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/domain/know/SelfCheckConfig.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialSourceInfo.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/test/java/com/changhong/videobase/build/test/StarsCleanTest.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/upload/errAwardIds.txt" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/CleanUpController.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/CleanService.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KBaseSeriesService.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KbaseStarsService.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/AwardInfo.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KbaseRewardService.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialEditInfo.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/main/list.jsp" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/list.jsp" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/list.js" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/KnowLedgeService.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/SpecialService.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/special_confirm.js" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/specialConfirm.jsp" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/VTool/VTool/src/main/java/com/changhong/video/tools/files/ExcelUtils.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SpecialService.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/save/KBHelper.java" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/load/MongooDBFactory.java" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/special_operation.jsp" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/special_operation.js" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java" />
+        <option value="J:/../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/VideoSeries.java" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/task/KBSeriesLoadTask.java" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KBaseSeriesCompController.java" />
+        <option value="J:/../program code/spring-boot-web/src/main/resources/application-dev.properties" />
+        <option value="J:/../program code/spring-boot-web/src/main/java/com/changhong/web/dao/knowledge/KnowledgeDao.java" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/task/KBFilterTask.java" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/test/java/com/changhong/videobase/build/test/ErrTypeTitle.java" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/test/java/com/changhong/videobase/build/test/ErrTypeTestjava" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/test/java/com/changhong/videobase/build/test/ErrorTypeTest.java" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KbaseRewardController.java" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KBaseSeriesController.java" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KbaseStarsController.java" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/SpecialController.java" />
+        <option value="J:/../program code/spring-boot-web/src/main/java/com/changhong/web/domain/newversiondomain/ChiqConfigVersionRecord.java" />
+        <option value="J:/../program code/spring-boot-web/src/main/java/com/changhong/web/utils/SaveMongoEventListener.java" />
+        <option value="J:/../program code/spring-boot-web/src/main/java/com/changhong/web/domain/know/SelfCheckConfig.java" />
+        <option value="J:/../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialSourceInfo.java" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/test/java/com/changhong/videobase/build/test/StarsCleanTest.java" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/upload/errAwardIds.txt" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/CleanUpController.java" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/CleanService.java" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KBaseSeriesService.java" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KbaseStarsService.java" />
+        <option value="J:/../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/AwardInfo.java" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KbaseRewardService.java" />
+        <option value="J:/../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialEditInfo.java" />
+        <option value="J:/../program code/spring-boot-web/src/main/webapp/res/main/list.jsp" />
+        <option value="J:/../program code/spring-boot-web/src/main/webapp/res/knowledge/list.jsp" />
+        <option value="J:/../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/list.js" />
+        <option value="J:/../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/KnowLedgeService.java" />
+        <option value="J:/../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/SpecialService.java" />
+        <option value="J:/../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/special_confirm.js" />
+        <option value="J:/../program code/spring-boot-web/src/main/webapp/res/knowledge/specialConfirm.jsp" />
+        <option value="J:/../knowledge code/VTool/VTool/src/main/java/com/changhong/video/tools/files/ExcelUtils.java" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SpecialService.java" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/save/KBHelper.java" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/resources/application-dev.properties" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/load/MongooDBFactory.java" />
+        <option value="J:/../program code/spring-boot-web/pom.xml" />
+        <option value="J:/../program code/spring-boot-web/src/main/webapp/res/knowledge/special_operation.jsp" />
+        <option value="J:/../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/special_operation.js" />
+        <option value="J:/../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java" />
         <option value="E:/下载/input拖拽排序/6320/index.html" />
-        <option value="$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/version/list.jsp" />
+        <option value="J:/../program code/spring-boot-web/src/main/webapp/res/version/list.jsp" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/Utils/IqiyiTokenUtils.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../interview/pom.xml" />
+        <option value="$PROJECT_DIR$/../interview/src/main/java/base/DynamicbindingTest.java" />
+        <option value="$PROJECT_DIR$/../interview/src/main/java/base/HashCodeTest.java" />
+        <option value="$PROJECT_DIR$/../interview/src/main/java/base/IOTest.java" />
       </list>
     </option>
   </component>
@@ -551,10 +775,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1880" />
-    <option name="y" value="1" />
-    <option name="width" value="1932" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -752,179 +976,45 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaSE" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="knowledge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="version" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="knowledge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="version" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="version" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -941,10 +1031,10 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/工作/学习/java/javaSE/src/main/java/leetcode/compete22/MaximalRectangel.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594117389938" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1633750232318" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../program code/media-base" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -988,64 +1078,68 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WebApp">
-    <configuration name="AwardTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="KnowledgeBaseBuild" />
+  <component name="RunManager" selected="Application.HashCodeTest">
+    <configuration name="BytesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Test.BytesTest" />
+      <module name="javaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.changhong.videobase.build.test.scheduleTest.*" />
+          <option name="PATTERN" value="main.java.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.changhong.videobase.build.test" />
-      <option name="MAIN_CLASS_NAME" value="com.changhong.videobase.build.test.AwardTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="KnowledgeBaseBuild" />
+    <configuration name="DynamicbindingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.DynamicbindingTest" />
+      <module name="interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.changhong.videobase.build.test.scheduleTest.*" />
+          <option name="PATTERN" value="base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.changhong.videobase.build.test" />
-      <option name="MAIN_CLASS_NAME" value="com.changhong.videobase.build.test.CountField" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ErrorTypeTest.getErrTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="KnowledgeBaseBuild" />
+    <configuration name="HashCodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.HashCodeTest" />
+      <module name="interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.changhong.videobase.build.test.*" />
+          <option name="PATTERN" value="base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.changhong.videobase.build.test" />
-      <option name="MAIN_CLASS_NAME" value="com.changhong.videobase.build.test.ErrorTypeTest" />
-      <option name="METHOD_NAME" value="getErrTitle" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-krcom" />
+    <configuration name="IOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.IOTest" />
+      <module name="interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.changhong.krcom.*" />
+          <option name="PATTERN" value="base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.changhong.krcom.App" />
-      <option name="ACTIVE_PROFILES" value="dev" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Test.SetTest" />
+      <module name="javaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1053,22 +1147,6 @@
     <configuration name="KnowledgeBaseBuildApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="KnowledgeBaseBuild" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.changhong.videobase.build.KnowledgeBaseBuildApplication" />
-      <option name="ACTIVE_PROFILES" value="dev" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KrcomDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-krcomdata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.changhong.krcomdata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.changhong.krcomdata.KrcomDataApplication" />
       <option name="ACTIVE_PROFILES" value="dev" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -1100,19 +1178,19 @@
       <item itemvalue="Spring Boot.KnowledgeBaseBuildApplication" />
       <item itemvalue="Spring Boot.WebApp" />
       <item itemvalue="Spring Boot.RecAlgorithmApp" />
-      <item itemvalue="JUnit.CountField" />
-      <item itemvalue="JUnit.AwardTest.test" />
-      <item itemvalue="Spring Boot.KrcomDataApplication" />
-      <item itemvalue="Spring Boot.App" />
-      <item itemvalue="JUnit.ErrorTypeTest.getErrTitle" />
+      <item itemvalue="Application.SetTest" />
+      <item itemvalue="Application.BytesTest" />
+      <item itemvalue="Application.DynamicbindingTest" />
+      <item itemvalue="Application.HashCodeTest" />
+      <item itemvalue="Application.IOTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ErrorTypeTest.getErrTitle" />
-        <item itemvalue="Spring Boot.App" />
-        <item itemvalue="Spring Boot.KrcomDataApplication" />
-        <item itemvalue="JUnit.AwardTest.test" />
-        <item itemvalue="JUnit.CountField" />
+        <item itemvalue="Application.HashCodeTest" />
+        <item itemvalue="Application.IOTest" />
+        <item itemvalue="Application.DynamicbindingTest" />
+        <item itemvalue="Application.BytesTest" />
+        <item itemvalue="Application.SetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1341,6 +1419,10 @@
       <workItem from="1593739317871" duration="19568000" />
       <workItem from="1593835390695" duration="47211000" />
       <workItem from="1594097973815" duration="12126000" />
+      <workItem from="1613663309388" duration="430000" />
+      <workItem from="1620126832407" duration="4352000" />
+      <workItem from="1633750180798" duration="60000" />
+      <workItem from="1636468122056" duration="882000" />
     </task>
     <task id="LOCAL-00001" summary="添加日期函数获取昨天日期">
       <created>1577961005293</created>
@@ -1623,7 +1705,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2213369000" />
+    <option name="totallyTimeSpent" value="2219093000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1635,10 +1717,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47935367" visible="true" weight="0.23720682" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47935367" visible="true" weight="0.24786781" />
       <window_info id="Structure" order="1" sideWeight="0.52102375" side_tool="true" weight="0.23187633" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1655,7 +1736,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32998884" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.3110368" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" visible="true" weight="0.3110368" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.30992195" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32998884" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4989339" weight="0.3188406" />
@@ -1681,11 +1762,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="UnloadedModulesList">
-    <module name="recommender" />
-    <module name="spring-boot-krcom" />
-    <module name="spring-boot-krcomdata" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -1802,19 +1878,19 @@
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SellfCheckScheduledService.java</url>
+          <url>file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SellfCheckScheduledService.java</url>
           <line>29</line>
           <properties />
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SelfCheckingService.java</url>
+          <url>file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SelfCheckingService.java</url>
           <line>314</line>
           <properties />
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/DoubanService.java</url>
+          <url>file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/DoubanService.java</url>
           <line>151</line>
           <properties />
           <option name="timeStamp" value="99" />
@@ -1874,7 +1950,7 @@
           <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/YouKuAdapter.java</url>
+          <url>file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/YouKuAdapter.java</url>
           <line>237</line>
           <properties />
           <option name="timeStamp" value="152" />
@@ -1892,217 +1968,217 @@
           <option name="timeStamp" value="162" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/IQiYiAdapter.java</url>
+          <url>file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/IQiYiAdapter.java</url>
           <line>378</line>
           <properties />
           <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/YouKuAdapter.java</url>
+          <url>file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/YouKuAdapter.java</url>
           <line>393</line>
           <properties />
           <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SelfCheckingService.java</url>
+          <url>file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SelfCheckingService.java</url>
           <line>133</line>
           <properties />
           <option name="timeStamp" value="177" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/YouKuAdapter.java</url>
+          <url>file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/YouKuAdapter.java</url>
           <line>373</line>
           <properties />
           <option name="timeStamp" value="198" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/TencentAdapter.java</url>
+          <url>file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/TencentAdapter.java</url>
           <line>315</line>
           <properties />
           <option name="timeStamp" value="199" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/base/AreaProcessor.java</url>
+          <url>file://J:/../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/base/AreaProcessor.java</url>
           <line>79</line>
           <properties />
           <option name="timeStamp" value="212" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/login.jsp</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/webapp/login.jsp</url>
           <line>41</line>
           <properties />
           <option name="timeStamp" value="213" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/security/LoginSuccessHandler.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/security/LoginSuccessHandler.java</url>
           <line>140</line>
           <properties />
           <option name="timeStamp" value="215" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/security/LoginSuccessHandler.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/security/LoginSuccessHandler.java</url>
           <line>164</line>
           <properties />
           <option name="timeStamp" value="217" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/security/LoginSuccessHandler.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/security/LoginSuccessHandler.java</url>
           <line>155</line>
           <properties />
           <option name="timeStamp" value="218" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/bigdataservice/BigDataService.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/service/bigdataservice/BigDataService.java</url>
           <line>212</line>
           <properties />
           <option name="timeStamp" value="219" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/plateservice/BasePlateService.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/service/plateservice/BasePlateService.java</url>
           <line>123</line>
           <properties />
           <option name="timeStamp" value="228" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/dao/chiq/BigDataJixinDao.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/dao/chiq/BigDataJixinDao.java</url>
           <line>125</line>
           <properties />
           <option name="timeStamp" value="242" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/plateservice/OperateService.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/service/plateservice/OperateService.java</url>
           <line>160</line>
           <properties />
           <option name="timeStamp" value="247" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/domain/newversiondomain/ChiqConfigVersionRecord.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/domain/newversiondomain/ChiqConfigVersionRecord.java</url>
           <line>81</line>
           <properties />
           <option name="timeStamp" value="249" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/plateservice/OperateService.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/service/plateservice/OperateService.java</url>
           <line>139</line>
           <properties />
           <option name="timeStamp" value="250" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/plateservice/OperateService.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/service/plateservice/OperateService.java</url>
           <line>121</line>
           <properties />
           <option name="timeStamp" value="252" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/version/VersionController.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/controller/version/VersionController.java</url>
           <line>88</line>
           <properties />
           <option name="timeStamp" value="253" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/version/VersionController.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/controller/version/VersionController.java</url>
           <line>308</line>
           <properties />
           <option name="timeStamp" value="255" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/mediabaseservice/MainService.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/service/mediabaseservice/MainService.java</url>
           <line>246</line>
           <properties />
           <option name="timeStamp" value="261" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/KnowLedgeService.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/KnowLedgeService.java</url>
           <line>564</line>
           <properties />
           <option name="timeStamp" value="265" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../knowledge code/VTool/VTool/src/main/java/com/changhong/video/tools/terms/StringTransfer.java</url>
+          <url>file://J:/../knowledge code/VTool/VTool/src/main/java/com/changhong/video/tools/terms/StringTransfer.java</url>
           <line>225</line>
           <properties />
           <option name="timeStamp" value="285" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/IQiYiAdapter.java</url>
+          <url>file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/transfer/IQiYiAdapter.java</url>
           <line>64</line>
           <properties />
           <option name="timeStamp" value="286" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/config/MongodbClient.java</url>
+          <url>file://J:/../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/config/MongodbClient.java</url>
           <line>40</line>
           <properties />
           <option name="timeStamp" value="288" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/controller/KrcomDataController.java</url>
+          <url>file://J:/../program code/spring-boot-krcomdata/src/main/java/com/changhong/krcomdata/controller/KrcomDataController.java</url>
           <line>27</line>
           <properties />
           <option name="timeStamp" value="289" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/dao/knowledge/SpecialDao.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/dao/knowledge/SpecialDao.java</url>
           <line>78</line>
           <properties />
           <option name="timeStamp" value="300" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java</url>
           <line>221</line>
           <properties />
           <option name="timeStamp" value="303" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/dao/knowledge/SpecialDao.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/dao/knowledge/SpecialDao.java</url>
           <line>88</line>
           <properties />
           <option name="timeStamp" value="306" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java</url>
           <line>403</line>
           <properties />
           <option name="timeStamp" value="309" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java</url>
           <line>362</line>
           <properties />
           <option name="timeStamp" value="310" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java</url>
+          <url>file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java</url>
           <line>380</line>
           <properties />
           <option name="timeStamp" value="311" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SpecialService.java</url>
+          <url>file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SpecialService.java</url>
           <line>1094</line>
           <properties />
           <option name="timeStamp" value="328" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KbaseRewardService.java</url>
+          <url>file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KbaseRewardService.java</url>
           <line>292</line>
           <properties />
           <option name="timeStamp" value="330" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KBaseSeriesService.java</url>
+          <url>file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KBaseSeriesService.java</url>
           <line>313</line>
           <properties />
           <option name="timeStamp" value="331" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KbaseStarsService.java</url>
+          <url>file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KbaseStarsService.java</url>
           <line>807</line>
           <properties />
           <option name="timeStamp" value="332" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SpecialService.java</url>
+          <url>file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SpecialService.java</url>
           <line>1018</line>
           <properties />
           <option name="timeStamp" value="333" />
@@ -2131,398 +2207,128 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KbaseRewardService.java">
+    <entry file="file://J:/../program code/spring-boot-web/src/main/webapp/res/knowledge/list.jsp" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar!/org/apache/commons/lang3/StringUtils.class" />
+    <entry file="file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/VideoBuildController.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.0.10.RELEASE/spring-data-mongodb-2.0.10.RELEASE.jar!/org/springframework/data/mongodb/core/MongoTemplate.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class" />
+    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/net/DualStackPlainSocketImpl.java" />
+    <entry file="file://J:/../program code/spring-boot-web/src/main/webapp/res/knowledge/specialConfirm.jsp" />
+    <entry file="file://J:/../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/special_confirm.js" />
+    <entry file="file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/resources/application-prod.properties" />
+    <entry file="file://J:/../knowledge code/VTool/VTool/src/main/java/com/changhong/video/tools/files/ExcelUtils.java" />
+    <entry file="file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/config/MongoTemplateConfig.java" />
+    <entry file="file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/config/MongoConfig.java" />
+    <entry file="file://J:/../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialSourceInfo.java" />
+    <entry file="file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/dao/knowledge/SpecialDao.java" />
+    <entry file="file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SpecialService.java" />
+    <entry file="file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/SpecialController.java" />
+    <entry file="file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/save/KBHelper.java" />
+    <entry file="file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/pom.xml" />
+    <entry file="file://J:/../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialInfo.java" />
+    <entry file="file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/resources/application-dev.properties" />
+    <entry file="file://J:/../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/load/MongooDBFactory.java" />
+    <entry file="file://J:/../program code/spring-boot-web/src/main/java/com/know/KnowUtils.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.3/commons-lang3-3.3.jar!/org/apache/commons/lang3/StringUtils.class" />
+    <entry file="file://J:/../program code/spring-boot-web/pom.xml" />
+    <entry file="file://J:/../program code/spring-boot-web/src/main/webapp/res/knowledge/special_operation.jsp" />
+    <entry file="file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/KnowledgeController.java" />
+    <entry file="file://J:/../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/special_operation.js" />
+    <entry file="file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/SpecialService.java" />
+    <entry file="file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java" />
+    <entry file="file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/KnowLedgeService.java" />
+    <entry file="file://J:/../program code/spring-boot-web/src/main/java/com/changhong/web/controller/version/VersionController.java" />
+    <entry file="file://E:/下载/input拖拽排序/6320/css/style.css" />
+    <entry file="file://E:/下载/input拖拽排序/6320/js/index.js" />
+    <entry file="file://E:/下载/input拖拽排序/6320/index.html" />
+    <entry file="file://J:/../program code/spring-boot-web/src/main/webapp/res/version/list.jsp" />
+    <entry file="file://J:/../program code/spring-boot-web/src/main/webapp/ui/js/version/list.js" />
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/IqiyiTokenUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="277" column="21" selection-start-line="277" selection-start-column="21" selection-end-line="277" selection-end-column="21" />
+        <state relative-caret-position="418">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KbaseRewardController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="237" column="29" selection-start-line="237" selection-start-column="29" selection-end-line="237" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/domain/know/SelfCheckConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/SpecialOperationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2996">
-          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/1.10.4.RELEASE/spring-data-mongodb-1.10.4.RELEASE.jar!/org/springframework/data/mongodb/core/MongoTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/BaseSpecialInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialPageBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialEditInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="203" column="41" lean-forward="true" selection-start-line="203" selection-start-column="41" selection-end-line="203" selection-end-column="41" />
-          <folding>
-            <element signature="e#3849#3850#0" expanded="true" />
-            <element signature="e#3884#3885#0" expanded="true" />
-            <element signature="e#3940#3941#0" expanded="true" />
-            <element signature="e#3988#3989#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/KBaseSeriesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="208" column="9" selection-start-line="208" selection-start-column="9" selection-end-line="208" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/KBaseSeriesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="465" selection-start-line="465" selection-end-line="465" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/compare.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="249" column="31" selection-start-line="249" selection-start-column="24" selection-end-line="249" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/css/knowledge/list.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/main/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2571">
-          <caret line="519" column="64" lean-forward="true" selection-start-line="519" selection-start-column="64" selection-end-line="519" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="105" column="29" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="258" column="30" lean-forward="true" selection-start-line="258" selection-start-column="30" selection-end-line="258" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar!/org/apache/commons/lang3/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/VideoBuildController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="153" column="58" selection-start-line="153" selection-start-column="58" selection-end-line="153" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.0.10.RELEASE/spring-data-mongodb-2.0.10.RELEASE.jar!/org/springframework/data/mongodb/core/MongoTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="34" column="94" selection-start-line="34" selection-start-column="94" selection-end-line="34" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/net/DualStackPlainSocketImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="282" column="22" selection-start-line="282" selection-start-column="22" selection-end-line="282" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/specialConfirm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5319">
-          <caret line="196" column="39" selection-start-line="196" selection-start-column="30" selection-end-line="196" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/special_confirm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7128">
-          <caret line="264" column="47" selection-start-line="264" selection-start-column="47" selection-end-line="264" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/resources/application-prod.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VTool/VTool/src/main/java/com/changhong/video/tools/files/ExcelUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="182" column="37" lean-forward="true" selection-start-line="182" selection-start-column="37" selection-end-line="182" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/config/MongoTemplateConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/config/MongoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="115" column="28" lean-forward="true" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
-          <folding>
-            <element signature="e#3324#3325#0" expanded="true" />
-            <element signature="e#3368#3369#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialSourceInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="e#2479#2480#0" expanded="true" />
-            <element signature="e#2514#2515#0" expanded="true" />
-            <element signature="e#2570#2571#0" expanded="true" />
-            <element signature="e#2618#2619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/dao/knowledge/SpecialDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
-          <folding>
-            <element signature="e#3078#3079#0" expanded="true" />
-            <element signature="e#3157#3158#0" expanded="true" />
-            <element signature="e#3552#3553#0" expanded="true" />
-            <element signature="e#3601#3602#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/service/SpecialService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="785" column="50" lean-forward="true" selection-start-line="785" selection-start-column="50" selection-end-line="785" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/controller/SpecialController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/save/KBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="69" column="74" lean-forward="true" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
-          <folding>
-            <element signature="e#53380#53381#0" expanded="true" />
-            <element signature="e#53415#53416#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="91" column="37" lean-forward="true" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/VideoBase/VideoBase/src/main/java/com/changhong/videobase/bean/SpecialInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../knowledge code/KBuild/KnowledgeBaseBuild/src/main/java/com/changhong/videobase/build/load/MongooDBFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="182" column="29" lean-forward="true" selection-start-line="182" selection-start-column="29" selection-end-line="182" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/know/KnowUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="792" column="24" selection-start-line="792" selection-start-column="24" selection-end-line="792" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.3/commons-lang3-3.3.jar!/org/apache/commons/lang3/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="89" column="50" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/knowledge/special_operation.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="244" column="45" selection-start-line="244" selection-start-column="36" selection-end-line="244" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/KnowledgeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/knowledge/special_operation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="419" column="36" lean-forward="true" selection-start-line="419" selection-start-column="36" selection-end-line="419" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/SpecialService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/knowledge/SpecialOperationController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test/SetTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="114" column="22" lean-forward="true" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/service/knowledge/KnowLedgeService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test/BytesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="434" column="14" lean-forward="true" selection-start-line="434" selection-start-column="14" selection-end-line="434" selection-end-column="14" />
+        <state relative-caret-position="198">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../interview/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://G:/java/jdk1.8.0_131/src.zip!/java/io/WinNTFileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="639" selection-start-line="639" selection-end-line="639" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/java/jdk1.8.0_131/jre/lib/rt.jar!/sun/misc/URLClassPath.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="68" column="72" selection-start-line="68" selection-start-column="72" selection-end-line="68" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="594" selection-start-line="594" selection-end-line="594" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../interview/src/main/java/base/IOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="46" column="78" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6070#6071#0" expanded="true" />
-            <element signature="e#6132#6133#0" expanded="true" />
-            <element signature="e#6721#6722#0" expanded="true" />
-            <element signature="e#6791#6792#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/java/com/changhong/web/controller/version/VersionController.java">
+    <entry file="jar://G:/java/jdk1.8.0_131/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+        <state relative-caret-position="26">
+          <caret line="1458" column="69" selection-start-line="1458" selection-start-column="69" selection-end-line="1458" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/下载/input拖拽排序/6320/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/下载/input拖拽排序/6320/js/index.js">
+    <entry file="file://$PROJECT_DIR$/javaSE.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../interview/src/main/java/base/DynamicbindingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="594">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/下载/input拖拽排序/6320/index.html">
+    <entry file="file://$PROJECT_DIR$/../interview/src/main/java/base/HashCodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/res/version/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="363" column="92" lean-forward="true" selection-start-line="363" selection-start-column="92" selection-end-line="363" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../program code/spring-boot-web/src/main/webapp/ui/js/version/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4565">
-          <caret line="319" column="13" selection-start-line="319" selection-start-column="7" selection-end-line="319" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#select#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="44">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -2544,7 +2350,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2579,7 +2385,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>VideoBase</last-edited>
+          <last-edited>interview</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
