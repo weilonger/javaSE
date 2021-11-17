@@ -1,62 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FindBugsConfigurable">
-    <option name="make" value="true" />
-    <option name="effort" value="default" />
-    <option name="priority" value="Medium" />
-    <option name="excludeFilter" value="" />
-  </component>
-  <component name="JavaScriptSettings">
-    <option name="languageLevel" value="ES6" />
-  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="F:/../../knowledge code/KBuild/pom.xml" />
-        <option value="F:/../../knowledge code/KBuild/KnowledgeBaseBuild/pom.xml" />
-        <option value="F:/../../knowledge code/VideoBase/VideoBase/pom.xml" />
-        <option value="F:/../../knowledge code/VTool/VTool/pom.xml" />
-        <option value="F:/../../program code/spring-boot-web/pom.xml" />
-        <option value="F:/../../program code/media-base/pom.xml" />
+        <option value="J:/../knowledge code/KBuild/pom.xml" />
+        <option value="J:/../knowledge code/KBuild/KnowledgeBaseBuild/pom.xml" />
+        <option value="J:/../knowledge code/VideoBase/VideoBase/pom.xml" />
+        <option value="J:/../knowledge code/VTool/VTool/pom.xml" />
+        <option value="J:/../program code/spring-boot-web/pom.xml" />
+        <option value="J:/../program code/media-base/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="F:/knowledge code/KBuild/KnowledgeBaseBuild/pom.xml" />
-        <option value="F:/knowledge code/VideoBase/VideoBase/pom.xml" />
-        <option value="F:/knowledge code/VTool/VTool/pom.xml" />
-        <option value="F:/program code/spring-boot-web/pom.xml" />
-        <option value="F:/program code/media-base/pom.xml" />
-        <option value="F:/program code/spring-boot-xiguadata/pom.xml" />
-        <option value="F:/program code/spring-boot-bilibili-data/pom.xml" />
-        <option value="F:/recommend code/changhong-recommend-system/rs-java-api/pom.xml" />
-        <option value="F:/recommend code/changhong-recommend-system/rs-java-common-resource/pom.xml" />
-        <option value="F:/recommend code/changhong-recommend-system/rs-java-rec-provider/pom.xml" />
-        <option value="F:/program_code/spring-boot-web/pom.xml" />
-        <option value="F:/program_code/spring-boot-bilibili-data/pom.xml" />
-        <option value="F:/program_code/spring-boot-xiguadata/pom.xml" />
-        <option value="F:/program_code/media-base/pom.xml" />
-        <option value="F:/knowledge_code/KBuild/KnowledgeBaseBuild/pom.xml" />
-        <option value="F:/knowledge_code/VideoBase/VideoBase/pom.xml" />
-        <option value="F:/knowledge_code/VTool/VTool/pom.xml" />
-        <option value="F:/ai_launcher_code/spring-boot-voice-rec/pom.xml" />
-        <option value="F:/ai_launcher_code/rs-java-schedule/pom.xml" />
-        <option value="F:/ai_launcher_code/changhong-recommend-system/rs-java-api/pom.xml" />
-        <option value="F:/ai_launcher_code/changhong-recommend-system/rs-java-rec-provider/pom.xml" />
-        <option value="F:/ai_launcher_code/changhong-recommend-system/rs-java-common-resource/pom.xml" />
-        <option value="F:/ai_launcher_code/spring-boot-rs-data/pom.xml" />
+        <option value="$PROJECT_DIR$/../interview/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="F:/../../program code/librec/core/pom.xml" />
-        <option value="F:/../../program code/librec/gui/pom.xml" />
-        <option value="F:/../../program code/librec/pom.xml" />
-        <option value="F:/../../program code/librec/spark/pom.xml" />
+        <option value="J:/../program code/librec/core/pom.xml" />
+        <option value="J:/../program code/librec/gui/pom.xml" />
+        <option value="J:/../program code/librec/pom.xml" />
+        <option value="J:/../program code/librec/spark/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/classes" />
-  </component>
-  <component name="SuppressionsComponent">
-    <option name="suppComments" value="[]" />
   </component>
 </project>
